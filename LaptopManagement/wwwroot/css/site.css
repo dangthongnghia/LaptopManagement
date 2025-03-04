@@ -1,0 +1,307 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tổng thể trang */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    overflow-x: hidden;
+}
+
+/* Container chính */
+.container {
+    padding: 20px;
+    max-width: 1400px;
+}
+
+/* Tiêu đề với hiệu ứng fade-in */
+h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+    animation: fadeInDown 1s ease-in-out;
+}
+
+    h1::after {
+        content: '';
+        width: 80px;
+        height: 4px;
+        background: #3498db;
+        display: block;
+        margin: 10px auto 0;
+        border-radius: 2px;
+        animation: expandWidth 1s ease-in-out;
+    }
+
+/* Form tìm kiếm với hiệu ứng slide */
+.input-group {
+    max-width: 500px;
+    margin: 0 auto 30px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: slideUp 0.8s ease-out forwards;
+    animation-delay: 0.2s;
+}
+
+.form-control {
+    border-radius: 25px 0 0 25px;
+    border: 1px solid #dcdcdc;
+    padding: 10px 20px;
+    transition: border-color 0.3s, transform 0.3s;
+}
+
+    .form-control:focus {
+        border-color: #3498db;
+        box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+        transform: scale(1.02);
+    }
+
+.btn-primary {
+    border-radius: 0 25px 25px 0;
+    background: #3498db;
+    border: none;
+    padding: 10px 20px;
+    transition: background 0.3s, transform 0.3s;
+}
+
+    .btn-primary:hover {
+        background: #2980b9;
+        transform: translateY(-2px);
+    }
+
+/* Nút thêm Laptop với bounce */
+.btn-success {
+    background: #2ecc71;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: transform 0.3s, background 0.3s;
+    display: inline-block;
+    animation: bounceIn 0.8s ease-out;
+}
+
+    .btn-success:hover {
+        background: #27ae60;
+        transform: scale(1.1);
+    }
+
+/* Giao diện Card với fade-in từng card */
+.laptop-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.5s ease-out forwards;
+}
+
+    .laptop-card:nth-child(1) {
+        animation-delay: 0.1s;
+    }
+
+    .laptop-card:nth-child(2) {
+        animation-delay: 0.2s;
+    }
+
+    .laptop-card:nth-child(3) {
+        animation-delay: 0.3s;
+    }
+
+    .laptop-card:nth-child(4) {
+        animation-delay: 0.4s;
+    }
+
+    .laptop-card:nth-child(5) {
+        animation-delay: 0.5s;
+    }
+
+    .laptop-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .laptop-card img {
+        height: 200px;
+        object-fit: cover;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .laptop-card:hover img {
+        transform: scale(1.05) rotate(2deg);
+    }
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    transition: color 0.3s;
+}
+.card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.laptop-card:hover .card-title {
+    color: #3498db;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.badge {
+    padding: 8px 12px;
+    font-size: 0.85rem;
+    border-radius: 20px;
+    transition: transform 0.3s;
+}
+
+    .badge:hover {
+        transform: scale(1.1);
+    }
+
+    .badge.bg-success {
+        background: #2ecc71 !important;
+    }
+
+    .badge.bg-danger {
+        background: #e74c3c !important;
+    }
+
+/* Nút hành động với hiệu ứng pop */
+.btn-sm {
+    padding: 6px 12px;
+    font-size: 0.85rem;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+    .btn-sm:hover {
+        transform: scale(1.1) translateY(-2px);
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    }
+
+.btn-warning {
+    background: #f1c40f;
+    border: none;
+}
+
+    .btn-warning:hover {
+        background: #d4ac0d;
+    }
+
+.btn-info {
+    background: #3498db;
+    border: none;
+}
+
+    .btn-info:hover {
+        background: #2980b9;
+    }
+
+.btn-danger {
+    background: #e74c3c;
+    border: none;
+}
+
+    .btn-danger:hover {
+        background: #c0392b;
+    }
+
+/* Animation Keyframes */
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes expandWidth {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 80px;
+    }
+}
+
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.3);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .col-md-4 {
+        width: 100%;
+    }
+
+    .btn-sm {
+        display: block;
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}

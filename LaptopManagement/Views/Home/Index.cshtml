@@ -1,0 +1,65 @@
+﻿@model IEnumerable<LaptopManagement.Models.Laptop>
+
+@{
+    ViewData["Title"] = "Quản lý Laptop";
+}
+
+<div class="container mt-5">
+    <h1>Danh sách Laptop</h1>
+
+    <!-- Form tìm kiếm -->
+    <form asp-action="Index" method="get" class="mb-4">
+        <div class="input-group">
+            <input type="text" name="searchString" class="form-control" placeholder="Tìm theo tên hoặc hãng..." value="@ViewData["CurrentFilter"]" />
+            <button type="submit" class="btn btn-primary">Tìm kiếm</button>
+        </div>
+    </form>
+
+    <!-- Nút thêm Laptop -->
+    <div class="mb-4">
+        <a asp-controller="Laptops" asp-action="Create" class="btn btn-success">Thêm Laptop mới</a>
+    </div>
+
+    <!-- Danh sách Laptop dạng Card -->
+    <div class="row">
+        @foreach (var laptop in Model)
+        {
+            <div class="col-md-4 col-sm-6 mb-4">
+                <a asp-controller="Home" asp-action="Details" asp-route-id="@laptop.Id" class="card-link">
+                    <div class="laptop-card">
+                        <div class="image-container position-relative" style="height: 500px;">
+                            @if (laptop.Images != null && laptop.Images.Any())
+                            {
+                                <img src="@laptop.Images.First().ImagePath" class="img-fluid rounded-3 detail-img w-100 h-100" alt="@laptop.Name" />
+                            }
+                            else
+                            {
+                                <img src="/images/default-laptop.jpg" class="img-fluid rounded-3 detail-img w-100 h-100" alt="No Image" />
+                            }
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">@laptop.Name</h5>
+                            <p class="card-text">
+                                <strong>Hãng:</strong> @laptop.Brand<br />
+                                <strong>Giá:</strong> @laptop.Price.ToString("C", new System.Globalization.CultureInfo("vi-VN"))<br />
+                                <strong>Trạng thái:</strong>
+                                @if (laptop.Status)
+                                {
+                                    <span class="badge bg-success">Còn hàng</span>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-danger">Hết hàng</span>
+                                }
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        }
+    </div>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
