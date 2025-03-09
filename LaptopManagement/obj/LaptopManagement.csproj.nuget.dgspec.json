@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\LaptopManagement.csproj": {}
+    "E:\\.DotNet\\ASP\\LaptopManagement\\LaptopManagement\\LaptopManagement.csproj": {}
   },
   "projects": {
-    "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\LaptopManagement.csproj": {
+    "E:\\.DotNet\\ASP\\LaptopManagement\\LaptopManagement\\LaptopManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\LaptopManagement.csproj",
+        "projectUniqueName": "E:\\.DotNet\\ASP\\LaptopManagement\\LaptopManagement\\LaptopManagement.csproj",
         "projectName": "LaptopManagement",
-        "projectPath": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\LaptopManagement.csproj",
+        "projectPath": "E:\\.DotNet\\ASP\\LaptopManagement\\LaptopManagement\\LaptopManagement.csproj",
         "packagesPath": "C:\\Users\\DangNghia\\.nuget\\packages\\",
-        "outputPath": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\obj\\",
+        "outputPath": "E:\\.DotNet\\ASP\\LaptopManagement\\LaptopManagement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
