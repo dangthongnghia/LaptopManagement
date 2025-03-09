@@ -26,6 +26,7 @@ namespace LaptopManagement.Controllers
 
             ViewData["CurrentFilter"] = searchString;
             return View(await laptops.Include(l => l.Images).ToListAsync());
+
         }
 
         public async Task<IActionResult> Details(int? id)

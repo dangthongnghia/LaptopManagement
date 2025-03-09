@@ -54,6 +54,114 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\01782dcd-93af-4c77-af72-a6284b767d45_pexels-quentin-martinez-2147503099-30889575.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopManagement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopManagement</BasePath>
+      <RelativePath>images/01782dcd-93af-4c77-af72-a6284b767d45_pexels-quentin-martinez-2147503099-30889575.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>hk0bka30l3</Fingerprint>
+      <Integrity>X/wOlbB/ToKRl5kf2h2B7P9A/22vCfAl0Vdx76eH8X0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\01782dcd-93af-4c77-af72-a6284b767d45_pexels-quentin-martinez-2147503099-30889575.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\17b82cd8-16c5-408c-823b-774d4690b149_pexels-lynxexotics-8664306.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopManagement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopManagement</BasePath>
+      <RelativePath>images/17b82cd8-16c5-408c-823b-774d4690b149_pexels-lynxexotics-8664306.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>d8xfjkli9b</Fingerprint>
+      <Integrity>/egImw5i81RI9PJoBBKrcc8WZIt32l7OG796fg8fiD4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\17b82cd8-16c5-408c-823b-774d4690b149_pexels-lynxexotics-8664306.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\9e9c320b-919b-4174-a594-d5bd683a67d1_pexels-lynxexotics-8664302.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopManagement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopManagement</BasePath>
+      <RelativePath>images/9e9c320b-919b-4174-a594-d5bd683a67d1_pexels-lynxexotics-8664302.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>gdug7gmh98</Fingerprint>
+      <Integrity>xEQQ5JBR8wIfRgpnOZPTBofwhuMMVkRhxRaVDCeNVl0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\9e9c320b-919b-4174-a594-d5bd683a67d1_pexels-lynxexotics-8664302.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\afb0addc-bc82-496f-a4e1-768f2b0fd6ed_pexels-adrian-dorobantu-989175-2127733.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopManagement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopManagement</BasePath>
+      <RelativePath>images/afb0addc-bc82-496f-a4e1-768f2b0fd6ed_pexels-adrian-dorobantu-989175-2127733.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>t31k6nuyk9</Fingerprint>
+      <Integrity>mSR91xuHggoabaeEwD+J+eAww46+b20JLNdqGJhbiz0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\afb0addc-bc82-496f-a4e1-768f2b0fd6ed_pexels-adrian-dorobantu-989175-2127733.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\b46b9372-5e2e-4676-abb1-4f4dfa582e3d_pexels-autorecords-10394782.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopManagement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopManagement</BasePath>
+      <RelativePath>images/b46b9372-5e2e-4676-abb1-4f4dfa582e3d_pexels-autorecords-10394782.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ni234lk2yb</Fingerprint>
+      <Integrity>gRgQyvneRiPYjWaTHemYT7ZxPjj7Jsym7NceUxQ/uBs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\b46b9372-5e2e-4676-abb1-4f4dfa582e3d_pexels-autorecords-10394782.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\b68b9bc3-1160-41c4-9159-72a1fa02c0cc_pexels-autorecords-10292241.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopManagement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopManagement</BasePath>
+      <RelativePath>images/b68b9bc3-1160-41c4-9159-72a1fa02c0cc_pexels-autorecords-10292241.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>tpffhkd5wp</Fingerprint>
+      <Integrity>r3ENb2qgnFPYii51o0xeKEKVOZxBIJEJnjgJPM8nUZ0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\b68b9bc3-1160-41c4-9159-72a1fa02c0cc_pexels-autorecords-10292241.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\laptops\g3gnqq0h.zoj.png'))">
       <SourceType>Package</SourceType>
       <SourceId>LaptopManagement</SourceId>

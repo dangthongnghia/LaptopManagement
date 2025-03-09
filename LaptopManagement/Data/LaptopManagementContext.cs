@@ -8,6 +8,7 @@ public class LaptopManagementContext : DbContext
     public DbSet<Laptop> Laptops { get; set; }
     public DbSet<Order> Orders { get; set; }
     public DbSet<LaptopImage> LaptopImages { get; set; }
+    public DbSet<Category> Categories { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

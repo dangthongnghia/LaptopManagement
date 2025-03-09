@@ -267,6 +267,7 @@ D:\ASP.Net\LaptopManagement\LaptopManagement\obj\Debug\net8.0\LaptopManagement.c
 D:\ASP.Net\LaptopManagement\LaptopManagement\obj\Debug\net8.0\LaptopManagement.MvcApplicationPartsAssemblyInfo.cache
 D:\ASP.Net\LaptopManagement\LaptopManagement\obj\Debug\net8.0\LaptopManagement.RazorAssemblyInfo.cache
 D:\ASP.Net\LaptopManagement\LaptopManagement\obj\Debug\net8.0\LaptopManagement.RazorAssemblyInfo.cs
+D:\ASP.Net\LaptopManagement\LaptopManagement\obj\Debug\net8.0\LaptopManagement.sourcelink.json
 D:\ASP.Net\LaptopManagement\LaptopManagement\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\ASP.Net\LaptopManagement\LaptopManagement\obj\Debug\net8.0\scopedcss\bundle\LaptopManagement.styles.css
 D:\ASP.Net\LaptopManagement\LaptopManagement\obj\Debug\net8.0\scopedcss\projectbundle\LaptopManagement.bundle.scp.css

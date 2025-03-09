@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using LaptopManagement;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace LaptopManagement.Controllers
 {
@@ -17,16 +18,18 @@ namespace LaptopManagement.Controllers
         }
 
         // GET: Laptops
-        public async Task<IActionResult> Index(string search)
+        public async Task<IActionResult> Index(string searchString)
         {
             var laptops = from l in _context.Laptops
                           select l;
 
-            if (!string.IsNullOrEmpty(search))
+            if (!string.IsNullOrEmpty(searchString))
             {
-                laptops = laptops.Where(s => s.Name!.Contains(search) || s.Brand!.Contains(search));
+                laptops = laptops.Where(l => l.Name.Contains(searchString) || l.Brand.Contains(searchString));
             }
-            return View(await laptops.ToListAsync());
+
+            ViewData["CurrentFilter"] = searchString;
+            return View(await laptops.Include(l => l.Images).ToListAsync());
         }
 
 
@@ -37,13 +40,17 @@ namespace LaptopManagement.Controllers
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null) return NotFound();
-            var laptop = await _context.Laptops.FirstOrDefaultAsync(m => m.Id == id);
+            var laptop = await _context.Laptops
+                .Include(l => l.Images)
+                .FirstOrDefaultAsync(m => m.Id == id);
             if (laptop == null) return NotFound();
             return View(laptop);
         }
         // GET: Laptops/Create
         public IActionResult Create()
         {
+            ViewBag.Categories = new SelectList(_context.Categories, "Id", "Name");
+
             return View();
         }
 
