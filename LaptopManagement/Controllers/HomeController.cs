@@ -14,7 +14,7 @@ namespace LaptopManagement.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Index(string searchString)
+        public async Task<IActionResult> Index(string searchString, string brand, decimal? minPrice, decimal? maxPrice, bool? status)
         {
             var laptops = from l in _context.Laptops
                           select l;
@@ -24,22 +24,65 @@ namespace LaptopManagement.Controllers
                 laptops = laptops.Where(l => l.Name.Contains(searchString) || l.Brand.Contains(searchString));
             }
 
-            ViewData["CurrentFilter"] = searchString;
-            return View(await laptops.Include(l => l.Images).ToListAsync());
+            if (!string.IsNullOrEmpty(brand))
+            {
+                laptops = laptops.Where(l => l.Brand == brand);
+            }
 
+            if (minPrice.HasValue)
+            {
+                laptops = laptops.Where(l => l.Price >= minPrice.Value);
+            }
+
+            if (maxPrice.HasValue)
+            {
+                laptops = laptops.Where(l => l.Price <= maxPrice.Value);
+            }
+
+            if (status.HasValue)
+            {
+                laptops = laptops.Where(l => l.Status == status.Value);
+            }
+
+            ViewData["CurrentFilter"] = searchString;
+            ViewData["CurrentBrand"] = brand;
+            ViewData["CurrentMinPrice"] = minPrice;
+            ViewData["CurrentMaxPrice"] = maxPrice;
+            ViewData["CurrentStatus"] = status;
+
+            return View(await laptops.Include(l => l.Images).ToListAsync());
         }
 
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null) return NotFound();
-
             var laptop = await _context.Laptops
-    .Include(l => l.Images)
-    .FirstOrDefaultAsync(m => m.Id == id);// Hoặc Include(l => l.Images) nếu dùng nhiều ảnh
-
+                .Include(l => l.Images)
+                .FirstOrDefaultAsync(m => m.Id == id);
             if (laptop == null) return NotFound();
 
+            // Ensure there is always a primary image
+            if (laptop.Images != null && laptop.Images.Any() && !laptop.Images.Any(img => img.IsPrimary))
+            {
+                var firstImage = laptop.Images.FirstOrDefault();
+                if (firstImage != null)
+                {
+                    firstImage.IsPrimary = true;
+                    _context.Update(firstImage);
+                    await _context.SaveChangesAsync();
+                }
+            }
+
             return View(laptop);
+        }
+        public async Task<IActionResult> Privacy()
+        {
+            return View();
+        }
+
+        public async Task<IActionResult> About()
+        {
+            return View();
         }
 
         [HttpPost]

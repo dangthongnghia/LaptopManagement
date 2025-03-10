@@ -16,7 +16,7 @@
 <table class="table">
     <thead>
         <tr>
-            <th>Image</th>
+
             <th>Name</th>
             <th>Brand</th>
             <th>Price</th>
@@ -31,12 +31,7 @@
         @foreach (var item in Model)
         {
             <tr>
-                <td>
-                    @if (item.Images != null && item.Images.Any())
-                    { 
-                    <img src="@item.Images" alt="@item.Name" style="width:100px;height:auto;" /> 
-                     } 
-                </td>
+
                 <td>@Html.DisplayFor(modelItem => item.Name)</td>
                 <td>@Html.DisplayFor(modelItem => item.Brand)</td>
                 <td>@Html.DisplayFor(modelItem => item.Price)</td>

@@ -1,5 +1,23 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\about.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopManagement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopManagement</BasePath>
+      <RelativePath>css/about.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>xhpbatvp83</Fingerprint>
+      <Integrity>K5xHCjAAqWzvgeqFjgiSUjTg0Ram+7O7SE00bIo2FvY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\about.css'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\details.css'))">
       <SourceType>Package</SourceType>
       <SourceId>LaptopManagement</SourceId>
@@ -12,11 +30,29 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>dcgt8mpsip</Fingerprint>
-      <Integrity>/adZd2A6oPB8rj7QAb5XjfOE7FiLm8HqU/7iASwlkrM=</Integrity>
+      <Fingerprint>eyyf4ymf1i</Fingerprint>
+      <Integrity>tsplAehuc8Z88pw4PHQTHGp0EVy5BJJ2O0jxWTIGAs8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\details.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\index.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopManagement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopManagement</BasePath>
+      <RelativePath>css/index.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>uzdzeao84r</Fingerprint>
+      <Integrity>Zhj6sCR0u46fg7koZTDKWbRiMuAt6WonjK0wk/oz/0k=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\index.css'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))">
       <SourceType>Package</SourceType>
@@ -30,8 +66,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>akh6k3vrhk</Fingerprint>
-      <Integrity>ljEmeljTeMSagJTSntm65bIaQFbauQRMPDa8TDRwCJE=</Integrity>
+      <Fingerprint>cc4diy5x7k</Fingerprint>
+      <Integrity>xP7mY4KEbRPyJFQ9Poh0ITCqzJxPIkXYTUdY6rDG8pI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -54,84 +90,318 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\01782dcd-93af-4c77-af72-a6284b767d45_pexels-quentin-martinez-2147503099-30889575.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\1ccf751f-f9ca-43fe-a39a-3c3b017976d5_Dell Inspiron 15.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>LaptopManagement</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/LaptopManagement</BasePath>
-      <RelativePath>images/01782dcd-93af-4c77-af72-a6284b767d45_pexels-quentin-martinez-2147503099-30889575.jpg</RelativePath>
+      <RelativePath>images/1ccf751f-f9ca-43fe-a39a-3c3b017976d5_Dell Inspiron 15.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>hk0bka30l3</Fingerprint>
-      <Integrity>X/wOlbB/ToKRl5kf2h2B7P9A/22vCfAl0Vdx76eH8X0=</Integrity>
+      <Fingerprint>rdb8wnu5ka</Fingerprint>
+      <Integrity>n+cVJU4OketMxzHy9BLnCjCXaQ3o7XuKFvj///dURAw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\01782dcd-93af-4c77-af72-a6284b767d45_pexels-quentin-martinez-2147503099-30889575.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\1ccf751f-f9ca-43fe-a39a-3c3b017976d5_Dell Inspiron 15.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\17b82cd8-16c5-408c-823b-774d4690b149_pexels-lynxexotics-8664306.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\282b92de-dd0e-45df-9af0-3385ad0bbeda_Dell_XPS13Plus_2022FHD_50.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>LaptopManagement</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/LaptopManagement</BasePath>
-      <RelativePath>images/17b82cd8-16c5-408c-823b-774d4690b149_pexels-lynxexotics-8664306.jpg</RelativePath>
+      <RelativePath>images/282b92de-dd0e-45df-9af0-3385ad0bbeda_Dell_XPS13Plus_2022FHD_50.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>d8xfjkli9b</Fingerprint>
-      <Integrity>/egImw5i81RI9PJoBBKrcc8WZIt32l7OG796fg8fiD4=</Integrity>
+      <Fingerprint>u95wuxb1xh</Fingerprint>
+      <Integrity>stS/If1/WrduHsuGNXbGA+2fgreAPeKKBqPmpZGnzsQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\17b82cd8-16c5-408c-823b-774d4690b149_pexels-lynxexotics-8664306.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\282b92de-dd0e-45df-9af0-3385ad0bbeda_Dell_XPS13Plus_2022FHD_50.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\9e9c320b-919b-4174-a594-d5bd683a67d1_pexels-lynxexotics-8664302.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\2b466d53-cf85-4f3f-8e0e-551ee59cf777_MSI Stealth 15M.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>LaptopManagement</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/LaptopManagement</BasePath>
-      <RelativePath>images/9e9c320b-919b-4174-a594-d5bd683a67d1_pexels-lynxexotics-8664302.jpg</RelativePath>
+      <RelativePath>images/2b466d53-cf85-4f3f-8e0e-551ee59cf777_MSI Stealth 15M.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>gdug7gmh98</Fingerprint>
-      <Integrity>xEQQ5JBR8wIfRgpnOZPTBofwhuMMVkRhxRaVDCeNVl0=</Integrity>
+      <Fingerprint>e7tiq8z2fb</Fingerprint>
+      <Integrity>Wo7jR5EWnKg01SLQUFUmxDbWFvoyxM4gz8hY1r2EySo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\9e9c320b-919b-4174-a594-d5bd683a67d1_pexels-lynxexotics-8664302.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\2b466d53-cf85-4f3f-8e0e-551ee59cf777_MSI Stealth 15M.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\afb0addc-bc82-496f-a4e1-768f2b0fd6ed_pexels-adrian-dorobantu-989175-2127733.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\422468ec-522b-4503-ac46-530a4b3129cb_Surface Laptop 4.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>LaptopManagement</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/LaptopManagement</BasePath>
-      <RelativePath>images/afb0addc-bc82-496f-a4e1-768f2b0fd6ed_pexels-adrian-dorobantu-989175-2127733.jpg</RelativePath>
+      <RelativePath>images/422468ec-522b-4503-ac46-530a4b3129cb_Surface Laptop 4.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>t31k6nuyk9</Fingerprint>
-      <Integrity>mSR91xuHggoabaeEwD+J+eAww46+b20JLNdqGJhbiz0=</Integrity>
+      <Fingerprint>fchvqvzs13</Fingerprint>
+      <Integrity>cTB6xt/UyXmbKhVPHf9tmN4IxW1ON6mrRStsOmlAG58=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\afb0addc-bc82-496f-a4e1-768f2b0fd6ed_pexels-adrian-dorobantu-989175-2127733.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\422468ec-522b-4503-ac46-530a4b3129cb_Surface Laptop 4.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\b46b9372-5e2e-4676-abb1-4f4dfa582e3d_pexels-autorecords-10394782.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\4375606b-1552-49d3-a12a-aa88e78397cd_MacBook Air M2.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>LaptopManagement</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/LaptopManagement</BasePath>
-      <RelativePath>images/b46b9372-5e2e-4676-abb1-4f4dfa582e3d_pexels-autorecords-10394782.jpg</RelativePath>
+      <RelativePath>images/4375606b-1552-49d3-a12a-aa88e78397cd_MacBook Air M2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>s2eg8ebnkt</Fingerprint>
+      <Integrity>RBvD4nCJi5JeLU28OBwkxLcJrKurgGL8XgoRktY2Lx0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\4375606b-1552-49d3-a12a-aa88e78397cd_MacBook Air M2.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\71c8c633-3f3a-495f-bcf3-029caf77922f_71y+lIHVdAL.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopManagement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopManagement</BasePath>
+      <RelativePath>images/71c8c633-3f3a-495f-bcf3-029caf77922f_71y+lIHVdAL.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>hsw7xmcj3q</Fingerprint>
+      <Integrity>wfqrjL6okxtLA1abIHEFkkrziBAD9/2lot+zM0dk63o=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\71c8c633-3f3a-495f-bcf3-029caf77922f_71y+lIHVdAL.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\7fefc29a-4425-4d22-b9f6-42f61cf29b99_MSI Katana GF66.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopManagement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopManagement</BasePath>
+      <RelativePath>images/7fefc29a-4425-4d22-b9f6-42f61cf29b99_MSI Katana GF66.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>hwtb6qi4rx</Fingerprint>
+      <Integrity>3wViIpWdZrWU6updMjl1ZuzeFPdEBAu3nUQDlHaT6GA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\7fefc29a-4425-4d22-b9f6-42f61cf29b99_MSI Katana GF66.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\82efb2fb-6383-49f8-a55d-0643f559034d_LG Gram 17.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopManagement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopManagement</BasePath>
+      <RelativePath>images/82efb2fb-6383-49f8-a55d-0643f559034d_LG Gram 17.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>3h73xl60nk</Fingerprint>
+      <Integrity>l91wUFdddMNJ6CNTdwkYKGcDovv5PxHL34RkXPZAuzY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\82efb2fb-6383-49f8-a55d-0643f559034d_LG Gram 17.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\876531b0-e172-41cf-833b-d0556b9aa180_Acer Swift 3.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopManagement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopManagement</BasePath>
+      <RelativePath>images/876531b0-e172-41cf-833b-d0556b9aa180_Acer Swift 3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>nmnn1g904d</Fingerprint>
+      <Integrity>obdLcCD9xDzKEZ2u7c/MzHcTIAz6hUDOzIkdpSo0R8M=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\876531b0-e172-41cf-833b-d0556b9aa180_Acer Swift 3.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\9abbab8e-8aa9-452d-ba32-6e4d7f6b4d81_Acer Predator Helios 300.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopManagement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopManagement</BasePath>
+      <RelativePath>images/9abbab8e-8aa9-452d-ba32-6e4d7f6b4d81_Acer Predator Helios 300.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>29rcdy9zpl</Fingerprint>
+      <Integrity>CqZYwyF2OtiHhpmH+RicvTtqgf8a2jFPN4y10mLNTpQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\9abbab8e-8aa9-452d-ba32-6e4d7f6b4d81_Acer Predator Helios 300.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\bc5550d9-5cdc-44f1-ad28-de3af9652f25_pexels-julian-largo-622163228-17377912.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopManagement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopManagement</BasePath>
+      <RelativePath>images/bc5550d9-5cdc-44f1-ad28-de3af9652f25_pexels-julian-largo-622163228-17377912.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>r220io6z2e</Fingerprint>
+      <Integrity>fSOM5Mdv7oLfVhCJ6Om78Sd1ze+pBbeY3SWKZ2qmbiQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\bc5550d9-5cdc-44f1-ad28-de3af9652f25_pexels-julian-largo-622163228-17377912.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\c4e6571a-4e5f-45fb-a28a-34104890a6b6_Dell_XPS_13.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopManagement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopManagement</BasePath>
+      <RelativePath>images/c4e6571a-4e5f-45fb-a28a-34104890a6b6_Dell_XPS_13.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>4ddgylgn00</Fingerprint>
+      <Integrity>qD17oyW9TrUeGTQgBzYRMWS6MWR9+IIQmguJherkY6Y=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\c4e6571a-4e5f-45fb-a28a-34104890a6b6_Dell_XPS_13.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\c6b579c9-78a8-49d5-8efa-7dd25f9bce8c_HP Spectre x360.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopManagement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopManagement</BasePath>
+      <RelativePath>images/c6b579c9-78a8-49d5-8efa-7dd25f9bce8c_HP Spectre x360.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zr1iekndct</Fingerprint>
+      <Integrity>gdhDuyxX/lDhbRGanhaR52wyfrluFYs3aIphMY4DCnw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\c6b579c9-78a8-49d5-8efa-7dd25f9bce8c_HP Spectre x360.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\ccd41214-5479-46ba-9733-bc1a7e316006_HP Pavilion 15.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopManagement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopManagement</BasePath>
+      <RelativePath>images/ccd41214-5479-46ba-9733-bc1a7e316006_HP Pavilion 15.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>fwfrwasnb8</Fingerprint>
+      <Integrity>wW5VP/zHUSr1HMWsGDGxbyqmYYcjMIt3R5DRi92Iv60=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\ccd41214-5479-46ba-9733-bc1a7e316006_HP Pavilion 15.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\d09e3ce3-885c-4a55-8d1a-c8907a079979_Razer Blade 15.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopManagement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopManagement</BasePath>
+      <RelativePath>images/d09e3ce3-885c-4a55-8d1a-c8907a079979_Razer Blade 15.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>linpbzj9h3</Fingerprint>
+      <Integrity>s/XzDVc4NO+lsGcnHyN7GUQiS7fnNj6SZTTuTtC1vRU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\d09e3ce3-885c-4a55-8d1a-c8907a079979_Razer Blade 15.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\d0d6d55c-c8f9-40bf-b619-d9e86751aed5_c7581effbc1728fc2e529294f6cd892d-hi.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopManagement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopManagement</BasePath>
+      <RelativePath>images/d0d6d55c-c8f9-40bf-b619-d9e86751aed5_c7581effbc1728fc2e529294f6cd892d-hi.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>l9hrtdx8gf</Fingerprint>
+      <Integrity>KTFkln0UTUk93DVkiaXoMlgmjzRbYYypU5KnKn5wSBI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\d0d6d55c-c8f9-40bf-b619-d9e86751aed5_c7581effbc1728fc2e529294f6cd892d-hi.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\d19cdf40-a669-4fb2-9834-34b2447088c7_Lenovo Legion 5.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopManagement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopManagement</BasePath>
+      <RelativePath>images/d19cdf40-a669-4fb2-9834-34b2447088c7_Lenovo Legion 5.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>0w2j5ducnw</Fingerprint>
+      <Integrity>YO6NWZIbSBI6t9NLOjXgvXaq72SVaNlMvAQMbhhwrQc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\d19cdf40-a669-4fb2-9834-34b2447088c7_Lenovo Legion 5.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\d4707aae-f8c2-47e9-9a93-c8a691c045e6_pexels-autorecords-10394782.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopManagement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopManagement</BasePath>
+      <RelativePath>images/d4707aae-f8c2-47e9-9a93-c8a691c045e6_pexels-autorecords-10394782.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -142,79 +412,115 @@
       <Integrity>gRgQyvneRiPYjWaTHemYT7ZxPjj7Jsym7NceUxQ/uBs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\b46b9372-5e2e-4676-abb1-4f4dfa582e3d_pexels-autorecords-10394782.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\d4707aae-f8c2-47e9-9a93-c8a691c045e6_pexels-autorecords-10394782.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\b68b9bc3-1160-41c4-9159-72a1fa02c0cc_pexels-autorecords-10292241.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\e0180b82-8a3b-48da-8433-a6d847722e3f_Asus ZenBook 14.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>LaptopManagement</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/LaptopManagement</BasePath>
-      <RelativePath>images/b68b9bc3-1160-41c4-9159-72a1fa02c0cc_pexels-autorecords-10292241.jpg</RelativePath>
+      <RelativePath>images/e0180b82-8a3b-48da-8433-a6d847722e3f_Asus ZenBook 14.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>tpffhkd5wp</Fingerprint>
-      <Integrity>r3ENb2qgnFPYii51o0xeKEKVOZxBIJEJnjgJPM8nUZ0=</Integrity>
+      <Fingerprint>w61hf1ktdg</Fingerprint>
+      <Integrity>SLOOvw8eInF4d2emJ3ZU3k1Kojoix4lRWXbYThnaLeU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\b68b9bc3-1160-41c4-9159-72a1fa02c0cc_pexels-autorecords-10292241.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\e0180b82-8a3b-48da-8433-a6d847722e3f_Asus ZenBook 14.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\laptops\g3gnqq0h.zoj.png'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\f045bfda-5f4b-433c-80cd-ac355e945ce2_mac_book_pro.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>LaptopManagement</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/LaptopManagement</BasePath>
-      <RelativePath>images/laptops/g3gnqq0h.zoj.png</RelativePath>
+      <RelativePath>images/f045bfda-5f4b-433c-80cd-ac355e945ce2_mac_book_pro.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>v7c42n75dc</Fingerprint>
-      <Integrity>28RY07v0cTxI7rd1m+3+jNmzIfZ8e24ksUsATjWLINI=</Integrity>
+      <Fingerprint>9id0yzn9lk</Fingerprint>
+      <Integrity>YcJLC7FvSTo4tgb4KrWCXGKQiGwQscAELrGjKnSJO0w=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\laptops\g3gnqq0h.zoj.png'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\f045bfda-5f4b-433c-80cd-ac355e945ce2_mac_book_pro.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\laptops\mpx02cov.w41.png'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\f0a5b73b-b275-4361-b166-5dccdcb0c59f_AsusTUF_Gaming_A15_1.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>LaptopManagement</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/LaptopManagement</BasePath>
-      <RelativePath>images/laptops/mpx02cov.w41.png</RelativePath>
+      <RelativePath>images/f0a5b73b-b275-4361-b166-5dccdcb0c59f_AsusTUF_Gaming_A15_1.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>v7c42n75dc</Fingerprint>
-      <Integrity>28RY07v0cTxI7rd1m+3+jNmzIfZ8e24ksUsATjWLINI=</Integrity>
+      <Fingerprint>0yvchnhgh1</Fingerprint>
+      <Integrity>SFY1/g8j8YvPVulZmNaQ+8bZGBcZ9Vj/uyW1Oy2Yo1Q=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\laptops\mpx02cov.w41.png'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\f0a5b73b-b275-4361-b166-5dccdcb0c59f_AsusTUF_Gaming_A15_1.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\laptops\pumokvpf.v4q.png'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\f292f0e6-74ef-4489-acee-83390f850751_Dell G15.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>LaptopManagement</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/LaptopManagement</BasePath>
-      <RelativePath>images/laptops/pumokvpf.v4q.png</RelativePath>
+      <RelativePath>images/f292f0e6-74ef-4489-acee-83390f850751_Dell G15.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>v7c42n75dc</Fingerprint>
-      <Integrity>28RY07v0cTxI7rd1m+3+jNmzIfZ8e24ksUsATjWLINI=</Integrity>
+      <Fingerprint>l2nyplkiv0</Fingerprint>
+      <Integrity>TZYVTI586f1PMmOoEAhv/cwrWsyehtUSm5CO6S+v9ig=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\laptops\pumokvpf.v4q.png'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\f292f0e6-74ef-4489-acee-83390f850751_Dell G15.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\fad9945a-ad20-4939-8abb-10d0bc7f126f_Lenovo ThinkPad X1 Carbon.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopManagement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopManagement</BasePath>
+      <RelativePath>images/fad9945a-ad20-4939-8abb-10d0bc7f126f_Lenovo ThinkPad X1 Carbon.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>xwnxuzgm9w</Fingerprint>
+      <Integrity>rz7PJvSbRLLj9RotCu3BnmXqqsBBimN5VOFOSHsqdPY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\fad9945a-ad20-4939-8abb-10d0bc7f126f_Lenovo ThinkPad X1 Carbon.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\fc0dac5e-4a12-4e06-a348-b7aaf00d5c17_HP Envy 13.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopManagement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopManagement</BasePath>
+      <RelativePath>images/fc0dac5e-4a12-4e06-a348-b7aaf00d5c17_HP Envy 13.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>dbrol5qbtt</Fingerprint>
+      <Integrity>SWnmrAdI5SJsaE+I0MYCJbRMnsXT1P6Ay7esdFNfSpw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\fc0dac5e-4a12-4e06-a348-b7aaf00d5c17_HP Envy 13.webp'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))">
       <SourceType>Package</SourceType>

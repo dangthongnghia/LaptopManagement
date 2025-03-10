@@ -11,6 +11,11 @@ public class OrdersController : Controller
         _context = context;
     }
 
+    public IActionResult Index()
+    {
+        return View(_context.Orders.ToList());
+    }
+
     // GET: Orders/Create
     public IActionResult Create(int laptopId)
     {

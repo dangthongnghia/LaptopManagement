@@ -7,11 +7,57 @@
 /* Tổng thể trang */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f7fa;
+    background-image: url('https://cdn2.cellphones.com.vn/x/media/wysiwyg/bg-832025-homepage.png'); /* Gradient từ màu xanh dương sang màu xanh lá */
+    background-size: cover; /* Đảm bảo hình ảnh bao phủ toàn bộ màn hình */
+    background-position: center; /* Đặt hình ảnh ở giữa */
+    background-repeat: no-repeat;
     color: #333;
     overflow-x: hidden;
 }
 
+/* Navbar styles */
+.navbar {
+    background-color: darkred; /* Màu nền cho navbar */
+    border-bottom: 2px solid #3498db; /* Đường viền dưới cho navbar */
+}
+
+.navbar-brand {
+    color: #3498db; /* Màu chữ cho thương hiệu */
+    font-weight: bold;
+    font-size: 2.0rem;
+    transition: color 0.3s;
+}
+
+    .navbar-brand:hover {
+        color: #3498db; /* Màu chữ khi hover */
+    }
+
+.nav-link {
+    color: #ecf0f1; /* Màu chữ cho liên kết */
+    font-size: 1.5rem;
+    transition: color 0.3s;
+    margin-right: 15px;
+}
+
+    .nav-link:hover {
+        color: #3498db; /* Màu chữ khi hover */
+    }
+
+.navbar-toggler {
+    border-color: #ecf0f1; /* Màu viền cho nút toggler */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%288, 8, 8, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-collapse {
+    justify-content: flex-end; /* Canh phải các mục trong navbar */
+}
+
+.nav-item {
+    margin-left: 15px; /* Khoảng cách giữa các mục */
+}
 /* Container chính */
 .container {
     padding: 20px;
@@ -152,6 +198,7 @@ h1 {
     margin-bottom: 15px;
     transition: color 0.3s;
 }
+
 .card-link {
     text-decoration: none;
     color: inherit;

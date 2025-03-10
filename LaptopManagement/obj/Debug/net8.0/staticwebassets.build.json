@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "C1HLRpz5P9Ie9CjaZCqQJI1BI6C5Sfdl1GzEVbGv6LE=",
+  "Hash": "GWGjprWHuRWgKjioiV5kCF59ZHG5N7c6QXBjl2LvHoA=",
   "Source": "LaptopManagement",
   "BasePath": "_content/LaptopManagement",
   "Mode": "Default",
@@ -59,6 +59,27 @@
       "OriginalItemSpec": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LaptopManagement.bundle.scp.css"
     },
     {
+      "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\css\\about.css",
+      "SourceId": "LaptopManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\",
+      "BasePath": "_content/LaptopManagement",
+      "RelativePath": "css/about#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xhpbatvp83",
+      "Integrity": "K5xHCjAAqWzvgeqFjgiSUjTg0Ram+7O7SE00bIo2FvY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\about.css"
+    },
+    {
       "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\css\\details.css",
       "SourceId": "LaptopManagement",
       "SourceType": "Discovered",
@@ -73,11 +94,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dcgt8mpsip",
-      "Integrity": "/adZd2A6oPB8rj7QAb5XjfOE7FiLm8HqU/7iASwlkrM=",
+      "Fingerprint": "eyyf4ymf1i",
+      "Integrity": "tsplAehuc8Z88pw4PHQTHGp0EVy5BJJ2O0jxWTIGAs8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\details.css"
+    },
+    {
+      "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\css\\index.css",
+      "SourceId": "LaptopManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\",
+      "BasePath": "_content/LaptopManagement",
+      "RelativePath": "css/index#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uzdzeao84r",
+      "Integrity": "Zhj6sCR0u46fg7koZTDKWbRiMuAt6WonjK0wk/oz/0k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\index.css"
     },
     {
       "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\css\\site.css",
@@ -94,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "akh6k3vrhk",
-      "Integrity": "ljEmeljTeMSagJTSntm65bIaQFbauQRMPDa8TDRwCJE=",
+      "Fingerprint": "cc4diy5x7k",
+      "Integrity": "xP7mY4KEbRPyJFQ9Poh0ITCqzJxPIkXYTUdY6rDG8pI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -122,12 +164,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\01782dcd-93af-4c77-af72-a6284b767d45_pexels-quentin-martinez-2147503099-30889575.jpg",
+      "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\1ccf751f-f9ca-43fe-a39a-3c3b017976d5_Dell Inspiron 15.jpg",
       "SourceId": "LaptopManagement",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\",
       "BasePath": "_content/LaptopManagement",
-      "RelativePath": "images/01782dcd-93af-4c77-af72-a6284b767d45_pexels-quentin-martinez-2147503099-30889575#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/1ccf751f-f9ca-43fe-a39a-3c3b017976d5_Dell Inspiron 15#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -136,19 +178,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "hk0bka30l3",
-      "Integrity": "X/wOlbB/ToKRl5kf2h2B7P9A/22vCfAl0Vdx76eH8X0=",
+      "Fingerprint": "rdb8wnu5ka",
+      "Integrity": "n+cVJU4OketMxzHy9BLnCjCXaQ3o7XuKFvj///dURAw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\01782dcd-93af-4c77-af72-a6284b767d45_pexels-quentin-martinez-2147503099-30889575.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\1ccf751f-f9ca-43fe-a39a-3c3b017976d5_Dell Inspiron 15.jpg"
     },
     {
-      "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\17b82cd8-16c5-408c-823b-774d4690b149_pexels-lynxexotics-8664306.jpg",
+      "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\282b92de-dd0e-45df-9af0-3385ad0bbeda_Dell_XPS13Plus_2022FHD_50.jpg",
       "SourceId": "LaptopManagement",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\",
       "BasePath": "_content/LaptopManagement",
-      "RelativePath": "images/17b82cd8-16c5-408c-823b-774d4690b149_pexels-lynxexotics-8664306#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/282b92de-dd0e-45df-9af0-3385ad0bbeda_Dell_XPS13Plus_2022FHD_50#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -157,19 +199,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "d8xfjkli9b",
-      "Integrity": "/egImw5i81RI9PJoBBKrcc8WZIt32l7OG796fg8fiD4=",
+      "Fingerprint": "u95wuxb1xh",
+      "Integrity": "stS/If1/WrduHsuGNXbGA+2fgreAPeKKBqPmpZGnzsQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\17b82cd8-16c5-408c-823b-774d4690b149_pexels-lynxexotics-8664306.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\282b92de-dd0e-45df-9af0-3385ad0bbeda_Dell_XPS13Plus_2022FHD_50.jpg"
     },
     {
-      "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\9e9c320b-919b-4174-a594-d5bd683a67d1_pexels-lynxexotics-8664302.jpg",
+      "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\2b466d53-cf85-4f3f-8e0e-551ee59cf777_MSI Stealth 15M.jpg",
       "SourceId": "LaptopManagement",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\",
       "BasePath": "_content/LaptopManagement",
-      "RelativePath": "images/9e9c320b-919b-4174-a594-d5bd683a67d1_pexels-lynxexotics-8664302#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/2b466d53-cf85-4f3f-8e0e-551ee59cf777_MSI Stealth 15M#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -178,19 +220,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "gdug7gmh98",
-      "Integrity": "xEQQ5JBR8wIfRgpnOZPTBofwhuMMVkRhxRaVDCeNVl0=",
+      "Fingerprint": "e7tiq8z2fb",
+      "Integrity": "Wo7jR5EWnKg01SLQUFUmxDbWFvoyxM4gz8hY1r2EySo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\9e9c320b-919b-4174-a594-d5bd683a67d1_pexels-lynxexotics-8664302.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\2b466d53-cf85-4f3f-8e0e-551ee59cf777_MSI Stealth 15M.jpg"
     },
     {
-      "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\afb0addc-bc82-496f-a4e1-768f2b0fd6ed_pexels-adrian-dorobantu-989175-2127733.jpg",
+      "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\422468ec-522b-4503-ac46-530a4b3129cb_Surface Laptop 4.jpg",
       "SourceId": "LaptopManagement",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\",
       "BasePath": "_content/LaptopManagement",
-      "RelativePath": "images/afb0addc-bc82-496f-a4e1-768f2b0fd6ed_pexels-adrian-dorobantu-989175-2127733#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/422468ec-522b-4503-ac46-530a4b3129cb_Surface Laptop 4#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -199,19 +241,292 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "t31k6nuyk9",
-      "Integrity": "mSR91xuHggoabaeEwD+J+eAww46+b20JLNdqGJhbiz0=",
+      "Fingerprint": "fchvqvzs13",
+      "Integrity": "cTB6xt/UyXmbKhVPHf9tmN4IxW1ON6mrRStsOmlAG58=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\afb0addc-bc82-496f-a4e1-768f2b0fd6ed_pexels-adrian-dorobantu-989175-2127733.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\422468ec-522b-4503-ac46-530a4b3129cb_Surface Laptop 4.jpg"
     },
     {
-      "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\b46b9372-5e2e-4676-abb1-4f4dfa582e3d_pexels-autorecords-10394782.jpg",
+      "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\4375606b-1552-49d3-a12a-aa88e78397cd_MacBook Air M2.jpg",
       "SourceId": "LaptopManagement",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\",
       "BasePath": "_content/LaptopManagement",
-      "RelativePath": "images/b46b9372-5e2e-4676-abb1-4f4dfa582e3d_pexels-autorecords-10394782#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/4375606b-1552-49d3-a12a-aa88e78397cd_MacBook Air M2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s2eg8ebnkt",
+      "Integrity": "RBvD4nCJi5JeLU28OBwkxLcJrKurgGL8XgoRktY2Lx0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\4375606b-1552-49d3-a12a-aa88e78397cd_MacBook Air M2.jpg"
+    },
+    {
+      "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\71c8c633-3f3a-495f-bcf3-029caf77922f_71y+lIHVdAL.jpg",
+      "SourceId": "LaptopManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\",
+      "BasePath": "_content/LaptopManagement",
+      "RelativePath": "images/71c8c633-3f3a-495f-bcf3-029caf77922f_71y+lIHVdAL#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hsw7xmcj3q",
+      "Integrity": "wfqrjL6okxtLA1abIHEFkkrziBAD9/2lot+zM0dk63o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\71c8c633-3f3a-495f-bcf3-029caf77922f_71y+lIHVdAL.jpg"
+    },
+    {
+      "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\7fefc29a-4425-4d22-b9f6-42f61cf29b99_MSI Katana GF66.jpg",
+      "SourceId": "LaptopManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\",
+      "BasePath": "_content/LaptopManagement",
+      "RelativePath": "images/7fefc29a-4425-4d22-b9f6-42f61cf29b99_MSI Katana GF66#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hwtb6qi4rx",
+      "Integrity": "3wViIpWdZrWU6updMjl1ZuzeFPdEBAu3nUQDlHaT6GA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\7fefc29a-4425-4d22-b9f6-42f61cf29b99_MSI Katana GF66.jpg"
+    },
+    {
+      "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\82efb2fb-6383-49f8-a55d-0643f559034d_LG Gram 17.jpg",
+      "SourceId": "LaptopManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\",
+      "BasePath": "_content/LaptopManagement",
+      "RelativePath": "images/82efb2fb-6383-49f8-a55d-0643f559034d_LG Gram 17#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3h73xl60nk",
+      "Integrity": "l91wUFdddMNJ6CNTdwkYKGcDovv5PxHL34RkXPZAuzY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\82efb2fb-6383-49f8-a55d-0643f559034d_LG Gram 17.jpg"
+    },
+    {
+      "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\876531b0-e172-41cf-833b-d0556b9aa180_Acer Swift 3.jpg",
+      "SourceId": "LaptopManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\",
+      "BasePath": "_content/LaptopManagement",
+      "RelativePath": "images/876531b0-e172-41cf-833b-d0556b9aa180_Acer Swift 3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nmnn1g904d",
+      "Integrity": "obdLcCD9xDzKEZ2u7c/MzHcTIAz6hUDOzIkdpSo0R8M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\876531b0-e172-41cf-833b-d0556b9aa180_Acer Swift 3.jpg"
+    },
+    {
+      "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\9abbab8e-8aa9-452d-ba32-6e4d7f6b4d81_Acer Predator Helios 300.jpg",
+      "SourceId": "LaptopManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\",
+      "BasePath": "_content/LaptopManagement",
+      "RelativePath": "images/9abbab8e-8aa9-452d-ba32-6e4d7f6b4d81_Acer Predator Helios 300#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "29rcdy9zpl",
+      "Integrity": "CqZYwyF2OtiHhpmH+RicvTtqgf8a2jFPN4y10mLNTpQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\9abbab8e-8aa9-452d-ba32-6e4d7f6b4d81_Acer Predator Helios 300.jpg"
+    },
+    {
+      "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\bc5550d9-5cdc-44f1-ad28-de3af9652f25_pexels-julian-largo-622163228-17377912.jpg",
+      "SourceId": "LaptopManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\",
+      "BasePath": "_content/LaptopManagement",
+      "RelativePath": "images/bc5550d9-5cdc-44f1-ad28-de3af9652f25_pexels-julian-largo-622163228-17377912#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r220io6z2e",
+      "Integrity": "fSOM5Mdv7oLfVhCJ6Om78Sd1ze+pBbeY3SWKZ2qmbiQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\bc5550d9-5cdc-44f1-ad28-de3af9652f25_pexels-julian-largo-622163228-17377912.jpg"
+    },
+    {
+      "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\c4e6571a-4e5f-45fb-a28a-34104890a6b6_Dell_XPS_13.jpg",
+      "SourceId": "LaptopManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\",
+      "BasePath": "_content/LaptopManagement",
+      "RelativePath": "images/c4e6571a-4e5f-45fb-a28a-34104890a6b6_Dell_XPS_13#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4ddgylgn00",
+      "Integrity": "qD17oyW9TrUeGTQgBzYRMWS6MWR9+IIQmguJherkY6Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\c4e6571a-4e5f-45fb-a28a-34104890a6b6_Dell_XPS_13.jpg"
+    },
+    {
+      "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\c6b579c9-78a8-49d5-8efa-7dd25f9bce8c_HP Spectre x360.jpg",
+      "SourceId": "LaptopManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\",
+      "BasePath": "_content/LaptopManagement",
+      "RelativePath": "images/c6b579c9-78a8-49d5-8efa-7dd25f9bce8c_HP Spectre x360#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zr1iekndct",
+      "Integrity": "gdhDuyxX/lDhbRGanhaR52wyfrluFYs3aIphMY4DCnw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\c6b579c9-78a8-49d5-8efa-7dd25f9bce8c_HP Spectre x360.jpg"
+    },
+    {
+      "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\ccd41214-5479-46ba-9733-bc1a7e316006_HP Pavilion 15.webp",
+      "SourceId": "LaptopManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\",
+      "BasePath": "_content/LaptopManagement",
+      "RelativePath": "images/ccd41214-5479-46ba-9733-bc1a7e316006_HP Pavilion 15#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fwfrwasnb8",
+      "Integrity": "wW5VP/zHUSr1HMWsGDGxbyqmYYcjMIt3R5DRi92Iv60=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ccd41214-5479-46ba-9733-bc1a7e316006_HP Pavilion 15.webp"
+    },
+    {
+      "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\d09e3ce3-885c-4a55-8d1a-c8907a079979_Razer Blade 15.jpg",
+      "SourceId": "LaptopManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\",
+      "BasePath": "_content/LaptopManagement",
+      "RelativePath": "images/d09e3ce3-885c-4a55-8d1a-c8907a079979_Razer Blade 15#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "linpbzj9h3",
+      "Integrity": "s/XzDVc4NO+lsGcnHyN7GUQiS7fnNj6SZTTuTtC1vRU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\d09e3ce3-885c-4a55-8d1a-c8907a079979_Razer Blade 15.jpg"
+    },
+    {
+      "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\d0d6d55c-c8f9-40bf-b619-d9e86751aed5_c7581effbc1728fc2e529294f6cd892d-hi.jpg",
+      "SourceId": "LaptopManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\",
+      "BasePath": "_content/LaptopManagement",
+      "RelativePath": "images/d0d6d55c-c8f9-40bf-b619-d9e86751aed5_c7581effbc1728fc2e529294f6cd892d-hi#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l9hrtdx8gf",
+      "Integrity": "KTFkln0UTUk93DVkiaXoMlgmjzRbYYypU5KnKn5wSBI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\d0d6d55c-c8f9-40bf-b619-d9e86751aed5_c7581effbc1728fc2e529294f6cd892d-hi.jpg"
+    },
+    {
+      "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\d19cdf40-a669-4fb2-9834-34b2447088c7_Lenovo Legion 5.webp",
+      "SourceId": "LaptopManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\",
+      "BasePath": "_content/LaptopManagement",
+      "RelativePath": "images/d19cdf40-a669-4fb2-9834-34b2447088c7_Lenovo Legion 5#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0w2j5ducnw",
+      "Integrity": "YO6NWZIbSBI6t9NLOjXgvXaq72SVaNlMvAQMbhhwrQc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\d19cdf40-a669-4fb2-9834-34b2447088c7_Lenovo Legion 5.webp"
+    },
+    {
+      "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\d4707aae-f8c2-47e9-9a93-c8a691c045e6_pexels-autorecords-10394782.jpg",
+      "SourceId": "LaptopManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\",
+      "BasePath": "_content/LaptopManagement",
+      "RelativePath": "images/d4707aae-f8c2-47e9-9a93-c8a691c045e6_pexels-autorecords-10394782#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -224,15 +539,15 @@
       "Integrity": "gRgQyvneRiPYjWaTHemYT7ZxPjj7Jsym7NceUxQ/uBs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\b46b9372-5e2e-4676-abb1-4f4dfa582e3d_pexels-autorecords-10394782.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\d4707aae-f8c2-47e9-9a93-c8a691c045e6_pexels-autorecords-10394782.jpg"
     },
     {
-      "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\b68b9bc3-1160-41c4-9159-72a1fa02c0cc_pexels-autorecords-10292241.jpg",
+      "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\e0180b82-8a3b-48da-8433-a6d847722e3f_Asus ZenBook 14.jpg",
       "SourceId": "LaptopManagement",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\",
       "BasePath": "_content/LaptopManagement",
-      "RelativePath": "images/b68b9bc3-1160-41c4-9159-72a1fa02c0cc_pexels-autorecords-10292241#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/e0180b82-8a3b-48da-8433-a6d847722e3f_Asus ZenBook 14#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -241,19 +556,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "tpffhkd5wp",
-      "Integrity": "r3ENb2qgnFPYii51o0xeKEKVOZxBIJEJnjgJPM8nUZ0=",
+      "Fingerprint": "w61hf1ktdg",
+      "Integrity": "SLOOvw8eInF4d2emJ3ZU3k1Kojoix4lRWXbYThnaLeU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\b68b9bc3-1160-41c4-9159-72a1fa02c0cc_pexels-autorecords-10292241.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\e0180b82-8a3b-48da-8433-a6d847722e3f_Asus ZenBook 14.jpg"
     },
     {
-      "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\laptops\\g3gnqq0h.zoj.png",
+      "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\f045bfda-5f4b-433c-80cd-ac355e945ce2_mac_book_pro.jpg",
       "SourceId": "LaptopManagement",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\",
       "BasePath": "_content/LaptopManagement",
-      "RelativePath": "images/laptops/g3gnqq0h.zoj#[.{fingerprint}]?.png",
+      "RelativePath": "images/f045bfda-5f4b-433c-80cd-ac355e945ce2_mac_book_pro#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -262,19 +577,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "v7c42n75dc",
-      "Integrity": "28RY07v0cTxI7rd1m+3+jNmzIfZ8e24ksUsATjWLINI=",
+      "Fingerprint": "9id0yzn9lk",
+      "Integrity": "YcJLC7FvSTo4tgb4KrWCXGKQiGwQscAELrGjKnSJO0w=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\laptops\\g3gnqq0h.zoj.png"
+      "OriginalItemSpec": "wwwroot\\images\\f045bfda-5f4b-433c-80cd-ac355e945ce2_mac_book_pro.jpg"
     },
     {
-      "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\laptops\\mpx02cov.w41.png",
+      "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\f0a5b73b-b275-4361-b166-5dccdcb0c59f_AsusTUF_Gaming_A15_1.jpg",
       "SourceId": "LaptopManagement",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\",
       "BasePath": "_content/LaptopManagement",
-      "RelativePath": "images/laptops/mpx02cov.w41#[.{fingerprint}]?.png",
+      "RelativePath": "images/f0a5b73b-b275-4361-b166-5dccdcb0c59f_AsusTUF_Gaming_A15_1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -283,19 +598,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "v7c42n75dc",
-      "Integrity": "28RY07v0cTxI7rd1m+3+jNmzIfZ8e24ksUsATjWLINI=",
+      "Fingerprint": "0yvchnhgh1",
+      "Integrity": "SFY1/g8j8YvPVulZmNaQ+8bZGBcZ9Vj/uyW1Oy2Yo1Q=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\laptops\\mpx02cov.w41.png"
+      "OriginalItemSpec": "wwwroot\\images\\f0a5b73b-b275-4361-b166-5dccdcb0c59f_AsusTUF_Gaming_A15_1.jpg"
     },
     {
-      "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\laptops\\pumokvpf.v4q.png",
+      "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\f292f0e6-74ef-4489-acee-83390f850751_Dell G15.jpg",
       "SourceId": "LaptopManagement",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\",
       "BasePath": "_content/LaptopManagement",
-      "RelativePath": "images/laptops/pumokvpf.v4q#[.{fingerprint}]?.png",
+      "RelativePath": "images/f292f0e6-74ef-4489-acee-83390f850751_Dell G15#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -304,11 +619,53 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "v7c42n75dc",
-      "Integrity": "28RY07v0cTxI7rd1m+3+jNmzIfZ8e24ksUsATjWLINI=",
+      "Fingerprint": "l2nyplkiv0",
+      "Integrity": "TZYVTI586f1PMmOoEAhv/cwrWsyehtUSm5CO6S+v9ig=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\laptops\\pumokvpf.v4q.png"
+      "OriginalItemSpec": "wwwroot\\images\\f292f0e6-74ef-4489-acee-83390f850751_Dell G15.jpg"
+    },
+    {
+      "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\fad9945a-ad20-4939-8abb-10d0bc7f126f_Lenovo ThinkPad X1 Carbon.jpg",
+      "SourceId": "LaptopManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\",
+      "BasePath": "_content/LaptopManagement",
+      "RelativePath": "images/fad9945a-ad20-4939-8abb-10d0bc7f126f_Lenovo ThinkPad X1 Carbon#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xwnxuzgm9w",
+      "Integrity": "rz7PJvSbRLLj9RotCu3BnmXqqsBBimN5VOFOSHsqdPY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\fad9945a-ad20-4939-8abb-10d0bc7f126f_Lenovo ThinkPad X1 Carbon.jpg"
+    },
+    {
+      "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\fc0dac5e-4a12-4e06-a348-b7aaf00d5c17_HP Envy 13.webp",
+      "SourceId": "LaptopManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\",
+      "BasePath": "_content/LaptopManagement",
+      "RelativePath": "images/fc0dac5e-4a12-4e06-a348-b7aaf00d5c17_HP Envy 13#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dbrol5qbtt",
+      "Integrity": "SWnmrAdI5SJsaE+I0MYCJbRMnsXT1P6Ay7esdFNfSpw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\fc0dac5e-4a12-4e06-a348-b7aaf00d5c17_HP Envy 13.webp"
     },
     {
       "Identity": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\js\\site.js",
@@ -1531,6 +1888,88 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/about.css",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\css\\about.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "542"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K5xHCjAAqWzvgeqFjgiSUjTg0Ram+7O7SE00bIo2FvY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 03:07:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-K5xHCjAAqWzvgeqFjgiSUjTg0Ram+7O7SE00bIo2FvY="
+        }
+      ]
+    },
+    {
+      "Route": "css/about.xhpbatvp83.css",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\css\\about.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "542"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K5xHCjAAqWzvgeqFjgiSUjTg0Ram+7O7SE00bIo2FvY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 03:07:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xhpbatvp83"
+        },
+        {
+          "Name": "label",
+          "Value": "css/about.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-K5xHCjAAqWzvgeqFjgiSUjTg0Ram+7O7SE00bIo2FvY="
+        }
+      ]
+    },
+    {
       "Route": "css/details.css",
       "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\css\\details.css",
       "Selectors": [],
@@ -1541,7 +1980,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3651"
+          "Value": "3844"
         },
         {
           "Name": "Content-Type",
@@ -1549,11 +1988,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/adZd2A6oPB8rj7QAb5XjfOE7FiLm8HqU/7iASwlkrM=\""
+          "Value": "\"tsplAehuc8Z88pw4PHQTHGp0EVy5BJJ2O0jxWTIGAs8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 02:09:22 GMT"
+          "Value": "Mon, 10 Mar 2025 03:03:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1563,12 +2002,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/adZd2A6oPB8rj7QAb5XjfOE7FiLm8HqU/7iASwlkrM="
+          "Value": "sha256-tsplAehuc8Z88pw4PHQTHGp0EVy5BJJ2O0jxWTIGAs8="
         }
       ]
     },
     {
-      "Route": "css/details.dcgt8mpsip.css",
+      "Route": "css/details.eyyf4ymf1i.css",
       "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\css\\details.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1578,7 +2017,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3651"
+          "Value": "3844"
         },
         {
           "Name": "Content-Type",
@@ -1586,11 +2025,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/adZd2A6oPB8rj7QAb5XjfOE7FiLm8HqU/7iASwlkrM=\""
+          "Value": "\"tsplAehuc8Z88pw4PHQTHGp0EVy5BJJ2O0jxWTIGAs8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 02:09:22 GMT"
+          "Value": "Mon, 10 Mar 2025 03:03:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1600,7 +2039,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dcgt8mpsip"
+          "Value": "eyyf4ymf1i"
         },
         {
           "Name": "label",
@@ -1608,12 +2047,94 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-/adZd2A6oPB8rj7QAb5XjfOE7FiLm8HqU/7iASwlkrM="
+          "Value": "sha256-tsplAehuc8Z88pw4PHQTHGp0EVy5BJJ2O0jxWTIGAs8="
         }
       ]
     },
     {
-      "Route": "css/site.akh6k3vrhk.css",
+      "Route": "css/index.css",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\css\\index.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2355"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zhj6sCR0u46fg7koZTDKWbRiMuAt6WonjK0wk/oz/0k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 02:03:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zhj6sCR0u46fg7koZTDKWbRiMuAt6WonjK0wk/oz/0k="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.uzdzeao84r.css",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\css\\index.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2355"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zhj6sCR0u46fg7koZTDKWbRiMuAt6WonjK0wk/oz/0k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 02:03:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uzdzeao84r"
+        },
+        {
+          "Name": "label",
+          "Value": "css/index.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zhj6sCR0u46fg7koZTDKWbRiMuAt6WonjK0wk/oz/0k="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.cc4diy5x7k.css",
       "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1623,7 +2144,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5733"
+          "Value": "7281"
         },
         {
           "Name": "Content-Type",
@@ -1631,11 +2152,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ljEmeljTeMSagJTSntm65bIaQFbauQRMPDa8TDRwCJE=\""
+          "Value": "\"xP7mY4KEbRPyJFQ9Poh0ITCqzJxPIkXYTUdY6rDG8pI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Mar 2025 09:18:52 GMT"
+          "Value": "Mon, 10 Mar 2025 02:48:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1645,7 +2166,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "akh6k3vrhk"
+          "Value": "cc4diy5x7k"
         },
         {
           "Name": "label",
@@ -1653,7 +2174,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ljEmeljTeMSagJTSntm65bIaQFbauQRMPDa8TDRwCJE="
+          "Value": "sha256-xP7mY4KEbRPyJFQ9Poh0ITCqzJxPIkXYTUdY6rDG8pI="
         }
       ]
     },
@@ -1668,7 +2189,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5733"
+          "Value": "7281"
         },
         {
           "Name": "Content-Type",
@@ -1676,11 +2197,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ljEmeljTeMSagJTSntm65bIaQFbauQRMPDa8TDRwCJE=\""
+          "Value": "\"xP7mY4KEbRPyJFQ9Poh0ITCqzJxPIkXYTUdY6rDG8pI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Mar 2025 09:18:52 GMT"
+          "Value": "Mon, 10 Mar 2025 02:48:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1690,7 +2211,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ljEmeljTeMSagJTSntm65bIaQFbauQRMPDa8TDRwCJE="
+          "Value": "sha256-xP7mY4KEbRPyJFQ9Poh0ITCqzJxPIkXYTUdY6rDG8pI="
         }
       ]
     },
@@ -1777,8 +2298,8 @@
       ]
     },
     {
-      "Route": "images/01782dcd-93af-4c77-af72-a6284b767d45_pexels-quentin-martinez-2147503099-30889575.hk0bka30l3.jpg",
-      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\01782dcd-93af-4c77-af72-a6284b767d45_pexels-quentin-martinez-2147503099-30889575.jpg",
+      "Route": "images/1ccf751f-f9ca-43fe-a39a-3c3b017976d5_Dell Inspiron 15.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\1ccf751f-f9ca-43fe-a39a-3c3b017976d5_Dell Inspiron 15.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1787,7 +2308,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1382601"
+          "Value": "37236"
         },
         {
           "Name": "Content-Type",
@@ -1795,56 +2316,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"X/wOlbB/ToKRl5kf2h2B7P9A/22vCfAl0Vdx76eH8X0=\""
+          "Value": "\"n+cVJU4OketMxzHy9BLnCjCXaQ3o7XuKFvj///dURAw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 06:09:23 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "hk0bka30l3"
-        },
-        {
-          "Name": "label",
-          "Value": "images/01782dcd-93af-4c77-af72-a6284b767d45_pexels-quentin-martinez-2147503099-30889575.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-X/wOlbB/ToKRl5kf2h2B7P9A/22vCfAl0Vdx76eH8X0="
-        }
-      ]
-    },
-    {
-      "Route": "images/01782dcd-93af-4c77-af72-a6284b767d45_pexels-quentin-martinez-2147503099-30889575.jpg",
-      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\01782dcd-93af-4c77-af72-a6284b767d45_pexels-quentin-martinez-2147503099-30889575.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1382601"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"X/wOlbB/ToKRl5kf2h2B7P9A/22vCfAl0Vdx76eH8X0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 06:09:23 GMT"
+          "Value": "Mon, 10 Mar 2025 02:15:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1854,13 +2330,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-X/wOlbB/ToKRl5kf2h2B7P9A/22vCfAl0Vdx76eH8X0="
+          "Value": "sha256-n+cVJU4OketMxzHy9BLnCjCXaQ3o7XuKFvj///dURAw="
         }
       ]
     },
     {
-      "Route": "images/17b82cd8-16c5-408c-823b-774d4690b149_pexels-lynxexotics-8664306.d8xfjkli9b.jpg",
-      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\17b82cd8-16c5-408c-823b-774d4690b149_pexels-lynxexotics-8664306.jpg",
+      "Route": "images/1ccf751f-f9ca-43fe-a39a-3c3b017976d5_Dell Inspiron 15.rdb8wnu5ka.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\1ccf751f-f9ca-43fe-a39a-3c3b017976d5_Dell Inspiron 15.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1869,7 +2345,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1578143"
+          "Value": "37236"
         },
         {
           "Name": "Content-Type",
@@ -1877,11 +2353,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/egImw5i81RI9PJoBBKrcc8WZIt32l7OG796fg8fiD4=\""
+          "Value": "\"n+cVJU4OketMxzHy9BLnCjCXaQ3o7XuKFvj///dURAw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 06:09:23 GMT"
+          "Value": "Mon, 10 Mar 2025 02:15:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1891,21 +2367,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "d8xfjkli9b"
+          "Value": "rdb8wnu5ka"
         },
         {
           "Name": "label",
-          "Value": "images/17b82cd8-16c5-408c-823b-774d4690b149_pexels-lynxexotics-8664306.jpg"
+          "Value": "images/1ccf751f-f9ca-43fe-a39a-3c3b017976d5_Dell Inspiron 15.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-/egImw5i81RI9PJoBBKrcc8WZIt32l7OG796fg8fiD4="
+          "Value": "sha256-n+cVJU4OketMxzHy9BLnCjCXaQ3o7XuKFvj///dURAw="
         }
       ]
     },
     {
-      "Route": "images/17b82cd8-16c5-408c-823b-774d4690b149_pexels-lynxexotics-8664306.jpg",
-      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\17b82cd8-16c5-408c-823b-774d4690b149_pexels-lynxexotics-8664306.jpg",
+      "Route": "images/282b92de-dd0e-45df-9af0-3385ad0bbeda_Dell_XPS13Plus_2022FHD_50.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\282b92de-dd0e-45df-9af0-3385ad0bbeda_Dell_XPS13Plus_2022FHD_50.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1914,7 +2390,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1578143"
+          "Value": "397040"
         },
         {
           "Name": "Content-Type",
@@ -1922,11 +2398,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/egImw5i81RI9PJoBBKrcc8WZIt32l7OG796fg8fiD4=\""
+          "Value": "\"stS/If1/WrduHsuGNXbGA+2fgreAPeKKBqPmpZGnzsQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 06:09:23 GMT"
+          "Value": "Mon, 10 Mar 2025 01:18:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1936,13 +2412,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/egImw5i81RI9PJoBBKrcc8WZIt32l7OG796fg8fiD4="
+          "Value": "sha256-stS/If1/WrduHsuGNXbGA+2fgreAPeKKBqPmpZGnzsQ="
         }
       ]
     },
     {
-      "Route": "images/9e9c320b-919b-4174-a594-d5bd683a67d1_pexels-lynxexotics-8664302.gdug7gmh98.jpg",
-      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\9e9c320b-919b-4174-a594-d5bd683a67d1_pexels-lynxexotics-8664302.jpg",
+      "Route": "images/282b92de-dd0e-45df-9af0-3385ad0bbeda_Dell_XPS13Plus_2022FHD_50.u95wuxb1xh.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\282b92de-dd0e-45df-9af0-3385ad0bbeda_Dell_XPS13Plus_2022FHD_50.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1951,7 +2427,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1670060"
+          "Value": "397040"
         },
         {
           "Name": "Content-Type",
@@ -1959,11 +2435,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xEQQ5JBR8wIfRgpnOZPTBofwhuMMVkRhxRaVDCeNVl0=\""
+          "Value": "\"stS/If1/WrduHsuGNXbGA+2fgreAPeKKBqPmpZGnzsQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 06:09:23 GMT"
+          "Value": "Mon, 10 Mar 2025 01:18:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1973,21 +2449,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "gdug7gmh98"
+          "Value": "u95wuxb1xh"
         },
         {
           "Name": "label",
-          "Value": "images/9e9c320b-919b-4174-a594-d5bd683a67d1_pexels-lynxexotics-8664302.jpg"
+          "Value": "images/282b92de-dd0e-45df-9af0-3385ad0bbeda_Dell_XPS13Plus_2022FHD_50.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-xEQQ5JBR8wIfRgpnOZPTBofwhuMMVkRhxRaVDCeNVl0="
+          "Value": "sha256-stS/If1/WrduHsuGNXbGA+2fgreAPeKKBqPmpZGnzsQ="
         }
       ]
     },
     {
-      "Route": "images/9e9c320b-919b-4174-a594-d5bd683a67d1_pexels-lynxexotics-8664302.jpg",
-      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\9e9c320b-919b-4174-a594-d5bd683a67d1_pexels-lynxexotics-8664302.jpg",
+      "Route": "images/2b466d53-cf85-4f3f-8e0e-551ee59cf777_MSI Stealth 15M.e7tiq8z2fb.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\2b466d53-cf85-4f3f-8e0e-551ee59cf777_MSI Stealth 15M.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1996,7 +2472,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1670060"
+          "Value": "27812"
         },
         {
           "Name": "Content-Type",
@@ -2004,85 +2480,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xEQQ5JBR8wIfRgpnOZPTBofwhuMMVkRhxRaVDCeNVl0=\""
+          "Value": "\"Wo7jR5EWnKg01SLQUFUmxDbWFvoyxM4gz8hY1r2EySo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 06:09:23 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-xEQQ5JBR8wIfRgpnOZPTBofwhuMMVkRhxRaVDCeNVl0="
-        }
-      ]
-    },
-    {
-      "Route": "images/afb0addc-bc82-496f-a4e1-768f2b0fd6ed_pexels-adrian-dorobantu-989175-2127733.jpg",
-      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\afb0addc-bc82-496f-a4e1-768f2b0fd6ed_pexels-adrian-dorobantu-989175-2127733.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "821160"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"mSR91xuHggoabaeEwD+J+eAww46+b20JLNdqGJhbiz0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 02:16:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-mSR91xuHggoabaeEwD+J+eAww46+b20JLNdqGJhbiz0="
-        }
-      ]
-    },
-    {
-      "Route": "images/afb0addc-bc82-496f-a4e1-768f2b0fd6ed_pexels-adrian-dorobantu-989175-2127733.t31k6nuyk9.jpg",
-      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\afb0addc-bc82-496f-a4e1-768f2b0fd6ed_pexels-adrian-dorobantu-989175-2127733.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "821160"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"mSR91xuHggoabaeEwD+J+eAww46+b20JLNdqGJhbiz0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 02:16:50 GMT"
+          "Value": "Mon, 10 Mar 2025 02:10:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2092,21 +2494,1206 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "t31k6nuyk9"
+          "Value": "e7tiq8z2fb"
         },
         {
           "Name": "label",
-          "Value": "images/afb0addc-bc82-496f-a4e1-768f2b0fd6ed_pexels-adrian-dorobantu-989175-2127733.jpg"
+          "Value": "images/2b466d53-cf85-4f3f-8e0e-551ee59cf777_MSI Stealth 15M.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-mSR91xuHggoabaeEwD+J+eAww46+b20JLNdqGJhbiz0="
+          "Value": "sha256-Wo7jR5EWnKg01SLQUFUmxDbWFvoyxM4gz8hY1r2EySo="
         }
       ]
     },
     {
-      "Route": "images/b46b9372-5e2e-4676-abb1-4f4dfa582e3d_pexels-autorecords-10394782.jpg",
-      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\b46b9372-5e2e-4676-abb1-4f4dfa582e3d_pexels-autorecords-10394782.jpg",
+      "Route": "images/2b466d53-cf85-4f3f-8e0e-551ee59cf777_MSI Stealth 15M.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\2b466d53-cf85-4f3f-8e0e-551ee59cf777_MSI Stealth 15M.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27812"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wo7jR5EWnKg01SLQUFUmxDbWFvoyxM4gz8hY1r2EySo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 02:10:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wo7jR5EWnKg01SLQUFUmxDbWFvoyxM4gz8hY1r2EySo="
+        }
+      ]
+    },
+    {
+      "Route": "images/422468ec-522b-4503-ac46-530a4b3129cb_Surface Laptop 4.fchvqvzs13.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\422468ec-522b-4503-ac46-530a4b3129cb_Surface Laptop 4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12425"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cTB6xt/UyXmbKhVPHf9tmN4IxW1ON6mrRStsOmlAG58=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 02:12:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fchvqvzs13"
+        },
+        {
+          "Name": "label",
+          "Value": "images/422468ec-522b-4503-ac46-530a4b3129cb_Surface Laptop 4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cTB6xt/UyXmbKhVPHf9tmN4IxW1ON6mrRStsOmlAG58="
+        }
+      ]
+    },
+    {
+      "Route": "images/422468ec-522b-4503-ac46-530a4b3129cb_Surface Laptop 4.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\422468ec-522b-4503-ac46-530a4b3129cb_Surface Laptop 4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12425"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cTB6xt/UyXmbKhVPHf9tmN4IxW1ON6mrRStsOmlAG58=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 02:12:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cTB6xt/UyXmbKhVPHf9tmN4IxW1ON6mrRStsOmlAG58="
+        }
+      ]
+    },
+    {
+      "Route": "images/4375606b-1552-49d3-a12a-aa88e78397cd_MacBook Air M2.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\4375606b-1552-49d3-a12a-aa88e78397cd_MacBook Air M2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14974"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RBvD4nCJi5JeLU28OBwkxLcJrKurgGL8XgoRktY2Lx0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 02:18:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RBvD4nCJi5JeLU28OBwkxLcJrKurgGL8XgoRktY2Lx0="
+        }
+      ]
+    },
+    {
+      "Route": "images/4375606b-1552-49d3-a12a-aa88e78397cd_MacBook Air M2.s2eg8ebnkt.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\4375606b-1552-49d3-a12a-aa88e78397cd_MacBook Air M2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14974"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RBvD4nCJi5JeLU28OBwkxLcJrKurgGL8XgoRktY2Lx0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 02:18:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s2eg8ebnkt"
+        },
+        {
+          "Name": "label",
+          "Value": "images/4375606b-1552-49d3-a12a-aa88e78397cd_MacBook Air M2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RBvD4nCJi5JeLU28OBwkxLcJrKurgGL8XgoRktY2Lx0="
+        }
+      ]
+    },
+    {
+      "Route": "images/71c8c633-3f3a-495f-bcf3-029caf77922f_71y+lIHVdAL.hsw7xmcj3q.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\71c8c633-3f3a-495f-bcf3-029caf77922f_71y+lIHVdAL.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "179402"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wfqrjL6okxtLA1abIHEFkkrziBAD9/2lot+zM0dk63o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 01:20:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hsw7xmcj3q"
+        },
+        {
+          "Name": "label",
+          "Value": "images/71c8c633-3f3a-495f-bcf3-029caf77922f_71y+lIHVdAL.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wfqrjL6okxtLA1abIHEFkkrziBAD9/2lot+zM0dk63o="
+        }
+      ]
+    },
+    {
+      "Route": "images/71c8c633-3f3a-495f-bcf3-029caf77922f_71y+lIHVdAL.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\71c8c633-3f3a-495f-bcf3-029caf77922f_71y+lIHVdAL.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "179402"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wfqrjL6okxtLA1abIHEFkkrziBAD9/2lot+zM0dk63o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 01:20:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wfqrjL6okxtLA1abIHEFkkrziBAD9/2lot+zM0dk63o="
+        }
+      ]
+    },
+    {
+      "Route": "images/7fefc29a-4425-4d22-b9f6-42f61cf29b99_MSI Katana GF66.hwtb6qi4rx.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\7fefc29a-4425-4d22-b9f6-42f61cf29b99_MSI Katana GF66.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9547"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3wViIpWdZrWU6updMjl1ZuzeFPdEBAu3nUQDlHaT6GA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 02:19:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hwtb6qi4rx"
+        },
+        {
+          "Name": "label",
+          "Value": "images/7fefc29a-4425-4d22-b9f6-42f61cf29b99_MSI Katana GF66.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3wViIpWdZrWU6updMjl1ZuzeFPdEBAu3nUQDlHaT6GA="
+        }
+      ]
+    },
+    {
+      "Route": "images/7fefc29a-4425-4d22-b9f6-42f61cf29b99_MSI Katana GF66.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\7fefc29a-4425-4d22-b9f6-42f61cf29b99_MSI Katana GF66.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9547"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3wViIpWdZrWU6updMjl1ZuzeFPdEBAu3nUQDlHaT6GA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 02:19:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3wViIpWdZrWU6updMjl1ZuzeFPdEBAu3nUQDlHaT6GA="
+        }
+      ]
+    },
+    {
+      "Route": "images/82efb2fb-6383-49f8-a55d-0643f559034d_LG Gram 17.3h73xl60nk.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\82efb2fb-6383-49f8-a55d-0643f559034d_LG Gram 17.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21312"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l91wUFdddMNJ6CNTdwkYKGcDovv5PxHL34RkXPZAuzY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 02:13:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3h73xl60nk"
+        },
+        {
+          "Name": "label",
+          "Value": "images/82efb2fb-6383-49f8-a55d-0643f559034d_LG Gram 17.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l91wUFdddMNJ6CNTdwkYKGcDovv5PxHL34RkXPZAuzY="
+        }
+      ]
+    },
+    {
+      "Route": "images/82efb2fb-6383-49f8-a55d-0643f559034d_LG Gram 17.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\82efb2fb-6383-49f8-a55d-0643f559034d_LG Gram 17.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21312"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l91wUFdddMNJ6CNTdwkYKGcDovv5PxHL34RkXPZAuzY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 02:13:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l91wUFdddMNJ6CNTdwkYKGcDovv5PxHL34RkXPZAuzY="
+        }
+      ]
+    },
+    {
+      "Route": "images/876531b0-e172-41cf-833b-d0556b9aa180_Acer Swift 3.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\876531b0-e172-41cf-833b-d0556b9aa180_Acer Swift 3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27439"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"obdLcCD9xDzKEZ2u7c/MzHcTIAz6hUDOzIkdpSo0R8M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 02:19:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-obdLcCD9xDzKEZ2u7c/MzHcTIAz6hUDOzIkdpSo0R8M="
+        }
+      ]
+    },
+    {
+      "Route": "images/876531b0-e172-41cf-833b-d0556b9aa180_Acer Swift 3.nmnn1g904d.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\876531b0-e172-41cf-833b-d0556b9aa180_Acer Swift 3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27439"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"obdLcCD9xDzKEZ2u7c/MzHcTIAz6hUDOzIkdpSo0R8M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 02:19:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nmnn1g904d"
+        },
+        {
+          "Name": "label",
+          "Value": "images/876531b0-e172-41cf-833b-d0556b9aa180_Acer Swift 3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-obdLcCD9xDzKEZ2u7c/MzHcTIAz6hUDOzIkdpSo0R8M="
+        }
+      ]
+    },
+    {
+      "Route": "images/9abbab8e-8aa9-452d-ba32-6e4d7f6b4d81_Acer Predator Helios 300.29rcdy9zpl.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\9abbab8e-8aa9-452d-ba32-6e4d7f6b4d81_Acer Predator Helios 300.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29328"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CqZYwyF2OtiHhpmH+RicvTtqgf8a2jFPN4y10mLNTpQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 02:11:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "29rcdy9zpl"
+        },
+        {
+          "Name": "label",
+          "Value": "images/9abbab8e-8aa9-452d-ba32-6e4d7f6b4d81_Acer Predator Helios 300.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CqZYwyF2OtiHhpmH+RicvTtqgf8a2jFPN4y10mLNTpQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/9abbab8e-8aa9-452d-ba32-6e4d7f6b4d81_Acer Predator Helios 300.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\9abbab8e-8aa9-452d-ba32-6e4d7f6b4d81_Acer Predator Helios 300.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29328"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CqZYwyF2OtiHhpmH+RicvTtqgf8a2jFPN4y10mLNTpQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 02:11:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CqZYwyF2OtiHhpmH+RicvTtqgf8a2jFPN4y10mLNTpQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/bc5550d9-5cdc-44f1-ad28-de3af9652f25_pexels-julian-largo-622163228-17377912.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\bc5550d9-5cdc-44f1-ad28-de3af9652f25_pexels-julian-largo-622163228-17377912.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1376931"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fSOM5Mdv7oLfVhCJ6Om78Sd1ze+pBbeY3SWKZ2qmbiQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 03:16:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fSOM5Mdv7oLfVhCJ6Om78Sd1ze+pBbeY3SWKZ2qmbiQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/bc5550d9-5cdc-44f1-ad28-de3af9652f25_pexels-julian-largo-622163228-17377912.r220io6z2e.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\bc5550d9-5cdc-44f1-ad28-de3af9652f25_pexels-julian-largo-622163228-17377912.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1376931"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fSOM5Mdv7oLfVhCJ6Om78Sd1ze+pBbeY3SWKZ2qmbiQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 03:16:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r220io6z2e"
+        },
+        {
+          "Name": "label",
+          "Value": "images/bc5550d9-5cdc-44f1-ad28-de3af9652f25_pexels-julian-largo-622163228-17377912.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fSOM5Mdv7oLfVhCJ6Om78Sd1ze+pBbeY3SWKZ2qmbiQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/c4e6571a-4e5f-45fb-a28a-34104890a6b6_Dell_XPS_13.4ddgylgn00.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\c4e6571a-4e5f-45fb-a28a-34104890a6b6_Dell_XPS_13.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32916"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qD17oyW9TrUeGTQgBzYRMWS6MWR9+IIQmguJherkY6Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 01:18:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4ddgylgn00"
+        },
+        {
+          "Name": "label",
+          "Value": "images/c4e6571a-4e5f-45fb-a28a-34104890a6b6_Dell_XPS_13.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qD17oyW9TrUeGTQgBzYRMWS6MWR9+IIQmguJherkY6Y="
+        }
+      ]
+    },
+    {
+      "Route": "images/c4e6571a-4e5f-45fb-a28a-34104890a6b6_Dell_XPS_13.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\c4e6571a-4e5f-45fb-a28a-34104890a6b6_Dell_XPS_13.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32916"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qD17oyW9TrUeGTQgBzYRMWS6MWR9+IIQmguJherkY6Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 01:18:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qD17oyW9TrUeGTQgBzYRMWS6MWR9+IIQmguJherkY6Y="
+        }
+      ]
+    },
+    {
+      "Route": "images/c6b579c9-78a8-49d5-8efa-7dd25f9bce8c_HP Spectre x360.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\c6b579c9-78a8-49d5-8efa-7dd25f9bce8c_HP Spectre x360.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24065"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gdhDuyxX/lDhbRGanhaR52wyfrluFYs3aIphMY4DCnw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 02:08:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gdhDuyxX/lDhbRGanhaR52wyfrluFYs3aIphMY4DCnw="
+        }
+      ]
+    },
+    {
+      "Route": "images/c6b579c9-78a8-49d5-8efa-7dd25f9bce8c_HP Spectre x360.zr1iekndct.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\c6b579c9-78a8-49d5-8efa-7dd25f9bce8c_HP Spectre x360.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24065"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gdhDuyxX/lDhbRGanhaR52wyfrluFYs3aIphMY4DCnw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 02:08:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zr1iekndct"
+        },
+        {
+          "Name": "label",
+          "Value": "images/c6b579c9-78a8-49d5-8efa-7dd25f9bce8c_HP Spectre x360.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gdhDuyxX/lDhbRGanhaR52wyfrluFYs3aIphMY4DCnw="
+        }
+      ]
+    },
+    {
+      "Route": "images/ccd41214-5479-46ba-9733-bc1a7e316006_HP Pavilion 15.fwfrwasnb8.webp",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\ccd41214-5479-46ba-9733-bc1a7e316006_HP Pavilion 15.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9812"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wW5VP/zHUSr1HMWsGDGxbyqmYYcjMIt3R5DRi92Iv60=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 02:17:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fwfrwasnb8"
+        },
+        {
+          "Name": "label",
+          "Value": "images/ccd41214-5479-46ba-9733-bc1a7e316006_HP Pavilion 15.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wW5VP/zHUSr1HMWsGDGxbyqmYYcjMIt3R5DRi92Iv60="
+        }
+      ]
+    },
+    {
+      "Route": "images/ccd41214-5479-46ba-9733-bc1a7e316006_HP Pavilion 15.webp",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\ccd41214-5479-46ba-9733-bc1a7e316006_HP Pavilion 15.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9812"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wW5VP/zHUSr1HMWsGDGxbyqmYYcjMIt3R5DRi92Iv60=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 02:17:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wW5VP/zHUSr1HMWsGDGxbyqmYYcjMIt3R5DRi92Iv60="
+        }
+      ]
+    },
+    {
+      "Route": "images/d09e3ce3-885c-4a55-8d1a-c8907a079979_Razer Blade 15.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\d09e3ce3-885c-4a55-8d1a-c8907a079979_Razer Blade 15.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25327"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s/XzDVc4NO+lsGcnHyN7GUQiS7fnNj6SZTTuTtC1vRU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 02:13:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s/XzDVc4NO+lsGcnHyN7GUQiS7fnNj6SZTTuTtC1vRU="
+        }
+      ]
+    },
+    {
+      "Route": "images/d09e3ce3-885c-4a55-8d1a-c8907a079979_Razer Blade 15.linpbzj9h3.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\d09e3ce3-885c-4a55-8d1a-c8907a079979_Razer Blade 15.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25327"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s/XzDVc4NO+lsGcnHyN7GUQiS7fnNj6SZTTuTtC1vRU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 02:13:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "linpbzj9h3"
+        },
+        {
+          "Name": "label",
+          "Value": "images/d09e3ce3-885c-4a55-8d1a-c8907a079979_Razer Blade 15.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-s/XzDVc4NO+lsGcnHyN7GUQiS7fnNj6SZTTuTtC1vRU="
+        }
+      ]
+    },
+    {
+      "Route": "images/d0d6d55c-c8f9-40bf-b619-d9e86751aed5_c7581effbc1728fc2e529294f6cd892d-hi.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\d0d6d55c-c8f9-40bf-b619-d9e86751aed5_c7581effbc1728fc2e529294f6cd892d-hi.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "179022"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KTFkln0UTUk93DVkiaXoMlgmjzRbYYypU5KnKn5wSBI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 01:21:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KTFkln0UTUk93DVkiaXoMlgmjzRbYYypU5KnKn5wSBI="
+        }
+      ]
+    },
+    {
+      "Route": "images/d0d6d55c-c8f9-40bf-b619-d9e86751aed5_c7581effbc1728fc2e529294f6cd892d-hi.l9hrtdx8gf.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\d0d6d55c-c8f9-40bf-b619-d9e86751aed5_c7581effbc1728fc2e529294f6cd892d-hi.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "179022"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KTFkln0UTUk93DVkiaXoMlgmjzRbYYypU5KnKn5wSBI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 01:21:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l9hrtdx8gf"
+        },
+        {
+          "Name": "label",
+          "Value": "images/d0d6d55c-c8f9-40bf-b619-d9e86751aed5_c7581effbc1728fc2e529294f6cd892d-hi.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KTFkln0UTUk93DVkiaXoMlgmjzRbYYypU5KnKn5wSBI="
+        }
+      ]
+    },
+    {
+      "Route": "images/d19cdf40-a669-4fb2-9834-34b2447088c7_Lenovo Legion 5.0w2j5ducnw.webp",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\d19cdf40-a669-4fb2-9834-34b2447088c7_Lenovo Legion 5.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10268"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YO6NWZIbSBI6t9NLOjXgvXaq72SVaNlMvAQMbhhwrQc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 02:18:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0w2j5ducnw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/d19cdf40-a669-4fb2-9834-34b2447088c7_Lenovo Legion 5.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YO6NWZIbSBI6t9NLOjXgvXaq72SVaNlMvAQMbhhwrQc="
+        }
+      ]
+    },
+    {
+      "Route": "images/d19cdf40-a669-4fb2-9834-34b2447088c7_Lenovo Legion 5.webp",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\d19cdf40-a669-4fb2-9834-34b2447088c7_Lenovo Legion 5.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10268"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YO6NWZIbSBI6t9NLOjXgvXaq72SVaNlMvAQMbhhwrQc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 02:18:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YO6NWZIbSBI6t9NLOjXgvXaq72SVaNlMvAQMbhhwrQc="
+        }
+      ]
+    },
+    {
+      "Route": "images/d4707aae-f8c2-47e9-9a93-c8a691c045e6_pexels-autorecords-10394782.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\d4707aae-f8c2-47e9-9a93-c8a691c045e6_pexels-autorecords-10394782.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2127,7 +3714,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 02:16:50 GMT"
+          "Value": "Mon, 10 Mar 2025 03:16:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2142,8 +3729,8 @@
       ]
     },
     {
-      "Route": "images/b46b9372-5e2e-4676-abb1-4f4dfa582e3d_pexels-autorecords-10394782.ni234lk2yb.jpg",
-      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\b46b9372-5e2e-4676-abb1-4f4dfa582e3d_pexels-autorecords-10394782.jpg",
+      "Route": "images/d4707aae-f8c2-47e9-9a93-c8a691c045e6_pexels-autorecords-10394782.ni234lk2yb.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\d4707aae-f8c2-47e9-9a93-c8a691c045e6_pexels-autorecords-10394782.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2164,7 +3751,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 02:16:50 GMT"
+          "Value": "Mon, 10 Mar 2025 03:16:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2178,7 +3765,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/b46b9372-5e2e-4676-abb1-4f4dfa582e3d_pexels-autorecords-10394782.jpg"
+          "Value": "images/d4707aae-f8c2-47e9-9a93-c8a691c045e6_pexels-autorecords-10394782.jpg"
         },
         {
           "Name": "integrity",
@@ -2187,8 +3774,8 @@
       ]
     },
     {
-      "Route": "images/b68b9bc3-1160-41c4-9159-72a1fa02c0cc_pexels-autorecords-10292241.jpg",
-      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\b68b9bc3-1160-41c4-9159-72a1fa02c0cc_pexels-autorecords-10292241.jpg",
+      "Route": "images/e0180b82-8a3b-48da-8433-a6d847722e3f_Asus ZenBook 14.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\e0180b82-8a3b-48da-8433-a6d847722e3f_Asus ZenBook 14.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2197,7 +3784,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1004610"
+          "Value": "25013"
         },
         {
           "Name": "Content-Type",
@@ -2205,11 +3792,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"r3ENb2qgnFPYii51o0xeKEKVOZxBIJEJnjgJPM8nUZ0=\""
+          "Value": "\"SLOOvw8eInF4d2emJ3ZU3k1Kojoix4lRWXbYThnaLeU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 02:16:50 GMT"
+          "Value": "Mon, 10 Mar 2025 02:16:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2219,13 +3806,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-r3ENb2qgnFPYii51o0xeKEKVOZxBIJEJnjgJPM8nUZ0="
+          "Value": "sha256-SLOOvw8eInF4d2emJ3ZU3k1Kojoix4lRWXbYThnaLeU="
         }
       ]
     },
     {
-      "Route": "images/b68b9bc3-1160-41c4-9159-72a1fa02c0cc_pexels-autorecords-10292241.tpffhkd5wp.jpg",
-      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\b68b9bc3-1160-41c4-9159-72a1fa02c0cc_pexels-autorecords-10292241.jpg",
+      "Route": "images/e0180b82-8a3b-48da-8433-a6d847722e3f_Asus ZenBook 14.w61hf1ktdg.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\e0180b82-8a3b-48da-8433-a6d847722e3f_Asus ZenBook 14.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2234,7 +3821,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1004610"
+          "Value": "25013"
         },
         {
           "Name": "Content-Type",
@@ -2242,11 +3829,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"r3ENb2qgnFPYii51o0xeKEKVOZxBIJEJnjgJPM8nUZ0=\""
+          "Value": "\"SLOOvw8eInF4d2emJ3ZU3k1Kojoix4lRWXbYThnaLeU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 02:16:50 GMT"
+          "Value": "Mon, 10 Mar 2025 02:16:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2256,21 +3843,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "tpffhkd5wp"
+          "Value": "w61hf1ktdg"
         },
         {
           "Name": "label",
-          "Value": "images/b68b9bc3-1160-41c4-9159-72a1fa02c0cc_pexels-autorecords-10292241.jpg"
+          "Value": "images/e0180b82-8a3b-48da-8433-a6d847722e3f_Asus ZenBook 14.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-r3ENb2qgnFPYii51o0xeKEKVOZxBIJEJnjgJPM8nUZ0="
+          "Value": "sha256-SLOOvw8eInF4d2emJ3ZU3k1Kojoix4lRWXbYThnaLeU="
         }
       ]
     },
     {
-      "Route": "images/laptops/g3gnqq0h.zoj.png",
-      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\laptops\\g3gnqq0h.zoj.png",
+      "Route": "images/f045bfda-5f4b-433c-80cd-ac355e945ce2_mac_book_pro.9id0yzn9lk.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\f045bfda-5f4b-433c-80cd-ac355e945ce2_mac_book_pro.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2279,19 +3866,64 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "157344"
+          "Value": "160475"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"28RY07v0cTxI7rd1m+3+jNmzIfZ8e24ksUsATjWLINI=\""
+          "Value": "\"YcJLC7FvSTo4tgb4KrWCXGKQiGwQscAELrGjKnSJO0w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Mar 2025 03:21:34 GMT"
+          "Value": "Mon, 10 Mar 2025 01:20:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9id0yzn9lk"
+        },
+        {
+          "Name": "label",
+          "Value": "images/f045bfda-5f4b-433c-80cd-ac355e945ce2_mac_book_pro.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YcJLC7FvSTo4tgb4KrWCXGKQiGwQscAELrGjKnSJO0w="
+        }
+      ]
+    },
+    {
+      "Route": "images/f045bfda-5f4b-433c-80cd-ac355e945ce2_mac_book_pro.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\f045bfda-5f4b-433c-80cd-ac355e945ce2_mac_book_pro.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "160475"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YcJLC7FvSTo4tgb4KrWCXGKQiGwQscAELrGjKnSJO0w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 01:20:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2301,13 +3933,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-28RY07v0cTxI7rd1m+3+jNmzIfZ8e24ksUsATjWLINI="
+          "Value": "sha256-YcJLC7FvSTo4tgb4KrWCXGKQiGwQscAELrGjKnSJO0w="
         }
       ]
     },
     {
-      "Route": "images/laptops/g3gnqq0h.zoj.v7c42n75dc.png",
-      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\laptops\\g3gnqq0h.zoj.png",
+      "Route": "images/f0a5b73b-b275-4361-b166-5dccdcb0c59f_AsusTUF_Gaming_A15_1.0yvchnhgh1.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\f0a5b73b-b275-4361-b166-5dccdcb0c59f_AsusTUF_Gaming_A15_1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2316,19 +3948,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "157344"
+          "Value": "28619"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"28RY07v0cTxI7rd1m+3+jNmzIfZ8e24ksUsATjWLINI=\""
+          "Value": "\"SFY1/g8j8YvPVulZmNaQ+8bZGBcZ9Vj/uyW1Oy2Yo1Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Mar 2025 03:21:34 GMT"
+          "Value": "Mon, 10 Mar 2025 00:49:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2338,21 +3970,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "v7c42n75dc"
+          "Value": "0yvchnhgh1"
         },
         {
           "Name": "label",
-          "Value": "images/laptops/g3gnqq0h.zoj.png"
+          "Value": "images/f0a5b73b-b275-4361-b166-5dccdcb0c59f_AsusTUF_Gaming_A15_1.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-28RY07v0cTxI7rd1m+3+jNmzIfZ8e24ksUsATjWLINI="
+          "Value": "sha256-SFY1/g8j8YvPVulZmNaQ+8bZGBcZ9Vj/uyW1Oy2Yo1Q="
         }
       ]
     },
     {
-      "Route": "images/laptops/mpx02cov.w41.png",
-      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\laptops\\mpx02cov.w41.png",
+      "Route": "images/f0a5b73b-b275-4361-b166-5dccdcb0c59f_AsusTUF_Gaming_A15_1.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\f0a5b73b-b275-4361-b166-5dccdcb0c59f_AsusTUF_Gaming_A15_1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2361,19 +3993,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "157344"
+          "Value": "28619"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"28RY07v0cTxI7rd1m+3+jNmzIfZ8e24ksUsATjWLINI=\""
+          "Value": "\"SFY1/g8j8YvPVulZmNaQ+8bZGBcZ9Vj/uyW1Oy2Yo1Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Mar 2025 03:21:18 GMT"
+          "Value": "Mon, 10 Mar 2025 00:49:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2383,13 +4015,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-28RY07v0cTxI7rd1m+3+jNmzIfZ8e24ksUsATjWLINI="
+          "Value": "sha256-SFY1/g8j8YvPVulZmNaQ+8bZGBcZ9Vj/uyW1Oy2Yo1Q="
         }
       ]
     },
     {
-      "Route": "images/laptops/mpx02cov.w41.v7c42n75dc.png",
-      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\laptops\\mpx02cov.w41.png",
+      "Route": "images/f292f0e6-74ef-4489-acee-83390f850751_Dell G15.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\f292f0e6-74ef-4489-acee-83390f850751_Dell G15.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2398,64 +4030,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "157344"
+          "Value": "32285"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"28RY07v0cTxI7rd1m+3+jNmzIfZ8e24ksUsATjWLINI=\""
+          "Value": "\"TZYVTI586f1PMmOoEAhv/cwrWsyehtUSm5CO6S+v9ig=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Mar 2025 03:21:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "v7c42n75dc"
-        },
-        {
-          "Name": "label",
-          "Value": "images/laptops/mpx02cov.w41.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-28RY07v0cTxI7rd1m+3+jNmzIfZ8e24ksUsATjWLINI="
-        }
-      ]
-    },
-    {
-      "Route": "images/laptops/pumokvpf.v4q.png",
-      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\laptops\\pumokvpf.v4q.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "157344"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"28RY07v0cTxI7rd1m+3+jNmzIfZ8e24ksUsATjWLINI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 01 Mar 2025 03:21:27 GMT"
+          "Value": "Mon, 10 Mar 2025 02:20:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2465,13 +4052,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-28RY07v0cTxI7rd1m+3+jNmzIfZ8e24ksUsATjWLINI="
+          "Value": "sha256-TZYVTI586f1PMmOoEAhv/cwrWsyehtUSm5CO6S+v9ig="
         }
       ]
     },
     {
-      "Route": "images/laptops/pumokvpf.v4q.v7c42n75dc.png",
-      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\laptops\\pumokvpf.v4q.png",
+      "Route": "images/f292f0e6-74ef-4489-acee-83390f850751_Dell G15.l2nyplkiv0.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\f292f0e6-74ef-4489-acee-83390f850751_Dell G15.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2480,19 +4067,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "157344"
+          "Value": "32285"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"28RY07v0cTxI7rd1m+3+jNmzIfZ8e24ksUsATjWLINI=\""
+          "Value": "\"TZYVTI586f1PMmOoEAhv/cwrWsyehtUSm5CO6S+v9ig=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Mar 2025 03:21:27 GMT"
+          "Value": "Mon, 10 Mar 2025 02:20:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2502,15 +4089,179 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "v7c42n75dc"
+          "Value": "l2nyplkiv0"
         },
         {
           "Name": "label",
-          "Value": "images/laptops/pumokvpf.v4q.png"
+          "Value": "images/f292f0e6-74ef-4489-acee-83390f850751_Dell G15.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-28RY07v0cTxI7rd1m+3+jNmzIfZ8e24ksUsATjWLINI="
+          "Value": "sha256-TZYVTI586f1PMmOoEAhv/cwrWsyehtUSm5CO6S+v9ig="
+        }
+      ]
+    },
+    {
+      "Route": "images/fad9945a-ad20-4939-8abb-10d0bc7f126f_Lenovo ThinkPad X1 Carbon.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\fad9945a-ad20-4939-8abb-10d0bc7f126f_Lenovo ThinkPad X1 Carbon.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21180"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rz7PJvSbRLLj9RotCu3BnmXqqsBBimN5VOFOSHsqdPY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 02:09:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rz7PJvSbRLLj9RotCu3BnmXqqsBBimN5VOFOSHsqdPY="
+        }
+      ]
+    },
+    {
+      "Route": "images/fad9945a-ad20-4939-8abb-10d0bc7f126f_Lenovo ThinkPad X1 Carbon.xwnxuzgm9w.jpg",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\fad9945a-ad20-4939-8abb-10d0bc7f126f_Lenovo ThinkPad X1 Carbon.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21180"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rz7PJvSbRLLj9RotCu3BnmXqqsBBimN5VOFOSHsqdPY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 02:09:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xwnxuzgm9w"
+        },
+        {
+          "Name": "label",
+          "Value": "images/fad9945a-ad20-4939-8abb-10d0bc7f126f_Lenovo ThinkPad X1 Carbon.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rz7PJvSbRLLj9RotCu3BnmXqqsBBimN5VOFOSHsqdPY="
+        }
+      ]
+    },
+    {
+      "Route": "images/fc0dac5e-4a12-4e06-a348-b7aaf00d5c17_HP Envy 13.dbrol5qbtt.webp",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\fc0dac5e-4a12-4e06-a348-b7aaf00d5c17_HP Envy 13.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12372"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SWnmrAdI5SJsaE+I0MYCJbRMnsXT1P6Ay7esdFNfSpw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 02:21:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dbrol5qbtt"
+        },
+        {
+          "Name": "label",
+          "Value": "images/fc0dac5e-4a12-4e06-a348-b7aaf00d5c17_HP Envy 13.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SWnmrAdI5SJsaE+I0MYCJbRMnsXT1P6Ay7esdFNfSpw="
+        }
+      ]
+    },
+    {
+      "Route": "images/fc0dac5e-4a12-4e06-a348-b7aaf00d5c17_HP Envy 13.webp",
+      "AssetFile": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\images\\fc0dac5e-4a12-4e06-a348-b7aaf00d5c17_HP Envy 13.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12372"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SWnmrAdI5SJsaE+I0MYCJbRMnsXT1P6Ay7esdFNfSpw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 02:21:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SWnmrAdI5SJsaE+I0MYCJbRMnsXT1P6Ay7esdFNfSpw="
         }
       ]
     },

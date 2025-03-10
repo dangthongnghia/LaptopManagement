@@ -3,20 +3,88 @@
   "WorkspaceRootPath": "D:\\ASP.Net\\LaptopManagement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\controllers\\laptopscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|solutionrelative:laptopmanagement\\controllers\\laptopscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|solutionrelative:laptopmanagement\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\wwwroot\\css\\about.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|solutionrelative:laptopmanagement\\wwwroot\\css\\about.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|solutionrelative:laptopmanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\wwwroot\\css\\details.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|solutionrelative:laptopmanagement\\wwwroot\\css\\details.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|solutionrelative:laptopmanagement\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|solutionrelative:laptopmanagement\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|solutionrelative:laptopmanagement\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|solutionrelative:laptopmanagement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\views\\laptops\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|solutionrelative:laptopmanagement\\views\\laptops\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\views\\laptops\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|solutionrelative:laptopmanagement\\views\\laptops\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|solutionrelative:laptopmanagement\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\views\\laptops\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|solutionrelative:laptopmanagement\\views\\laptops\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\views\\laptops\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|solutionrelative:laptopmanagement\\views\\laptops\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|solutionrelative:laptopmanagement\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\views\\laptops\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|solutionrelative:laptopmanagement\\views\\laptops\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\models\\laptop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|solutionrelative:laptopmanagement\\models\\laptop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|solutionrelative:laptopmanagement\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|solutionrelative:laptopmanagement\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|solutionrelative:laptopmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\data\\laptopmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|solutionrelative:laptopmanagement\\data\\laptopmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\controllers\\laptopscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|solutionrelative:laptopmanagement\\controllers\\laptopscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|solutionrelative:laptopmanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,52 +99,8 @@
       "RelativeMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|solutionrelative:laptopmanagement\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|solutionrelative:laptopmanagement\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|solutionrelative:laptopmanagement\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\models\\laptop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|solutionrelative:laptopmanagement\\models\\laptop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\views\\laptops\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|solutionrelative:laptopmanagement\\views\\laptops\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\views\\laptops\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|solutionrelative:laptopmanagement\\views\\laptops\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\wwwroot\\css\\details.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|solutionrelative:laptopmanagement\\wwwroot\\css\\details.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|solutionrelative:laptopmanagement\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\views\\laptops\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|solutionrelative:laptopmanagement\\views\\laptops\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|solutionrelative:laptopmanagement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|solutionrelative:laptopmanagement\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|solutionrelative:laptopmanagement\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\views\\laptops\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|solutionrelative:laptopmanagement\\views\\laptops\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78DE22A8-B13B-4818-8FB9-477BABF8F6A0}|LaptopManagement\\LaptopManagement.csproj|d:\\asp.net\\laptopmanagement\\laptopmanagement\\migrations\\20250309090553_category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -90,11 +114,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 17,
+          "SelectedChildIndex": 24,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 2,
+              "Title": "about.css",
+              "DocumentMoniker": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\css\\about.css",
+              "RelativeDocumentMoniker": "LaptopManagement\\wwwroot\\css\\about.css",
+              "ToolTip": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\css\\about.css",
+              "RelativeToolTip": "LaptopManagement\\wwwroot\\css\\about.css",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAkwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-10T03:07:36.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "LaptopManagement\\Views\\Home\\About.cshtml",
+              "ToolTip": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "LaptopManagement\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T03:05:33.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "index.css",
+              "DocumentMoniker": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\css\\index.css",
+              "RelativeDocumentMoniker": "LaptopManagement\\wwwroot\\css\\index.css",
+              "ToolTip": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\css\\index.css",
+              "RelativeToolTip": "LaptopManagement\\wwwroot\\css\\index.css",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-10T01:26:45.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\Views\\Laptops\\Details.cshtml",
+              "RelativeDocumentMoniker": "LaptopManagement\\Views\\Laptops\\Details.cshtml",
+              "ToolTip": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\Views\\Laptops\\Details.cshtml",
+              "RelativeToolTip": "LaptopManagement\\Views\\Laptops\\Details.cshtml",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAAAIIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T01:11:01.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "LaptopManagement\\Views\\Orders\\Index.cshtml",
+              "ToolTip": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "LaptopManagement\\Views\\Orders\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T00:54:54.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "LaptopManagement\\Controllers\\OrdersController.cs",
+              "ToolTip": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "LaptopManagement\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T00:54:23.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "20250309090553_Category.cs",
               "DocumentMoniker": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\Migrations\\20250309090553_Category.cs",
               "RelativeDocumentMoniker": "LaptopManagement\\Migrations\\20250309090553_Category.cs",
@@ -106,19 +208,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\Views\\Laptops\\Create.cshtml",
               "RelativeDocumentMoniker": "LaptopManagement\\Views\\Laptops\\Create.cshtml",
               "ToolTip": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\Views\\Laptops\\Create.cshtml",
               "RelativeToolTip": "LaptopManagement\\Views\\Laptops\\Create.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-09T08:45:05.462Z"
+              "WhenOpened": "2025-03-09T08:45:05.462Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 23,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\Views\\Category\\Create.cshtml",
               "RelativeDocumentMoniker": "LaptopManagement\\Views\\Category\\Create.cshtml",
@@ -130,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 22,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\Views\\Category\\Index.cshtml",
               "RelativeDocumentMoniker": "LaptopManagement\\Views\\Category\\Index.cshtml",
@@ -142,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 21,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "LaptopManagement\\Controllers\\CategoryController.cs",
@@ -154,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\Models\\Category.cs",
               "RelativeDocumentMoniker": "LaptopManagement\\Models\\Category.cs",
@@ -162,11 +265,12 @@
               "RelativeToolTip": "LaptopManagement\\Models\\Category.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T08:28:42.126Z"
+              "WhenOpened": "2025-03-09T08:28:42.126Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 13,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\Views\\Laptops\\Delete.cshtml",
               "RelativeDocumentMoniker": "LaptopManagement\\Views\\Laptops\\Delete.cshtml",
@@ -174,79 +278,86 @@
               "RelativeToolTip": "LaptopManagement\\Views\\Laptops\\Delete.cshtml",
               "ViewState": "AgIAAD8AAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-03T07:01:46.803Z"
+              "WhenOpened": "2025-03-03T07:01:46.803Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 10,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\Views\\Laptops\\Edit.cshtml",
               "RelativeDocumentMoniker": "LaptopManagement\\Views\\Laptops\\Edit.cshtml",
               "ToolTip": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\Views\\Laptops\\Edit.cshtml",
               "RelativeToolTip": "LaptopManagement\\Views\\Laptops\\Edit.cshtml",
-              "ViewState": "AgIAACIAAAAAAAAAAAAswEQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAmwFYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-03T07:01:36.427Z"
+              "WhenOpened": "2025-03-03T07:01:36.427Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
               "Title": "Order.cs",
               "DocumentMoniker": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\Models\\Order.cs",
               "RelativeDocumentMoniker": "LaptopManagement\\Models\\Order.cs",
               "ToolTip": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\Models\\Order.cs",
               "RelativeToolTip": "LaptopManagement\\Models\\Order.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA3wA4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwAsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T06:57:04.479Z"
+              "WhenOpened": "2025-03-03T06:57:04.479Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 4,
               "Title": "details.css",
               "DocumentMoniker": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\css\\details.css",
               "RelativeDocumentMoniker": "LaptopManagement\\wwwroot\\css\\details.css",
               "ToolTip": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\css\\details.css",
               "RelativeToolTip": "LaptopManagement\\wwwroot\\css\\details.css",
-              "ViewState": "AgIAAFkAAAAAMDMzMzPrvxoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-03T06:49:51.294Z"
+              "WhenOpened": "2025-03-03T06:49:51.294Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 6,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\Views\\Home\\Details.cshtml",
               "RelativeDocumentMoniker": "LaptopManagement\\Views\\Home\\Details.cshtml",
               "ToolTip": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\Views\\Home\\Details.cshtml",
               "RelativeToolTip": "LaptopManagement\\Views\\Home\\Details.cshtml",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAswIAAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAYwIEAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-03T03:42:05.01Z"
+              "WhenOpened": "2025-03-03T03:42:05.01Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 7,
               "Title": "site.css",
               "DocumentMoniker": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "LaptopManagement\\wwwroot\\css\\site.css",
               "ToolTip": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\wwwroot\\css\\site.css",
               "RelativeToolTip": "LaptopManagement\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAPIAAAAAAAAAAAAAAC8BAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-03T03:27:56.407Z"
+              "WhenOpened": "2025-03-03T03:27:56.407Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "LaptopManagement\\Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "LaptopManagement\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAswEEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwBAAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-03T00:30:06.466Z"
+              "WhenOpened": "2025-03-03T00:30:06.466Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -256,25 +367,27 @@
               "RelativeDocumentMoniker": "LaptopManagement\\Controllers\\HomeController.cs",
               "ToolTip": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\Controllers\\HomeController.cs",
               "RelativeToolTip": "LaptopManagement\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAAFIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T00:18:00.217Z"
+              "WhenOpened": "2025-03-03T00:18:00.217Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\Views\\Laptops\\Index.cshtml",
               "RelativeDocumentMoniker": "LaptopManagement\\Views\\Laptops\\Index.cshtml",
               "ToolTip": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\Views\\Laptops\\Index.cshtml",
               "RelativeToolTip": "LaptopManagement\\Views\\Laptops\\Index.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAcwCEAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwCUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-01T02:01:44.202Z"
+              "WhenOpened": "2025-03-01T02:01:44.202Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 20,
               "Title": "LaptopManagementContext.cs",
               "DocumentMoniker": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\Data\\LaptopManagementContext.cs",
               "RelativeDocumentMoniker": "LaptopManagement\\Data\\LaptopManagementContext.cs",
@@ -282,12 +395,11 @@
               "RelativeToolTip": "LaptopManagement\\Data\\LaptopManagementContext.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAkwA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T01:49:36.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-01T01:49:36.063Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\Views\\Orders\\Create.cshtml",
               "RelativeDocumentMoniker": "LaptopManagement\\Views\\Orders\\Create.cshtml",
@@ -299,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 19,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\appsettings.json",
               "RelativeDocumentMoniker": "LaptopManagement\\appsettings.json",
@@ -312,27 +424,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "LaptopsController.cs",
               "DocumentMoniker": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\Controllers\\LaptopsController.cs",
               "RelativeDocumentMoniker": "LaptopManagement\\Controllers\\LaptopsController.cs",
-              "ToolTip": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\Controllers\\LaptopsController.cs",
-              "RelativeToolTip": "LaptopManagement\\Controllers\\LaptopsController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCAAAAAJAAAAAAAAAA==",
+              "ToolTip": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\Controllers\\LaptopsController.cs*",
+              "RelativeToolTip": "LaptopManagement\\Controllers\\LaptopsController.cs*",
+              "ViewState": "AgIAAH8BAAAAAAAAAAAAAI4BAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T01:49:31.375Z"
+              "WhenOpened": "2025-03-01T01:49:31.375Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "Laptop.cs",
               "DocumentMoniker": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\Models\\Laptop.cs",
               "RelativeDocumentMoniker": "LaptopManagement\\Models\\Laptop.cs",
               "ToolTip": "D:\\ASP.Net\\LaptopManagement\\LaptopManagement\\Models\\Laptop.cs",
               "RelativeToolTip": "LaptopManagement\\Models\\Laptop.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAYwBIAAABTAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAiwBIAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T01:44:18.267Z"
+              "WhenOpened": "2025-03-01T01:44:18.267Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -5,8 +5,11 @@
 }
 
 <div class="container mt-5 p-4 bg-light rounded-3 shadow-sm">
-    <h1 class="text-center text-primary mb-4">Chi tiết Laptop</h1>
+    <div class="action-buttons mb-4 d-flex gap-2 flex-wrap">
+        <a asp-action="Index" class="btn btn-primary rounded-pill px-4">Quay lại</a>
 
+    </div>
+    <h1 class="text-center text-primary mb-4">Chi tiết Laptop</h1>
     <!-- Thông báo thành công/thất bại -->
     @if (TempData["SuccessMessage"] != null)
     {
@@ -31,9 +34,10 @@
                     <div class="carousel-inner">
                         @if (Model.Images != null && Model.Images.Any())
                         {
+                            var primaryImage = Model.Images.FirstOrDefault(img => img.IsPrimary) ?? Model.Images.FirstOrDefault();
                             @foreach (var image in Model.Images)
                             {
-                                <div class="carousel-item @(image.IsPrimary ? "active" : "")">
+                                <div class="carousel-item @(image == primaryImage ? "active" : "")">
                                     <div class="image-container position-relative" style="height: 500px;">
                                         <img src="@image.ImagePath" class="img-fluid rounded-3 detail-img w-100 h-100" alt="@Model.Name" />
                                         <div class="image-overlay"></div>
@@ -86,11 +90,7 @@
                             }
                         </p>
                     </div>
-                    <div class="action-buttons mb-4 d-flex gap-2 flex-wrap">
-                        <a asp-action="Index" class="btn btn-primary rounded-pill px-4">Quay lại</a>
-                        <a asp-controller="Laptops" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning rounded-pill px-4">Sửa</a>
-                        <a asp-controller="Laptops" asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger rounded-pill px-4">Xóa</a>
-                    </div>
+
 
                     <!-- Form đặt hàng -->
                     @if (Model.Status)

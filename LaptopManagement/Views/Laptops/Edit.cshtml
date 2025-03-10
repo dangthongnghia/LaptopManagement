@@ -1,69 +1,87 @@
 ﻿@model LaptopManagement.Models.Laptop
 
 @{
-    ViewData["Title"] = "Chỉnh sửa Laptop";
+    ViewData["Title"] = "Edit Laptop";
 }
 
-<h2>Chỉnh sửa Laptop</h2>
+<h1>Edit Laptop</h1>
 
-<form asp-action="Edit" enctype="multipart/form-data" method="post">
-    <div class="form-group">
-        <input type="hidden" asp-for="Id" />
-        <label asp-for="Name" class="control-label"></label>
-        <input asp-for="Name" class="form-control" />
-        <span asp-validation-for="Name" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="Brand" class="control-label"></label>
-        <input asp-for="Brand" class="form-control" />
-        <span asp-validation-for="Brand" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="Price" class="control-label"></label>
-        <input asp-for="Price" class="form-control" />
-        <span asp-validation-for="Price" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="CPU" class="control-label"></label>
-        <input asp-for="CPU" class="form-control" />
-        <span asp-validation-for="CPU" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="RAM" class="control-label"></label>
-        <input asp-for="RAM" class="form-control" />
-        <span asp-validation-for="RAM" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="Storage" class="control-label"></label>
-        <input asp-for="Storage" class="form-control" />
-        <span asp-validation-for="Storage" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="Status" class="control-label"></label>
-        <input asp-for="Status" type="checkbox" class="form-check-input" />
-        <span asp-validation-for="Status" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label class="control-label">Ảnh hiện tại</label>
-        @if (Model.Images != null && Model.Images.Any())
-        {
-            <div class="current-images mb-3">
-                @foreach (var image in Model.Images)
-                {
-                    <img src="@image.ImagePath" alt="@Model.Name" class="img-thumbnail me-2" style="max-width: 150px;" />
-                }
+<h4>Laptop</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
             </div>
-        }
-        <label class="control-label">Tải thêm ảnh (tùy chọn)</label>
-        <input type="file" name="imageFiles" class="form-control-file" accept="image/*" multiple />
-        <span class="text-danger">@ViewData.ModelState["imageFiles"]?.Errors.FirstOrDefault()?.ErrorMessage</span>
+            <div class="form-group">
+                <label asp-for="Brand" class="control-label"></label>
+                <input asp-for="Brand" class="form-control" />
+                <span asp-validation-for="Brand" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CPU" class="control-label"></label>
+                <input asp-for="CPU" class="form-control" />
+                <span asp-validation-for="CPU" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RAM" class="control-label"></label>
+                <input asp-for="RAM" class="form-control" />
+                <span asp-validation-for="RAM" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Storage" class="control-label"></label>
+                <input asp-for="Storage" class="form-control" />
+                <span asp-validation-for="Storage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Status" class="control-label"></label>
+                <input asp-for="Status" class="form-control" />
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CategoryId" class="control-label"></label>
+                <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.Categories"></select>
+                <span asp-validation-for="CategoryId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Upload New Images</label>
+                <input type="file" name="imageFiles" multiple class="form-control" />
+            </div>
+            <div class="form-group">
+                <label>Current Images</label>
+                <div>
+                    @foreach (var image in Model.Images)
+                    {
+                        <div>
+                            <img src="@image.ImagePath" alt="Laptop Image" width="100" />
+                            <input type="checkbox" name="deleteImages" value="@image.Id" /> Delete
+                        </div>
+                    }
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
     </div>
-    <div class="form-group mt-3">
-        <input type="submit" value="Lưu" class="btn btn-primary" />
-        <a asp-action="Index" class="btn btn-secondary ms-2">Quay lại</a>
-    </div>
-</form>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
 
 @section Scripts {
-    <partial name="_ValidationScriptsPartial" />
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

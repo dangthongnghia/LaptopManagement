@@ -7,27 +7,74 @@
 <div class="container mt-5">
     <h1>Danh sách Laptop</h1>
 
-    <!-- Form tìm kiếm -->
-    <form asp-action="Index" method="get" class="mb-4">
-        <div class="input-group">
-            <input type="text" name="searchString" class="form-control" placeholder="Tìm theo tên hoặc hãng..." value="@ViewData["CurrentFilter"]" />
-            <button type="submit" class="btn btn-primary">Tìm kiếm</button>
+    <!-- Form tìm kiếm và lọc -->
+    <!-- Form tìm kiếm và lọc -->
+    <form asp-action="Index" method="get" class="form mb-4">
+        <div class="row">
+            <div class="col-md-3">
+                <label for="search">Tìm kiếm</label>
+                <input autocomplete="off" placeholder="Tìm theo tên hoặc hãng..." id="search" name="searchString" type="text" value="@ViewData["CurrentFilter"]" class="form-control">
+            </div>
+            <div class="col-md-3">
+                <label for="brand">Hãng</label>
+                <select id="brand" name="brand" class="form-control">
+                    <option value="">Tất cả</option>
+                    @foreach (var b in Model.Select(m => m.Brand).Distinct())
+                    {
+                        if (b == ViewData["CurrentBrand"]?.ToString())
+                        {
+                            <option value="@b" selected>@b</option>
+                        }
+                        else
+                        {
+                            <option value="@b">@b</option>
+                        }
+                    }
+                </select>
+            </div>
+            <div class="col-md-2">
+                <label for="minPrice">Giá từ</label>
+                <input type="number" id="minPrice" name="minPrice" class="form-control" value="@ViewData["CurrentMinPrice"]" />
+            </div>
+            <div class="col-md-2">
+                <label for="maxPrice">Đến</label>
+                <input type="number" id="maxPrice" name="maxPrice" class="form-control" value="@ViewData["CurrentMaxPrice"]" />
+            </div>
+            <div class="col-md-2">
+                <label for="status">Trạng thái</label>
+                <select id="status" name="status" class="form-control">
+                    <option value="">Tất cả</option>
+                    @foreach (var statusOption in new[] { new { Value = "true", Text = "Còn hàng" }, new { Value = "false", Text = "Hết hàng" } })
+                    {
+                        if (statusOption.Value == ViewData["CurrentStatus"]?.ToString())
+                        {
+                            <option value="@statusOption.Value" selected>@statusOption.Text</option>
+                        }
+                        else
+                        {
+                            <option value="@statusOption.Value">@statusOption.Text</option>
+                        }
+                    }
+                </select>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <button type="submit" class="btn btn-primary">Lọc</button>
+                <a asp-action="Index" class="btn btn-secondary">Xóa bộ lọc</a>
+            </div>
         </div>
     </form>
 
-    <!-- Nút thêm Laptop -->
-    <div class="mb-4">
-        <a asp-controller="Laptops" asp-action="Create" class="btn btn-success">Thêm Laptop mới</a>
-    </div>
 
     <!-- Danh sách Laptop dạng Card -->
     <div class="row">
         @foreach (var laptop in Model)
         {
-            <div class="col-md-4 col-sm-6 mb-4">
+            <div class="col-md-3 col-sm-4 mb-4">
                 <a asp-controller="Home" asp-action="Details" asp-route-id="@laptop.Id" class="card-link">
-                    <div class="laptop-card">
-                        <div class="image-container position-relative" style="height: 500px;">
+                    <div class="card">
+                        <div class="image_container">
                             @if (laptop.Images != null && laptop.Images.Any())
                             {
                                 <img src="@laptop.Images.First().ImagePath" class="img-fluid rounded-3 detail-img w-100 h-100" alt="@laptop.Name" />
@@ -36,23 +83,20 @@
                             {
                                 <img src="/images/default-laptop.jpg" class="img-fluid rounded-3 detail-img w-100 h-100" alt="No Image" />
                             }
-                            <div class="image-overlay"></div>
                         </div>
-                        <div class="card-body">
-                            <h5 class="card-title">@laptop.Name</h5>
-                            <p class="card-text">
-                                <strong>Hãng:</strong> @laptop.Brand<br />
-                                <strong>Giá:</strong> @laptop.Price.ToString("C", new System.Globalization.CultureInfo("vi-VN"))<br />
-                                <strong>Trạng thái:</strong>
-                                @if (laptop.Status)
-                                {
-                                    <span class="badge bg-success">Còn hàng</span>
-                                }
-                                else
-                                {
-                                    <span class="badge bg-danger">Hết hàng</span>
-                                }
-                            </p>
+                        <div class="title">
+                            <span>@laptop.Name</span>
+                        </div>
+                        <div class="size">
+                            <span>Hãng:</span>
+                            <ul class="list-size">
+                                <li class="item-list"><span>@laptop.Brand</span></li>
+                            </ul>
+                        </div>
+                        <div class="action">
+                            <div class="price">
+                                <span>@laptop.Price.ToString("C", new System.Globalization.CultureInfo("vi-VN"))</span>
+                            </div>
                         </div>
                     </div>
                 </a>
@@ -63,3 +107,4 @@
 
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="~/css/index.css" />

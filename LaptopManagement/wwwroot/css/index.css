@@ -1,0 +1,124 @@
+﻿/* Thêm các lớp CSS tùy chỉnh cho card mới vào tệp CSS của bạn */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s;
+    --bg-card: #27272a;
+    --primary: #6d28d9;
+    --primary-800: #4c1d95;
+    --primary-shadow: #2e1065;
+    --light: #d9d9d9;
+    --zinc-800: #18181b;
+    --bg-linear: linear-gradient(0deg, var(--primary) 50%, var(--light) 125%);
+}
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+.image_container {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}
+
+    .image_container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+.title {
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.size {
+    padding: 10px;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.price {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.cart-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+    .cart-button svg {
+        margin-right: 5px;
+    }
+
+    .cart-button:hover {
+        background-color: #0056b3;
+    }
+
+
+
+
+.form {
+    background: #f8f9fa; /* Màu nền nhẹ */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+    .form label {
+        font-weight: bold;
+        margin-bottom: 5px;
+        display: block;
+    }
+
+    .form .form-control {
+        border-radius: 6px;
+        border: 1px solid #ced4da;
+        padding: 8px;
+    }
+
+    .form .btn {
+        padding: 10px 15px;
+        font-size: 16px;
+        border-radius: 6px;
+    }
+
+    .form .btn-primary {
+        background: #007bff;
+        border: none;
+    }
+
+        .form .btn-primary:hover {
+            background: #0056b3;
+        }
+
+    .form .btn-secondary {
+        background: #6c757d;
+        border: none;
+    }
+
+        .form .btn-secondary:hover {
+            background: #5a6268;
+        }
+
+/* Responsive - Định dạng cho màn hình nhỏ */
+@media (max-width: 768px) {
+    .form .row > div {
+        margin-bottom: 10px;
+    }
+}

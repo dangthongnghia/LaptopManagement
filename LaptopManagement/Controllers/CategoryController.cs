@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using LaptopManagement; // Ensure this namespace exists and is correctly referenced
 
+// Controllers/CategoryController.cs
 public class CategoryController : Controller
 {
     private readonly LaptopManagementContext _context;
@@ -12,60 +13,50 @@ public class CategoryController : Controller
         _context = context;
     }
 
-    // Hiển thị danh sách Category
-    public IActionResult Index()
+    // GET: Category
+    public async Task<IActionResult> Index()
     {
-        var categories = _context.Set<Category>().ToList(); // Use Set<Category>() instead of _context.Categories
-        return View(categories);
+        return View(await _context.Categories.ToListAsync());
     }
 
-    // Tạo Category mới (GET)
+    // GET: Category/Create
     public IActionResult Create()
     {
         return View();
     }
 
-    // Tạo Category mới (POST)
+    // POST: Category/Create
     [HttpPost]
-    public IActionResult Create(Category category)
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> Create([Bind("Name")] Category category)
     {
-        if (ModelState.IsValid)
+        try
         {
-            _context.Set<Category>().Add(category); // Use Set<Category>() instead of _context.Categories
-            _context.SaveChanges();
-            return RedirectToAction("Index");
+            if (ModelState.IsValid)
+            {
+                Console.WriteLine($"Attempting to create category: {category.Name}");
+                _context.Add(category);
+                await _context.SaveChangesAsync();
+                Console.WriteLine($"Category created successfully with ID: {category.Id}");
+                return RedirectToAction(nameof(Index));
+            }
+            else
+            {
+                Console.WriteLine("ModelState is invalid. Validation errors:");
+                foreach (var modelStateEntry in ModelState.Values)
+                {
+                    foreach (var error in modelStateEntry.Errors)
+                    {
+                        Console.WriteLine($"- {error.ErrorMessage}");
+                    }
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error creating category: {ex.Message}");
+            ModelState.AddModelError("", "Không thể tạo danh mục. Vui lòng thử lại.");
         }
         return View(category);
-    }
-
-    // Sửa Category (GET)
-    public IActionResult Edit(int id)
-    {
-        var category = _context.Set<Category>().Find(id); // Use Set<Category>() instead of _context.Categories
-        if (category == null) return NotFound();
-        return View(category);
-    }
-
-    // Sửa Category (POST)
-    [HttpPost]
-    public IActionResult Edit(Category category)
-    {
-        if (ModelState.IsValid)
-        {
-            _context.Set<Category>().Update(category); // Use Set<Category>() instead of _context.Categories
-            _context.SaveChanges();
-            return RedirectToAction("Index");
-        }
-        return View(category);
-    }
-
-    // Xóa Category
-    public IActionResult Delete(int id)
-    {
-        var category = _context.Set<Category>().Find(id); // Use Set<Category>() instead of _context.Categories
-        if (category == null) return NotFound();
-        _context.Set<Category>().Remove(category); // Use Set<Category>() instead of _context.Categories
-        _context.SaveChanges();
-        return RedirectToAction("Index");
     }
 }
