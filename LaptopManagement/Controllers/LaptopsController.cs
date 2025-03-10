@@ -49,101 +49,166 @@ namespace LaptopManagement.Controllers
         // GET: Laptops/Create
         public IActionResult Create()
         {
-            ViewBag.Categories = new SelectList(_context.Categories, "Id", "Name");
+            // Log để kiểm tra categories có dữ liệu không
+            var categories = _context.Categories.ToList();
+            Console.WriteLine($"Available Categories: {categories.Count}");
+            foreach (var category in categories)
+            {
+                Console.WriteLine($"Category: Id={category.Id}, Name={category.Name}");
+            }
 
+            ViewBag.Categories = new SelectList(categories, "Id", "Name");
             return View();
         }
 
         // POST: Laptops/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Brand,Price,CPU,RAM,Storage,Status")] Laptop laptop, List<IFormFile> imageFiles)
+        public async Task<IActionResult> Create([Bind("Id,Name,Brand,Price,CPU,RAM,Storage,Status,CategoryId")] Laptop laptop, List<IFormFile> imageFiles)
         {
-            if (ModelState.IsValid)
+            Console.WriteLine("=== BEGIN CREATE LAPTOP ===");
+            Console.WriteLine($"Input Data: Name={laptop.Name}, Brand={laptop.Brand}, Price={laptop.Price}, CategoryId={laptop.CategoryId}");
+
+            // Kiểm tra ModelState
+            if (!ModelState.IsValid)
+            {
+                Console.WriteLine("ModelState is invalid. Validation errors:");
+                foreach (var modelStateEntry in ModelState.Values)
+                {
+                    foreach (var error in modelStateEntry.Errors)
+                    {
+                        Console.WriteLine($"- {error.ErrorMessage}");
+                    }
+                }
+                ViewBag.Categories = new SelectList(_context.Categories, "Id", "Name");
+                return View(laptop);
+            }
+
+            try
             {
                 var images = new List<LaptopImage>();
+                Console.WriteLine($"Processing {imageFiles?.Count ?? 0} image files");
 
                 if (imageFiles != null && imageFiles.Count > 0)
                 {
                     string uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "images");
+                    Console.WriteLine($"Upload folder path: {uploadsFolder}");
+
                     if (!Directory.Exists(uploadsFolder))
                     {
                         Directory.CreateDirectory(uploadsFolder);
+                        Console.WriteLine("Created uploads folder");
                     }
 
                     foreach (var file in imageFiles)
                     {
+                        Console.WriteLine($"Processing file: {file.FileName}, Size: {file.Length} bytes");
+
                         if (file.Length > 0)
                         {
+                            // Validate image file
                             if (!file.ContentType.StartsWith("image/"))
                             {
+                                Console.WriteLine($"Invalid file type: {file.ContentType}");
                                 ModelState.AddModelError("imageFiles", "Vui lòng chọn file ảnh (jpg, png, etc.).");
                                 continue;
                             }
-                            if (file.Length > 5 * 1024 * 1024) // Giới hạn 5MB
+                            if (file.Length > 5 * 1024 * 1024)
                             {
+                                Console.WriteLine($"File too large: {file.Length} bytes");
                                 ModelState.AddModelError("imageFiles", "Kích thước file không được vượt quá 5MB.");
                                 continue;
                             }
 
-                            string uniqueFileName = Guid.NewGuid().ToString() + "_" + file.FileName;
-                            string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+                            try
+                            {
+                                string uniqueFileName = Guid.NewGuid().ToString() + "_" + file.FileName;
+                                string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+                                Console.WriteLine($"Saving file to: {filePath}");
 
-                            using (var fileStream = new FileStream(filePath, FileMode.Create))
-                            {
-                                await file.CopyToAsync(fileStream);
+                                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                                {
+                                    await file.CopyToAsync(fileStream);
+                                }
+
+                                images.Add(new LaptopImage
+                                {
+                                    ImagePath = "/images/" + uniqueFileName,
+                                    IsPrimary = images.Count == 0
+                                });
+                                Console.WriteLine($"File saved successfully: {uniqueFileName}");
                             }
-                            images.Add(new LaptopImage
+                            catch (Exception ex)
                             {
-                                ImagePath = "/images/" + uniqueFileName,
-                                IsPrimary = images.Count == 0
-                            });
-                            Console.WriteLine($"File saved to disk: {filePath}");
+                                Console.WriteLine($"Error saving file: {ex.Message}");
+                                ModelState.AddModelError("", $"Lỗi khi lưu file: {ex.Message}");
+                            }
                         }
                     }
-                    Console.WriteLine($"Số ảnh upload: {imageFiles.Count}");
                 }
                 else
                 {
+                    Console.WriteLine("No images uploaded, using default image");
                     images.Add(new LaptopImage
                     {
                         ImagePath = "/images/default-laptop.jpg",
                         IsPrimary = true
                     });
-                    Console.WriteLine("Không có ảnh upload, sử dụng ảnh mặc định.");
                 }
 
-                if (ModelState.IsValid)
+                // Save Laptop
+                Console.WriteLine("Attempting to save laptop to database");
+                try
                 {
                     _context.Laptops.Add(laptop);
                     await _context.SaveChangesAsync();
-                    Console.WriteLine($"Laptop Id sau khi lưu: {laptop.Id}");
+                    Console.WriteLine($"Laptop saved successfully with ID: {laptop.Id}");
 
+                    // Save Images
+                    Console.WriteLine($"Saving {images.Count} images");
                     foreach (var image in images)
                     {
                         image.LaptopId = laptop.Id;
                         _context.LaptopImages.Add(image);
-                        Console.WriteLine($"Image added to context: ImagePath={image.ImagePath}, LaptopId={image.LaptopId}");
+                        Console.WriteLine($"Added image to context: {image.ImagePath}");
                     }
 
-                    try
-                    {
-                        int changes = await _context.SaveChangesAsync();
-                        Console.WriteLine($"Số thay đổi được commit: {changes}");
-                    }
-                    catch (Exception ex)
-                    {
-                        Console.WriteLine($"Lỗi khi lưu ảnh: {ex.Message}");
-                        ModelState.AddModelError("", "Lỗi khi lưu ảnh vào database: " + ex.Message);
-                        return View(laptop);
-                    }
+                    int changes = await _context.SaveChangesAsync();
+                    Console.WriteLine($"Saved {changes} changes to database");
 
+                    Console.WriteLine("=== CREATE LAPTOP COMPLETED SUCCESSFULLY ===");
                     return RedirectToAction(nameof(Index));
                 }
+                catch (DbUpdateException dbEx)
+                {
+                    Console.WriteLine("=== DATABASE ERROR ===");
+                    Console.WriteLine($"Error message: {dbEx.Message}");
+                    Console.WriteLine($"Inner exception: {dbEx.InnerException?.Message}");
+                    Console.WriteLine($"Stack trace: {dbEx.StackTrace}");
+                    ModelState.AddModelError("", "Lỗi khi lưu vào database: " + dbEx.InnerException?.Message);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("=== UNEXPECTED ERROR ===");
+                    Console.WriteLine($"Error type: {ex.GetType().Name}");
+                    Console.WriteLine($"Error message: {ex.Message}");
+                    Console.WriteLine($"Stack trace: {ex.StackTrace}");
+                    ModelState.AddModelError("", "Lỗi không xác định: " + ex.Message);
+                }
             }
+            catch (Exception ex)
+            {
+                Console.WriteLine("=== CRITICAL ERROR ===");
+                Console.WriteLine($"Error type: {ex.GetType().Name}");
+                Console.WriteLine($"Error message: {ex.Message}");
+                Console.WriteLine($"Stack trace: {ex.StackTrace}");
+                ModelState.AddModelError("", "Lỗi nghiêm trọng: " + ex.Message);
+            }
+
+            Console.WriteLine("=== CREATE LAPTOP FAILED - RETURNING TO VIEW ===");
+            ViewBag.Categories = new SelectList(_context.Categories, "Id", "Name");
             return View(laptop);
         }
-
         // GET: Laptops/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {

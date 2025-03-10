@@ -9,11 +9,12 @@ namespace LaptopManagement.Models
         [Key]
         public int Id { get; set; }
 
-        [Required]
-        [StringLength(100)]
+        [Required(ErrorMessage = "Vui lòng nhập tên danh mục")]
+        [StringLength(100, ErrorMessage = "Tên danh mục không được vượt quá 100 ký tự")]
+        [Display(Name = "Tên danh mục")]
         public string Name { get; set; }
 
         // Navigation property
-        public ICollection<Laptop> Laptops { get; set; }
+        public ICollection<Laptop> Laptops { get; set; } = new List<Laptop>();
     }
 }
