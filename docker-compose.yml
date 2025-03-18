@@ -1,0 +1,30 @@
+﻿version: '2.33.1'
+
+services:
+  web:
+    image: mcr.microsoft.com/dotnet/aspnet:8.0
+    build:
+      context: .
+      dockerfile: LaptopManagement/Dockerfile
+    ports:
+      - "8082:80"  # Changed from 8080 to 8082
+      - "8081:443"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ConnectionStrings__LaptopManagementContext=Server=DESKTOP-CF4559N\\DANGNGHIA;Database=LaptopManagementContext;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True
+    volumes:
+      - .:/app
+
+  db:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      SA_PASSWORD: "Dangnghia2308."
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserverdata:/var/opt/mssql
+
+volumes:
+  sqlserverdata:

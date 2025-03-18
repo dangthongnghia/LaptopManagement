@@ -1,0 +1,53 @@
+@model IEnumerable<LaptopManagement.Models.Order>
+
+@{
+    ViewData["Title"] = "Quản lý đơn hàng";
+}
+
+<div class="container mt-4">
+    <h1>Quản lý đơn hàng</h1>
+    
+    <table class="table table-striped mt-4">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Sản phẩm</th>
+                <th>Khách hàng</th>
+                <th>Liên hệ</th>
+                <th>Ngày đặt</th>
+                <th>Trạng thái</th>
+                <th>Thao tác</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in Model)
+            {
+                <tr>
+                    <td>@order.Id</td>
+                    <td>@order.Laptop.Name</td>
+                    <td>@order.CustomerName</td>
+                    <td>
+                        @order.CustomerEmail<br />
+                        @order.CustomerPhone
+                    </td>
+                    <td>@order.OrderDate.ToString("dd/MM/yyyy HH:mm")</td>
+                    <td>@order.Status</td>
+                    <td>
+                        <form asp-action="UpdateOrderStatus" method="post">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="orderId" value="@order.Id" />
+                            <select name="status" class="form-control form-control-sm d-inline-block" style="width: auto;">
+                                <option value="Pending" selected="@(order.Status == "Pending")">Đang chờ</option>
+                                <option value="Confirmed" selected ="@(order.Status == "Confirmed")"> Đã xác nhận</option>
+                                <option value="Shipper" selected="@(order.Status == "Pending")">Đang giao hàng</option>                               
+                                <option value="Completed" selected ="@(order.Status == "Completed")">Đã hoàn thành đơn hàng</option>
+                                <option value="Cancelled" selected ="@(order.Status == "Cancelled")">Đã hủy</option>
+                            </select>
+                            <button type="submit" class="btn btn-sm btn-primary">Cập nhật</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

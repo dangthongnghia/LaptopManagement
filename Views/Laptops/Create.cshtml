@@ -1,0 +1,79 @@
+﻿@model LaptopManagement.Models.Laptop
+
+<h2>Tạo mới Laptop</h2>
+
+<form asp-action="Create" enctype="multipart/form-data">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="form-group">
+        <label asp-for="Name" class="control-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Brand" class="control-label"></label>
+        <input asp-for="Brand" class="form-control" />
+        <span asp-validation-for="Brand" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Price" class="control-label"></label>
+        <input asp-for="Price" class="form-control" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description" class="control-label"></label>
+        <textarea asp-for="Description" class="form-control" rows="5"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CategoryId" class="control-label">Category</label>
+        <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.Categories">
+            <option value="">-- Chọn Category --</option>
+        </select>
+        <span asp-validation-for="CategoryId" class="text-danger"></span>
+    </div>
+
+    <!-- Optional fields -->
+    <div class="form-group">
+        <label asp-for="CPU" class="control-label"></label>
+        <input asp-for="CPU" class="form-control" />
+        <span asp-validation-for="CPU" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="RAM" class="control-label"></label>
+        <input asp-for="RAM" class="form-control" />
+        <span asp-validation-for="RAM" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Storage" class="control-label"></label>
+        <input asp-for="Storage" class="form-control" />
+        <span asp-validation-for="Storage" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Status" class="control-label"></label>
+        <input asp-for="Status" type="checkbox" />
+        <span asp-validation-for="Status" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="imageFiles" class="control-label">Images</label>
+        <input type="file" name="imageFiles" multiple class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

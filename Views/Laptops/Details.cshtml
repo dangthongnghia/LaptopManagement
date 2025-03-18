@@ -1,0 +1,103 @@
+﻿@model LaptopManagement.Models.Laptop
+
+@{
+    ViewData["Title"] = "Chi tiết Laptop";
+}
+
+<div class="container mt-5 p-4 bg-light rounded-3 shadow-sm">
+    <h1 class="text-center text-primary mb-4">Chi tiết Laptop</h1>
+
+    <!-- Thông báo thành công/thất bại -->
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            @TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            @TempData["ErrorMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <div class="card detail-card border-0 rounded-3 overflow-hidden">
+        <div class="row g-0">
+            <!-- Phần ảnh (Carousel) -->
+            <div class="col-md-6 p-3 bg-secondary bg-opacity-10">
+                <div id="laptopCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        @if (Model.Images != null && Model.Images.Any())
+                        {
+                            var primaryImage = Model.Images.FirstOrDefault(img => img.IsPrimary) ?? Model.Images.FirstOrDefault();
+                            @foreach (var image in Model.Images)
+                            {
+                                <div class="carousel-item @(image == primaryImage ? "active" : "")">
+                                    <div class="image-container position-relative" style="height: 500px;">
+                                        <img src="@image.ImagePath" class="img-fluid rounded-3 detail-img w-100 h-100" alt="@Model.Name" />
+                                        <div class="image-overlay"></div>
+                                    </div>
+                                </div>
+                            }
+                        }
+                        else
+                        {
+                            <div class="carousel-item active">
+                                <div class="image-container position-relative" style="height: 500px;">
+                                    <img src="/images/default-laptop.jpg" class="img-fluid rounded-3 detail-img w-100 h-100" alt="No Image" />
+                                    <div class="image-overlay"></div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                    @if (Model.Images != null && Model.Images.Count() > 1)
+                    {
+                        <button class="carousel-control-prev" type="button" data-bs-target="#laptopCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#laptopCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    }
+                </div>
+            </div>
+            <!-- Phần thông tin -->
+            <div class="col-md-6 p-4">
+                <div class="card-body">
+                    <h2 class="card-title text-primary fw-bold mb-3 border-bottom border-primary pb-2">@Model.Name</h2>
+                    <div class="info-section">
+                        <p class="mb-2"><span class="text-primary fw-bold">Hãng:</span> @Model.Brand</p>
+                        <p class="mb-2"><span class="text-primary fw-bold">Giá:</span> @Model.Price.ToString("C", new System.Globalization.CultureInfo("vi-VN"))</p>
+                        <p class="mb-2"><span class="text-primary fw-bold">CPU:</span> @Model.CPU</p>
+                        <p class="mb-2"><span class="text-primary fw-bold">RAM:</span> @Model.RAM</p>
+                        <p class="mb-2"><span class="text-primary fw-bold">Ổ cứng:</span> @Model.Storage</p>
+                        <p class="mb-3">
+                            <span class="text-primary fw-bold">Trạng thái:</span>
+                            @if (Model.Status)
+                            {
+                                <span class="badge bg-success text-white">Còn hàng</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-danger text-white">Hết hàng</span>
+                            }
+                        </p>
+                    </div>
+                    <div class="action-buttons mb-4 d-flex gap-2 flex-wrap">
+                        <a asp-action="Index" class="btn btn-primary rounded-pill px-4">Quay lại</a>
+                        <a asp-controller="Laptops" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning rounded-pill px-4">Sửa</a>
+                        <a asp-controller="Laptops" asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger rounded-pill px-4">Xóa</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="~/css/details.css" />
