@@ -1,0 +1,228 @@
+﻿@model LaptopManagement.Models.Laptop
+
+@{
+    ViewData["Title"] = "Chi tiết sản phẩm";
+}
+
+<div class="container py-4">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Trang chủ</a></li>
+            <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Sản phẩm</a></li>
+            <li class="breadcrumb-item active" aria-current="page">@Model.Name</li>
+        </ol>
+    </nav>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            @TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            @TempData["ErrorMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="product-gallery">
+                @if (Model.Images != null && Model.Images.Any())
+                {
+                    <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            @foreach (var image in Model.Images.Select((value, i) => new { value, i }))
+                            {
+                                <div class="carousel-item @(image.i == 0 ? "active" : "")">
+                                    <img src="@image.value.ImagePath" class="d-block w-100" alt="@Model.Name">
+                                </div>
+                            }
+                        </div>
+                        @if (Model.Images.Count > 1)
+                        {
+                            <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        }
+                    </div>
+
+                    @if (Model.Images.Count > 1)
+                    {
+                        <div class="row mt-2">
+                            @foreach (var image in Model.Images.Select((value, i) => new { value, i }))
+                            {
+                                <div class="col-3 mb-2">
+                                    <img src="@image.value.ImagePath" class="img-thumbnail thumbnail-gallery" 
+                                         data-bs-target="#productCarousel" data-bs-slide-to="@image.i" alt="@Model.Name">
+                                </div>
+                            }
+                        </div>
+                    }
+                }
+                else
+                {
+                    <div class="text-center p-5 bg-light">
+                        <i class="bi bi-image fs-1 text-muted"></i>
+                        <p class="mt-2">Không có hình ảnh</p>
+                    </div>
+                }
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="product-details">
+                <h1 class="mb-3">@Model.Name</h1>
+                <p class="text-muted mb-2">Thương hiệu: @Model.Brand</p>
+                
+                <div class="mb-3">
+                    <span class="fs-4 fw-bold text-primary">@Model.Price.ToString("N0") VNĐ</span>
+                </div>
+
+                <div class="mb-4">
+                    <span class="badge bg-@(Model.Status ? "success" : "danger") me-2">
+                        @(Model.Status ? "Còn hàng" : "Hết hàng")
+                    </span>
+                    @if (Model.Category != null)
+                    {
+                        <span class="badge bg-info">@Model.Category.Name</span>
+                    }
+                </div>
+
+                <div class="specs mb-4">
+                    <h5>Thông số kỹ thuật:</h5>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex justify-content-between">
+                            <span>CPU:</span>
+                            <span class="text-muted">@Model.CPU</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between">
+                            <span>RAM:</span>
+                            <span class="text-muted">@Model.RAM</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between">
+                            <span>Ổ cứng:</span>
+                            <span class="text-muted">@Model.Storage</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="d-flex flex-wrap gap-2 mb-3">
+    @if (Model.Status)
+    {
+        <form asp-controller="Cart" asp-action="AddToCart" method="post" class="d-flex align-items-center">
+            <input type="hidden" name="laptopId" value="@Model.Id" />
+            <div class="input-group input-group-sm me-2" style="width: 110px;">
+                <button type="button" class="btn btn-sm btn-outline-secondary" onclick="decrementQuantity()">-</button>
+                <input type="number" name="quantity" id="quantity" value="1" min="1" class="form-control form-control-sm text-center">
+                <button type="button" class="btn btn-sm btn-outline-secondary" onclick="incrementQuantity()">+</button>
+            </div>
+            <button type="submit" class="btn btn-sm btn-primary">
+                <i class="bi bi-cart-plus"></i> Thêm vào giỏ
+            </button>
+        </form>
+        
+        <button type="button" class="btn btn-sm btn-success" data-bs-toggle="modal" data-bs-target="#orderModal">
+            <i class="bi bi-lightning-fill"></i> Mua ngay
+        </button>
+    }
+    else
+    {
+        <button class="btn btn-sm btn-secondary" disabled>
+            <i class="bi bi-x-circle"></i> Hết hàng
+        </button>
+    }
+</div>
+            </div>
+        </div>
+    </div>
+
+    <    <div class="row mt-4">
+        <div class="col-12">
+            <h5>@Html.DisplayNameFor(model => model.Description)</h5>
+            <div class="card">
+                <div class="card-body">
+                    @if (string.IsNullOrEmpty(Model.Description))
+                    {
+                        <p class="text-muted">Không có mô tả</p>
+                    }
+                    else
+                    {
+                        <p class="description-large">@Html.DisplayFor(model => model.Description)</p>
+                    }
+                </div>
+            </div>
+        </div>
+    </div
+</div>
+
+<!-- Modal Đặt hàng -->
+<div class="modal fade" id="orderModal" tabindex="-1" aria-labelledby="orderModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="orderModalLabel">Đặt hàng nhanh</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form asp-controller="Home" asp-action="Order" method="post">
+                <div class="modal-body">
+                    <input type="hidden" name="LaptopId" value="@Model.Id" />
+                    
+                    <div class="mb-3">
+                        <label for="CustomerName" class="form-label">Họ tên</label>
+                        <input type="text" class="form-control" id="CustomerName" name="CustomerName" required>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="CustomerEmail" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="CustomerEmail" name="CustomerEmail" required>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="CustomerPhone" class="form-label">Số điện thoại</label>
+                        <input type="tel" class="form-control" id="CustomerPhone" name="CustomerPhone" required>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                    <button type="submit" class="btn btn-primary">Đặt hàng</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function incrementQuantity() {
+            const input = document.getElementById('quantity');
+            input.value = parseInt(input.value) + 1;
+        }
+
+        function decrementQuantity() {
+            const input = document.getElementById('quantity');
+            if (parseInt(input.value) > 1) {
+                input.value = parseInt(input.value) - 1;
+            }
+        }
+
+        // Kích hoạt thumbnail gallery
+        document.querySelectorAll('.thumbnail-gallery').forEach(item => {
+            item.addEventListener('click', event => {
+                const slideIndex = item.getAttribute('data-bs-slide-to');
+                const carousel = new bootstrap.Carousel(document.getElementById('productCarousel'));
+                carousel.to(parseInt(slideIndex));
+            });
+        });
+    </script>
+    
+}

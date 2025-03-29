@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Category>
+<h2>Danh Sách Danh Mục</h2>
+<a asp-action="Create" class="btn btn-primary">Thêm Danh Mục</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Tên</th>
+            <th>Mô Tả</th>
+            <th>Hành Động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Sửa</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id" onclick="return confirm('Bạn chắc chắn muốn xóa?')">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

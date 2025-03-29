@@ -1,0 +1,120 @@
+@{
+    ViewData["Title"] = "Hỗ trợ trực tuyến";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h4>Hỗ trợ trực tuyến</h4>
+                </div>
+                <div class="card-body" id="chat-container" style="height: 400px; overflow-y: auto;">
+                    <div class="chat-message bot">
+                        <div class="message-content">
+                            Xin chào! Tôi là trợ lý ảo của LaptopManagement. Tôi có thể giúp gì cho bạn?
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="input-group">
+                        <input type="text" id="user-input" class="form-control" placeholder="Nhập câu hỏi của bạn...">
+                        <div class="input-group-append">
+                            <button id="send-button" class="btn btn-primary">Gửi</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            // Gửi tin nhắn khi nhấn nút Gửi
+            $("#send-button").click(function() {
+                sendMessage();
+            });
+            
+            // Gửi tin nhắn khi nhấn Enter
+            $("#user-input").keypress(function(e) {
+                if (e.which == 13) {
+                    sendMessage();
+                    return false;
+                }
+            });
+            
+            function sendMessage() {
+                var userInput = $("#user-input").val().trim();
+                if (userInput === "") return;
+                
+                // Hiển thị tin nhắn của người dùng
+                addMessage(userInput, "user");
+                $("#user-input").val("");
+                
+                // Hiển thị đang nhập...
+                addMessage("Đang nhập...", "bot", "typing");
+                
+                // Gửi yêu cầu đến server
+                $.ajax({
+                    url: '@Url.Action("ProcessQuery", "Chatbot")',
+                    type: 'POST',
+                    data: { query: userInput },
+                    success: function(response) {
+                        // Xóa tin nhắn "đang nhập..."
+                        $(".typing").remove();
+                        
+                        if (response.success) {
+                            addMessage(response.message, "bot");
+                        } else {
+                            addMessage("Xin lỗi, đã xảy ra lỗi. Vui lòng thử lại.", "bot");
+                        }
+                    },
+                    error: function() {
+                        // Xóa tin nhắn "đang nhập..."
+                        $(".typing").remove();
+                        addMessage("Xin lỗi, đã xảy ra lỗi kết nối. Vui lòng thử lại sau.", "bot");
+                    }
+                });
+            }
+            
+            function addMessage(message, sender, className) {
+                var chatContainer = $("#chat-container");
+                var messageClass = sender === "user" ? "user" : "bot";
+                var messageHtml = '<div class="chat-message ' + messageClass + (className ? ' ' + className : '') + '">' +
+                                  '<div class="message-content">' + message + '</div>' +
+                                  '</div>';
+                chatContainer.append(messageHtml);
+                chatContainer.scrollTop(chatContainer[0].scrollHeight);
+            }
+        });
+    </script>
+    
+    <style>
+        .chat-message {
+            margin-bottom: 15px;
+            display: flex;
+        }
+        
+        .chat-message.user {
+            justify-content: flex-end;
+        }
+        
+        .message-content {
+            padding: 10px 15px;
+            border-radius: 20px;
+            max-width: 70%;
+        }
+        
+        .user .message-content {
+            background-color: #007bff;
+            color: white;
+        }
+        
+        .bot .message-content {
+            background-color: #f1f1f1;
+            color: #333;
+        }
+    </style>
+}

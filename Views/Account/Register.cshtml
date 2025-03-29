@@ -1,0 +1,189 @@
+@model LaptopManagement.ViewModels.RegisterViewModel
+
+@{
+    ViewData["Title"] = "Đăng ký tài khoản";
+}
+
+<div class="row justify-content-center mt-4">
+    <div class="col-md-8 col-lg-6">
+        <div class="card shadow-sm border-0">
+            <div class="card-body p-4 p-md-5">
+                <div class="text-center mb-4">
+                    <i class="fas fa-user-plus fa-3x text-primary mb-3"></i>
+                    <h2 class="fw-bold">Đăng ký tài khoản</h2>
+                    <p class="text-muted">Tạo tài khoản mới để sử dụng đầy đủ tính năng</p>
+                </div>
+
+                <form asp-action="Register" method="post">
+                    <div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert"></div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label asp-for="Username" class="form-label">Tên đăng nhập</label>
+                            <input asp-for="Username" class="form-control" autocomplete="username" />
+                            <span asp-validation-for="Username" class="text-danger"></span>
+                            <small class="form-text text-muted">Tên đăng nhập không được chứa khoảng trắng</small>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label asp-for="Email" class="form-label">Email</label>
+                            <input asp-for="Email" class="form-control" autocomplete="email" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="FullName" class="form-label">Họ tên</label>
+                        <input asp-for="FullName" class="form-control" autocomplete="name" />
+                        <span asp-validation-for="FullName" class="text-danger"></span>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label asp-for="Password" class="form-label">Mật khẩu</label>
+                            <input asp-for="Password" class="form-control" autocomplete="new-password" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                            <small class="form-text text-muted">Mật khẩu phải có ít nhất 6 ký tự</small>
+                            <div id="password-strength-indicator" class="mt-2"></div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label asp-for="ConfirmPassword" class="form-label">Xác nhận mật khẩu</label>
+                            <input asp-for="ConfirmPassword" class="form-control" autocomplete="new-password" />
+                            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-check mb-4">
+                        <input class="form-check-input" type="checkbox" id="agreeTerms" name="agreeTerms" required>
+                        <label class="form-check-label" for="agreeTerms">
+                            Tôi đồng ý với <a href="#" data-bs-toggle="modal" data-bs-target="#termsModal">Điều khoản sử dụng</a> và <a href="#" data-bs-toggle="modal" data-bs-target="#privacyModal">Chính sách bảo mật</a>
+                        </label>
+                    </div>
+
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-primary btn-lg">
+                            <i class="fas fa-user-plus me-2"></i> Đăng ký
+                        </button>
+                    </div>
+                </form>
+
+                <div class="text-center mt-4">
+                    <p>Đã có tài khoản? <a asp-action="Login" class="text-decoration-none">Đăng nhập ngay</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Điều khoản sử dụng -->
+<div class="modal fade" id="termsModal" tabindex="-1" aria-labelledby="termsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="termsModalLabel">Điều khoản sử dụng</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h6>1. Chấp nhận điều khoản</h6>
+                <p>Bằng cách truy cập và sử dụng dịch vụ LaptopManagement, bạn đồng ý tuân thủ và chịu ràng buộc bởi các điều khoản và điều kiện được nêu trong thỏa thuận này.</p>
+                
+                <h6>2. Tài khoản người dùng</h6>
+                <p>Để sử dụng một số tính năng của dịch vụ, bạn phải tạo một tài khoản. Bạn chịu trách nhiệm duy trì tính bảo mật của tài khoản và mật khẩu của mình.</p>
+                
+                <h6>3. Quyền sở hữu trí tuệ</h6>
+                <p>Dịch vụ và nội dung của nó, bao gồm nhưng không giới hạn ở văn bản, đồ họa, logo, biểu tượng, hình ảnh, và phần mềm, là tài sản của LaptopManagement hoặc các nhà cung cấp nội dung của nó và được bảo vệ bởi luật bản quyền.</p>
+                
+                <h6>4. Giới hạn trách nhiệm</h6>
+                <p>LaptopManagement sẽ không chịu trách nhiệm về bất kỳ thiệt hại nào phát sinh từ việc sử dụng hoặc không thể sử dụng dịch vụ.</p>
+                
+                <h6>5. Thay đổi điều khoản</h6>
+                <p>LaptopManagement có quyền sửa đổi các điều khoản này bất kỳ lúc nào. Việc bạn tiếp tục sử dụng dịch vụ sau khi thay đổi được đăng tải đồng nghĩa với việc bạn chấp nhận các điều khoản mới.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Chính sách bảo mật -->
+<div class="modal fade" id="privacyModal" tabindex="-1" aria-labelledby="privacyModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="privacyModalLabel">Chính sách bảo mật</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h6>1. Thông tin chúng tôi thu thập</h6>
+                <p>Chúng tôi thu thập thông tin cá nhân như tên, email, và thông tin liên hệ khi bạn đăng ký tài khoản.</p>
+                
+                <h6>2. Cách chúng tôi sử dụng thông tin</h6>
+                <p>Thông tin cá nhân của bạn được sử dụng để cung cấp dịch vụ, gửi thông báo, và cải thiện trải nghiệm người dùng.</p>
+                
+                <h6>3. Bảo mật thông tin</h6>
+                <p>Chúng tôi thực hiện các biện pháp bảo mật hợp lý để bảo vệ thông tin cá nhân của bạn khỏi truy cập trái phép, thay đổi, tiết lộ hoặc phá hủy.</p>
+                
+                <h6>4. Chia sẻ thông tin</h6>
+                <p>Chúng tôi không bán, trao đổi hoặc chuyển giao thông tin cá nhân của bạn cho bên thứ ba mà không có sự đồng ý của bạn.</p>
+                
+                <h6>5. Cookies</h6>
+                <p>Chúng tôi sử dụng cookies để cải thiện trải nghiệm người dùng và phân tích việc sử dụng trang web.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        // Kiểm tra độ mạnh của mật khẩu
+        document.addEventListener('DOMContentLoaded', function() {
+            const passwordInput = document.getElementById('Password');
+            const strengthIndicator = document.getElementById('password-strength-indicator');
+
+            passwordInput.addEventListener('input', function() {
+                const password = this.value;
+                let strength = 0;
+                let message = '';
+                let color = '';
+
+                if (password.length >= 6) strength += 1;
+                if (password.length >= 8) strength += 1;
+                if (/[A-Z]/.test(password)) strength += 1;
+                if (/[0-9]/.test(password)) strength += 1;
+                if (/[^A-Za-z0-9]/.test(password)) strength += 1;
+
+                switch (strength) {
+                    case 0:
+                    case 1:
+                        message = 'Yếu';
+                        color = 'danger';
+                        break;
+                    case 2:
+                    case 3:
+                        message = 'Trung bình';
+                        color = 'warning';
+                        break;
+                    case 4:
+                        message = 'Mạnh';
+                        color = 'success';
+                        break;
+                    case 5:
+                        message = 'Rất mạnh';
+                        color = 'success';
+                        break;
+                }
+
+                strengthIndicator.innerHTML = `
+                    <div class="progress" style="height: 5px;">
+                        <div class="progress-bar bg-${color}" role="progressbar" style="width: ${strength * 20}%"></div>
+                    </div>
+                    <small class="text-${color}">${message}</small>
+                `;
+            });
+        });
+    </script>
+}

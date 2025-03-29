@@ -1,0 +1,380 @@
+﻿:root {
+    --primary-color: #2c3e50; /* updated for a formal, modern palette */
+    --secondary-color: #8e44ad; /* updated */
+    --accent-color: #d4ac0d; /* updated */
+    --background-color: #ecf0f1; /* updated */
+    --text-color: #2c3e50; /* updated */
+    --light-gray: #bdc3c7; /* updated for subtlety */
+    --dark-gray: #7f8c8d; /* updated */
+    --success-color: #27ae60;
+    --warning-color: #f39c12;
+    --danger-color: #e74c3c;
+    --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* softer, modern shadow */
+    --transition-speed: 0.25s;
+  }
+  
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1280px;
+    padding: 0 1.5rem;
+    margin: 0 auto;
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    background-color: white;
+    box-shadow: none;
+    border-bottom: 1px solid var(--light-gray);
+    padding: 1rem 0;
+  }
+  
+  .navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+  }
+  
+  .navbar-nav .nav-link {
+    font-weight: 500;
+    color: var(--dark-gray);
+    margin: 0 0.5rem;
+    transition: color var(--transition-speed);
+  }
+  
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link.active {
+    color: var(--primary-color);
+  }
+  
+  /* Button styling */
+  .btn {
+    border-radius: 4px;
+    font-weight: 500;
+    padding: 0.5rem 1.25rem;
+    transition: background-color var(--transition-speed), box-shadow var(--transition-speed);
+    border: none;
+  }
+  
+  .btn-primary {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: #22313f; /* darker variant */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-secondary {
+    background-color: var(--secondary-color);
+    color: white;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #6c3483;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-danger {
+    background-color: var(--danger-color);
+    color: white;
+  }
+  
+  .btn-danger:hover {
+    background-color: #e84a4f;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(255, 90, 95, 0.3);
+  }
+  
+  .btn-warning {
+    background-color: var(--warning-color);
+    color: var(--text-color);
+  }
+  
+  .btn-warning:hover {
+    background-color: #f0b400;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(255, 190, 11, 0.3);
+  }
+  
+  /* Card styling */
+  .card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: var(--card-shadow);
+    transition: transform var(--transition-speed), box-shadow var(--transition-speed);
+    margin-bottom: 1.5rem;
+  }
+  
+  .card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+  }
+  
+  .card-header {
+    background-color: white;
+    border-bottom: 1px solid var(--light-gray);
+    font-weight: 600;
+    padding: 1rem 1.5rem;
+  }
+  
+  .card-body {
+    padding: 1.5rem;
+  }
+  
+  .card-footer {
+    background-color: white;
+    border-top: 1px solid var(--light-gray);
+    padding: 1rem 1.5rem;
+  }
+  
+  /* Form styling */
+  .form-control {
+    border-radius: 6px;
+    border: 1px solid var(--light-gray);
+    padding: 0.75rem 1rem;
+    transition: border-color var(--transition-speed), box-shadow var(--transition-speed);
+  }
+  
+  .form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(58, 134, 255, 0.25);
+  }
+  
+  .form-label {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Table styling */
+  .table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+  }
+  
+  .table th {
+    background-color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+    color: var(--dark-gray);
+    padding: 1rem;
+    border-bottom: 2px solid var(--light-gray);
+  }
+  
+  .table td {
+    padding: 1rem;
+    border-bottom: 1px solid var(--light-gray);
+    vertical-align: middle;
+  }
+  
+  .table tbody tr:hover {
+    background-color: rgba(58, 134, 255, 0.05);
+  }
+  
+  /* Alert styling */
+  .alert {
+    border: none;
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .alert-success {
+    background-color: rgba(56, 176, 0, 0.1);
+    color: var(--success-color);
+  }
+  
+  .alert-warning {
+    background-color: rgba(255, 190, 11, 0.1);
+    color: #b38000;
+  }
+  
+  .alert-danger {
+    background-color: rgba(255, 90, 95, 0.1);
+    color: var(--danger-color);
+  }
+  
+  /* Footer styling */
+  footer {
+    background-color: white;
+    padding: 2rem 0;
+    margin-top: 3rem;
+    border-top: 1px solid var(--light-gray);
+  }
+  
+  /* Pagination */
+  .pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0;
+  }
+  
+  .pagination .page-item .page-link {
+    border: none;
+    margin: 0 0.25rem;
+    border-radius: 6px;
+    color: var(--dark-gray);
+    padding: 0.5rem 1rem;
+    transition: all var(--transition-speed);
+  }
+  
+  .pagination .page-item.active .page-link {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  .pagination .page-item .page-link:hover {
+    background-color: var(--light-gray);
+    color: var(--text-color);
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .fade-in {
+    animation: fadeIn 0.5s ease-out forwards;
+  }
+
+  /* Đảm bảo dropdown menu hiển thị đúng */
+.dropdown-menu {
+  margin-top: 0.125rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+
+/* Đảm bảo dropdown hiển thị khi hover trên desktop */
+@media (min-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+      display: block;
+  }
+}
+
+
+#chat-widget {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  background-color: white;
+  z-index: 1000;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+#chat-widget.collapsed {
+  height: 50px;
+}
+
+#chat-header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+#chat-body {
+  height: 300px;
+  padding: 10px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#chat-body.hidden {
+  display: none;
+}
+
+#chat-input {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+#chat-input.hidden {
+  display: none;
+}
+
+#message-input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+#send-button {
+  padding: 8px 15px;
+  background-color: #0078d4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.chat-message {
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  border-radius: 15px;
+  max-width: 80%;
+  word-break: break-word;
+}
+
+.user-message {
+  align-self: flex-end;
+  background-color: #0078d4;
+  color: white;
+  border-bottom-right-radius: 5px;
+}
+
+.bot-message {
+  align-self: flex-start;
+  background-color: #f1f1f1;
+  color: #333;
+  border-bottom-left-radius: 5px;
+}
+
+.spinner {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ddd;
+  border-top: 2px solid #0078d4;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

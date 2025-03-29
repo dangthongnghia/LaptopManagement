@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaptopManagement", "LaptopManagement.csproj", "{B40A245D-52CF-6CF6-34CF-84C9F4EA25EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B40A245D-52CF-6CF6-34CF-84C9F4EA25EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B40A245D-52CF-6CF6-34CF-84C9F4EA25EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B40A245D-52CF-6CF6-34CF-84C9F4EA25EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B40A245D-52CF-6CF6-34CF-84C9F4EA25EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {603FD2B6-5AE7-406D-AABE-2C4CD54C4030}
+	EndGlobalSection
+EndGlobal

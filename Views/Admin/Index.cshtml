@@ -1,0 +1,39 @@
+@{
+    ViewData["Title"] = "Trang quản trị";
+}
+
+<div class="container mt-4">
+    <h1>Trang quản trị</h1>
+    
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Quản lý người dùng</h5>
+                    <p class="card-text">Xem và quản lý tài khoản người dùng trong hệ thống.</p>
+                    <a asp-action="Users" class="btn btn-primary">Quản lý người dùng</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Quản lý đơn hàng</h5>
+                    <p class="card-text">Xem và cập nhật trạng thái các đơn hàng.</p>
+                    <a asp-action="Orders" class="btn btn-primary">Quản lý đơn hàng</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Quản lý sản phẩm</h5>
+                    <p class="card-text">Thêm, sửa, xóa sản phẩm laptop.</p>
+                    <a asp-controller="Laptops" asp-action="Index" class="btn btn-primary">Quản lý sản phẩm</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

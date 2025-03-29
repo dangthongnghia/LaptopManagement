@@ -1,0 +1,84 @@
+@model LaptopManagement.Models.Order
+
+@{
+    ViewData["Title"] = "Xác nhận đơn hàng";
+}
+
+<div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-sm">
+                <div class="card-body text-center p-5">
+                    <div class="mb-4">
+                        <i class="bi bi-check-circle-fill text-success" style="font-size: 5rem;"></i>
+                    </div>
+                    <h1 class="mb-4">Đặt hàng thành công!</h1>
+                    <p class="lead mb-4">Cảm ơn bạn đã đặt hàng. Đơn hàng của bạn đã được xác nhận.</p>
+                    <div class="alert alert-info mb-4">
+                        <p class="mb-1"><strong>Mã đơn hàng:</strong> #@Model.Id</p>
+                        <p class="mb-1"><strong>Ngày đặt:</strong> @Model.OrderDate.ToString("dd/MM/yyyy HH:mm")</p>
+                        <p class="mb-0"><strong>Trạng thái:</strong> @Model.Status</p>
+                    </div>
+
+                    <h5 class="mb-3">Thông tin khách hàng</h5>
+                    <div class="row mb-4">
+                        <div class="col-md-4">
+                            <p class="mb-1"><strong>Họ tên:</strong></p>
+                            <p>@Model.CustomerName</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="mb-1"><strong>Email:</strong></p>
+                            <p>@Model.CustomerEmail</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="mb-1"><strong>Số điện thoại:</strong></p>
+                            <p>@Model.CustomerPhone</p>
+                        </div>
+                    </div>
+
+                    <h5 class="mb-3">Chi tiết đơn hàng</h5>
+                    <div class="table-responsive mb-4">
+                        <table class="table table-bordered">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>Sản phẩm</th>
+                                    <th>Số lượng</th>
+                                    <th>Đơn giá</th>
+                                    <th>Thành tiền</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.OrderDetails)
+                                {
+                                    <tr>
+                                        <td>@item.Laptop.Name</td>
+                                        <td>@item.Quantity</td>
+                                        <td>@item.UnitPrice.ToString("N0") VNĐ</td>
+                                        <td>@((item.UnitPrice * item.Quantity).ToString("N0")) VNĐ</td>
+                                    </tr>
+                                }
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="3" class="text-end"><strong>Tổng cộng:</strong></td>
+                                    <td><strong>@Model.OrderDetails.Sum(od => od.UnitPrice * od.Quantity).ToString("N0") VNĐ</strong></td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+
+                    <p class="mb-4">Chúng tôi sẽ liên hệ với bạn sớm để xác nhận đơn hàng.</p>
+
+                    <div class="d-flex justify-content-center gap-3">
+                        <a asp-controller="Home" asp-action="Index" class="btn btn-primary">
+                            <i class="bi bi-house me-2"></i>Về trang chủ
+                        </a>
+                        <a href="#" class="btn btn-outline-secondary" onclick="window.print()">
+                            <i class="bi bi-printer me-2"></i>In đơn hàng
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

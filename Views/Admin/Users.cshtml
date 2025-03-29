@@ -1,0 +1,55 @@
+@model List<LaptopManagement.Models.User>
+@{
+    ViewData["Title"] = "Quản lý người dùng";
+}
+
+<h2>Quản lý người dùng</h2>
+
+<p>
+    <a href="@Url.Action("CreateUser")" class="btn btn-success">Thêm người dùng</a>
+</p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Tên đăng nhập</th>
+            <th>Email</th>
+            <th>Họ tên</th>
+            <th>Admin</th>
+            <th>Trạng thái</th>
+            <th>Tùy chọn</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Id</td>
+                <td>@user.Username</td>
+                <td>@user.Email</td>
+                <td>@user.FullName</td>
+                <td>
+                    <select>
+                        @if (user.IsAdmin)
+                        {
+                            <option value="true" selected="selected">Có</option>
+                            <option value="false">Không</option>
+                        }
+                        else
+                        {
+                            <option value="true">Có</option>
+                            <option value="false" selected="selected">Không</option>
+                        }
+                    </select>
+                </td>
+                <td>@(user.IsActive ? "Hoạt động" : "Vô hiệu")</td>
+                <td>
+                    <a href="@Url.Action("EditUser", new { id = user.Id })" class="btn btn-primary btn-sm">Sửa</a>
+                    <a href="@Url.Action("DeleteUser", new { id = user.Id })" class="btn btn-danger btn-sm" 
+                       onclick="return confirm('Bạn có chắc muốn xóa người dùng này?')">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
