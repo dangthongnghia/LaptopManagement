@@ -1,0 +1,89 @@
+wwwroot\css\about.css
+wwwroot\css\chat.css
+wwwroot\css\details.css
+wwwroot\css\index.css
+wwwroot\css\mobile.css
+wwwroot\css\site.css
+wwwroot\favicon.ico
+wwwroot\images\1ccf751f-f9ca-43fe-a39a-3c3b017976d5_Dell Inspiron 15.jpg
+wwwroot\images\2b466d53-cf85-4f3f-8e0e-551ee59cf777_MSI Stealth 15M.jpg
+wwwroot\images\422468ec-522b-4503-ac46-530a4b3129cb_Surface Laptop 4.jpg
+wwwroot\images\4375606b-1552-49d3-a12a-aa88e78397cd_MacBook Air M2.jpg
+wwwroot\images\71c8c633-3f3a-495f-bcf3-029caf77922f_71y+lIHVdAL.jpg
+wwwroot\images\7fefc29a-4425-4d22-b9f6-42f61cf29b99_MSI Katana GF66.jpg
+wwwroot\images\82efb2fb-6383-49f8-a55d-0643f559034d_LG Gram 17.jpg
+wwwroot\images\876531b0-e172-41cf-833b-d0556b9aa180_Acer Swift 3.jpg
+wwwroot\images\9abbab8e-8aa9-452d-ba32-6e4d7f6b4d81_Acer Predator Helios 300.jpg
+wwwroot\images\c6b579c9-78a8-49d5-8efa-7dd25f9bce8c_HP Spectre x360.jpg
+wwwroot\images\ccd41214-5479-46ba-9733-bc1a7e316006_HP Pavilion 15.webp
+wwwroot\images\d09e3ce3-885c-4a55-8d1a-c8907a079979_Razer Blade 15.jpg
+wwwroot\images\d19cdf40-a669-4fb2-9834-34b2447088c7_Lenovo Legion 5.webp
+wwwroot\images\e0180b82-8a3b-48da-8433-a6d847722e3f_Asus ZenBook 14.jpg
+wwwroot\images\f045bfda-5f4b-433c-80cd-ac355e945ce2_mac_book_pro.jpg
+wwwroot\images\f0a5b73b-b275-4361-b166-5dccdcb0c59f_AsusTUF_Gaming_A15_1.jpg
+wwwroot\images\f292f0e6-74ef-4489-acee-83390f850751_Dell G15.jpg
+wwwroot\images\f47ad6ed-6996-4100-9100-9724237add7c_c7581effbc1728fc2e529294f6cd892d-hi.jpg
+wwwroot\images\fad9945a-ad20-4939-8abb-10d0bc7f126f_Lenovo ThinkPad X1 Carbon.jpg
+wwwroot\js\botChat.js
+wwwroot\js\chat.js
+wwwroot\js\imageGallery.js
+wwwroot\js\signalr\dist\browser\signalr.js
+wwwroot\js\site.js
+wwwroot\lib\bootstrap\dist\css\bootstrap.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\jquery\dist\jquery.js
+wwwroot\lib\jquery\dist\jquery.min.js
+wwwroot\lib\jquery\dist\jquery.min.map
+wwwroot\lib\jquery\LICENSE.txt
+wwwroot\lib\jquery-validation\dist\additional-methods.js
+wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+wwwroot\lib\jquery-validation\LICENSE.md
+wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\web.config

@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Linq;
 using LaptopManagement.Models;
 
 namespace LaptopManagement.ViewModels
@@ -8,7 +9,7 @@ namespace LaptopManagement.ViewModels
     public class CheckoutViewModel
     {
         public int Id { get; set; }
-        
+
         [Required(ErrorMessage = "Vui lòng nhập họ tên")]
         [Display(Name = "Họ tên")]
         public string CustomerName { get; set; }
@@ -30,30 +31,31 @@ namespace LaptopManagement.ViewModels
         [Display(Name = "Ghi chú")]
         public string Notes { get; set; }
 
-        public Cart Cart { get; set; }
+        // Direct cart items list without relying on Cart object
+        public List<CartItem> CartItems { get; set; } = new List<CartItem>();
 
-        [Required]
+        // Calculate total directly from CartItems
+        public decimal TotalAmount => CartItems?.Sum(i => i.Quantity * (i.Laptop?.Price ?? 0)) ?? 0;
+
+        [Display(Name = "Địa chỉ")]
         public string Address { get; set; }
-        
-        [Required]
+
+        [Display(Name = "Thành phố")]
         public string City { get; set; }
-        
-        [Required]
+
+        [Display(Name = "Tỉnh/Thành phố")]
         public string State { get; set; }
-        
-        [Required]
-        [Display(Name = "Zip Code")]
+
+        [Display(Name = "Mã bưu điện")]
         public string ZipCode { get; set; }
-        
-        [Required]
-        [Display(Name = "Card Number")]
+
+        [Display(Name = "Số thẻ")]
         public string CardNumber { get; set; }
-        
-        [Required]
-        [Display(Name = "Expiration Date")]
+
+        [Display(Name = "Ngày hết hạn")]
         public string ExpirationDate { get; set; }
-        
-        [Required]
+
+        [Display(Name = "Mã CVV")]
         public string CVV { get; set; }
     }
 }

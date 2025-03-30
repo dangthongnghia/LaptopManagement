@@ -34,7 +34,7 @@ namespace LaptopManagement.Data
                 .HasOne(li => li.Laptop)
                 .WithMany(l => l.Images)
                 .HasForeignKey(li => li.LaptopId)
-                .OnDelete(DeleteBehavior.NoAction);
+                .OnDelete(DeleteBehavior.Cascade);
 
             // Cấu hình mối quan hệ giữa OrderDetail và Order
             modelBuilder.Entity<OrderDetail>()
@@ -52,10 +52,11 @@ namespace LaptopManagement.Data
 
             // Cấu hình mối quan hệ giữa CartItem và Laptop
             modelBuilder.Entity<CartItem>()
-                .HasOne(ci => ci.Laptop)
-                .WithMany()
-                .HasForeignKey(ci => ci.LaptopId)
-                .OnDelete(DeleteBehavior.NoAction);
+               .HasOne(ci => ci.Laptop)
+               .WithMany()
+               .HasForeignKey(ci => ci.LaptopId)
+               .OnDelete(DeleteBehavior.Cascade);
+
 
             // Cấu hình các thuộc tính decimal để đảm bảo độ chính xác
             modelBuilder.Entity<Laptop>()

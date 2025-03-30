@@ -6,7 +6,23 @@
 
 <div class="container mt-4">
     <h1>Quản lý đơn hàng</h1>
-    
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            @TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            @TempData["ErrorMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
     <table class="table table-striped mt-4">
         <thead>
             <tr>
@@ -17,6 +33,7 @@
                 <th>Ngày đặt</th>
                 <th>Trạng thái</th>
                 <th>Thao tác</th>
+                <th>Hủy đơn</th>
             </tr>
         </thead>
         <tbody>
@@ -24,27 +41,68 @@
             {
                 <tr>
                     <td>@order.Id</td>
-                    <td>@order.Laptop.Name</td>
+                    <td>@(order.Laptop != null ? order.Laptop.Name : "Không xác định")</td>
                     <td>@order.CustomerName</td>
                     <td>
                         @order.CustomerEmail<br />
                         @order.CustomerPhone
                     </td>
                     <td>@order.OrderDate.ToString("dd/MM/yyyy HH:mm")</td>
-                    <td>@order.Status</td>
                     <td>
-                        <form asp-action="UpdateOrderStatus" method="post">
+                        @switch (order.Status)
+                        {
+                            case "Pending":
+                                <span class="badge bg-warning text-dark">Đang chờ</span>
+                                break;
+                            case "Confirmed":
+                                <span class="badge bg-primary">Đã xác nhận</span>
+                                break;
+                            case "Shipping":
+                            case "Shipper":
+                                <span class="badge bg-info">Đang giao hàng</span>
+                                break;
+                            case "Completed":
+                                <span class="badge bg-success">Đã hoàn thành</span>
+                                break;
+                            case "Cancelled":
+                                <span class="badge bg-danger">Đã hủy</span>
+                                break;
+                            default:
+                                <span class="badge bg-secondary">@order.Status</span>
+                                break;
+                        }
+                    </td>
+                    <td>
+                        <form asp-action="UpdateOrderStatus" method="post" class="d-flex align-items-center gap-2">
                             @Html.AntiForgeryToken()
                             <input type="hidden" name="orderId" value="@order.Id" />
-                            <select name="status" class="form-control form-control-sm d-inline-block" style="width: auto;">
+                            <select name="status" class="form-control form-control-sm" style="width: auto;">
                                 <option value="Pending" selected="@(order.Status == "Pending")">Đang chờ</option>
-                                <option value="Confirmed" selected ="@(order.Status == "Confirmed")"> Đã xác nhận</option>
-                                <option value="Shipper" selected="@(order.Status == "Pending")">Đang giao hàng</option>                               
-                                <option value="Completed" selected ="@(order.Status == "Completed")">Đã hoàn thành đơn hàng</option>
-                                <option value="Cancelled" selected ="@(order.Status == "Cancelled")">Đã hủy</option>
+                                <option value="Confirmed" selected="@(order.Status == "Confirmed")">Đã xác nhận</option>
+                                <option value="Shipping" selected="@(order.Status == "Shipping")">Đang giao hàng</option>
+                                <option value="Completed" selected="@(order.Status == "Completed")">Đã hoàn thành</option>
+                                <option value="Cancelled" selected="@(order.Status == "Cancelled")">Đã hủy</option>
                             </select>
                             <button type="submit" class="btn btn-sm btn-primary">Cập nhật</button>
                         </form>
+                    </td>
+                    <td>
+                        @if (order.Status != "Cancelled" && order.Status != "Completed")
+                        {
+                            <form asp-action="CancelOrder" method="post" onsubmit="return confirm('Bạn có chắc chắn muốn hủy đơn hàng này không?');">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="orderId" value="@order.Id" />
+                                <button type="submit" class="btn btn-sm btn-danger">Hủy đơn hàng</button>
+                            </form>
+                        }
+                        else if (order.Status == "Cancelled")
+                        {
+                            <span class="text-muted">Đã hủy</span>
+                        }
+                        else if (order.Status == "Completed")
+                        {
+                            <span class="text-muted">Đã hoàn thành</span>
+                        }
                     </td>
                 </tr>
             }

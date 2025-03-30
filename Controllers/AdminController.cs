@@ -128,7 +128,7 @@ namespace LaptopManagement.Controllers
         }
         
         // GET: Admin/Orders
-        public async Task<IActionResult> Orders()
+        public async Task<IActionResult> Order()
         {
             var orders = await _context.Set<Order>()
                 .OrderByDescending(o => o.OrderDate)
@@ -179,7 +179,77 @@ namespace LaptopManagement.Controllers
             
             return View();
         }
-        
+
+        // POST: Admin/UpdateOrderStatus
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> UpdateOrderStatus(int orderId, string status)
+        {
+            var order = await _context.Orders.FindAsync(orderId);
+
+            if (order == null)
+            {
+                TempData["ErrorMessage"] = "Không tìm thấy đơn hàng.";
+                return RedirectToAction(nameof(Order));
+            }
+
+            // Update the status
+            order.Status = status;
+            _context.Update(order);
+
+            try
+            {
+                await _context.SaveChangesAsync();
+                TempData["SuccessMessage"] = "Cập nhật trạng thái đơn hàng thành công!";
+            }
+            catch (Exception ex)
+            {
+                // Log the exception
+                Console.WriteLine($"Error updating order status: {ex.Message}");
+                TempData["ErrorMessage"] = "Có lỗi xảy ra khi cập nhật trạng thái đơn hàng.";
+            }
+
+            return RedirectToAction(nameof(Order));
+        }
+        // POST: Admin/CancelOrder
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> CancelOrder(int orderId)
+        {
+            var order = await _context.Orders.FindAsync(orderId);
+
+            if (order == null)
+            {
+                TempData["ErrorMessage"] = "Không tìm thấy đơn hàng.";
+                return RedirectToAction(nameof(Order));
+            }
+
+            // Can't cancel completed orders
+            if (order.Status == "Completed")
+            {
+                TempData["ErrorMessage"] = "Không thể hủy đơn hàng đã hoàn thành.";
+                return RedirectToAction(nameof(Order));
+            }
+
+            // Set status to Cancelled
+            order.Status = "Cancelled";
+            _context.Update(order);
+
+            try
+            {
+                await _context.SaveChangesAsync();
+                TempData["SuccessMessage"] = "Đơn hàng #" + orderId + " đã được hủy thành công.";
+            }
+            catch (Exception ex)
+            {
+                // Log the exception
+                Console.WriteLine($"Error cancelling order: {ex.Message}");
+                TempData["ErrorMessage"] = "Có lỗi xảy ra khi hủy đơn hàng.";
+            }
+
+            return RedirectToAction(nameof(Order));
+        }
+
         private bool UserExists(int id)
         {
             return _context.Set<User>().Any(e => e.Id == id);

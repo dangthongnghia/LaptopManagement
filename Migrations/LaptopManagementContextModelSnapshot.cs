@@ -185,6 +185,9 @@ namespace LaptopManagement.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("CustomerEmail")
                         .IsRequired()
                         .HasMaxLength(255)
@@ -206,8 +209,16 @@ namespace LaptopManagement.Migrations
                     b.Property<int>("LaptopId")
                         .HasColumnType("int");
 
+                    b.Property<string>("Notes")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("OrderDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("ShippingAddress")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Status")
                         .IsRequired()
@@ -319,7 +330,7 @@ namespace LaptopManagement.Migrations
                     b.HasOne("LaptopManagement.Models.Laptop", "Laptop")
                         .WithMany()
                         .HasForeignKey("LaptopId")
-                        .OnDelete(DeleteBehavior.NoAction)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("LaptopManagement.Models.Order", null)
@@ -345,7 +356,7 @@ namespace LaptopManagement.Migrations
                     b.HasOne("LaptopManagement.Models.Laptop", "Laptop")
                         .WithMany("Images")
                         .HasForeignKey("LaptopId")
-                        .OnDelete(DeleteBehavior.NoAction)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Laptop");

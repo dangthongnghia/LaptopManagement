@@ -1,0 +1,385 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LaptopManagement.bundle.scp.css",
+      "PackagePath": "staticwebassets\\LaptopManagement.lqcg6jwsou.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\css\\about.css",
+      "PackagePath": "staticwebassets\\css\\about.css"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\css\\chat.css",
+      "PackagePath": "staticwebassets\\css\\chat.css"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\css\\details.css",
+      "PackagePath": "staticwebassets\\css\\details.css"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\css\\mobile.css",
+      "PackagePath": "staticwebassets\\css\\mobile.css"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\images\\1ccf751f-f9ca-43fe-a39a-3c3b017976d5_Dell Inspiron 15.jpg",
+      "PackagePath": "staticwebassets\\images\\1ccf751f-f9ca-43fe-a39a-3c3b017976d5_Dell Inspiron 15.jpg"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\images\\2b466d53-cf85-4f3f-8e0e-551ee59cf777_MSI Stealth 15M.jpg",
+      "PackagePath": "staticwebassets\\images\\2b466d53-cf85-4f3f-8e0e-551ee59cf777_MSI Stealth 15M.jpg"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\images\\422468ec-522b-4503-ac46-530a4b3129cb_Surface Laptop 4.jpg",
+      "PackagePath": "staticwebassets\\images\\422468ec-522b-4503-ac46-530a4b3129cb_Surface Laptop 4.jpg"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\images\\4375606b-1552-49d3-a12a-aa88e78397cd_MacBook Air M2.jpg",
+      "PackagePath": "staticwebassets\\images\\4375606b-1552-49d3-a12a-aa88e78397cd_MacBook Air M2.jpg"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\images\\71c8c633-3f3a-495f-bcf3-029caf77922f_71y+lIHVdAL.jpg",
+      "PackagePath": "staticwebassets\\images\\71c8c633-3f3a-495f-bcf3-029caf77922f_71y+lIHVdAL.jpg"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\images\\7fefc29a-4425-4d22-b9f6-42f61cf29b99_MSI Katana GF66.jpg",
+      "PackagePath": "staticwebassets\\images\\7fefc29a-4425-4d22-b9f6-42f61cf29b99_MSI Katana GF66.jpg"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\images\\82efb2fb-6383-49f8-a55d-0643f559034d_LG Gram 17.jpg",
+      "PackagePath": "staticwebassets\\images\\82efb2fb-6383-49f8-a55d-0643f559034d_LG Gram 17.jpg"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\images\\876531b0-e172-41cf-833b-d0556b9aa180_Acer Swift 3.jpg",
+      "PackagePath": "staticwebassets\\images\\876531b0-e172-41cf-833b-d0556b9aa180_Acer Swift 3.jpg"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\images\\9abbab8e-8aa9-452d-ba32-6e4d7f6b4d81_Acer Predator Helios 300.jpg",
+      "PackagePath": "staticwebassets\\images\\9abbab8e-8aa9-452d-ba32-6e4d7f6b4d81_Acer Predator Helios 300.jpg"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\images\\c6b579c9-78a8-49d5-8efa-7dd25f9bce8c_HP Spectre x360.jpg",
+      "PackagePath": "staticwebassets\\images\\c6b579c9-78a8-49d5-8efa-7dd25f9bce8c_HP Spectre x360.jpg"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\images\\ccd41214-5479-46ba-9733-bc1a7e316006_HP Pavilion 15.webp",
+      "PackagePath": "staticwebassets\\images\\ccd41214-5479-46ba-9733-bc1a7e316006_HP Pavilion 15.webp"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\images\\d09e3ce3-885c-4a55-8d1a-c8907a079979_Razer Blade 15.jpg",
+      "PackagePath": "staticwebassets\\images\\d09e3ce3-885c-4a55-8d1a-c8907a079979_Razer Blade 15.jpg"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\images\\d19cdf40-a669-4fb2-9834-34b2447088c7_Lenovo Legion 5.webp",
+      "PackagePath": "staticwebassets\\images\\d19cdf40-a669-4fb2-9834-34b2447088c7_Lenovo Legion 5.webp"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\images\\e0180b82-8a3b-48da-8433-a6d847722e3f_Asus ZenBook 14.jpg",
+      "PackagePath": "staticwebassets\\images\\e0180b82-8a3b-48da-8433-a6d847722e3f_Asus ZenBook 14.jpg"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\images\\f045bfda-5f4b-433c-80cd-ac355e945ce2_mac_book_pro.jpg",
+      "PackagePath": "staticwebassets\\images\\f045bfda-5f4b-433c-80cd-ac355e945ce2_mac_book_pro.jpg"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\images\\f0a5b73b-b275-4361-b166-5dccdcb0c59f_AsusTUF_Gaming_A15_1.jpg",
+      "PackagePath": "staticwebassets\\images\\f0a5b73b-b275-4361-b166-5dccdcb0c59f_AsusTUF_Gaming_A15_1.jpg"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\images\\f292f0e6-74ef-4489-acee-83390f850751_Dell G15.jpg",
+      "PackagePath": "staticwebassets\\images\\f292f0e6-74ef-4489-acee-83390f850751_Dell G15.jpg"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\images\\f47ad6ed-6996-4100-9100-9724237add7c_c7581effbc1728fc2e529294f6cd892d-hi.jpg",
+      "PackagePath": "staticwebassets\\images\\f47ad6ed-6996-4100-9100-9724237add7c_c7581effbc1728fc2e529294f6cd892d-hi.jpg"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\images\\fad9945a-ad20-4939-8abb-10d0bc7f126f_Lenovo ThinkPad X1 Carbon.jpg",
+      "PackagePath": "staticwebassets\\images\\fad9945a-ad20-4939-8abb-10d0bc7f126f_Lenovo ThinkPad X1 Carbon.jpg"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\js\\botChat.js",
+      "PackagePath": "staticwebassets\\js\\botChat.js"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\js\\chat.js",
+      "PackagePath": "staticwebassets\\js\\chat.js"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\js\\imageGallery.js",
+      "PackagePath": "staticwebassets\\js\\imageGallery.js"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
+      "PackagePath": "staticwebassets\\js\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\web.config",
+      "PackagePath": "staticwebassets\\web.config"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LaptopManagement.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LaptopManagement.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.LaptopManagement.props",
+      "PackagePath": "build\\LaptopManagement.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.LaptopManagement.props",
+      "PackagePath": "buildMultiTargeting\\LaptopManagement.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.LaptopManagement.props",
+      "PackagePath": "buildTransitive\\LaptopManagement.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

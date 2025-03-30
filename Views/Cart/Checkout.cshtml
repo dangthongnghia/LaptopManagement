@@ -1,5 +1,5 @@
 @model LaptopManagement.ViewModels.CheckoutViewModel
-@using LaptopManagement.Models
+
 @{
     ViewData["Title"] = "Thanh toán";
 }
@@ -68,15 +68,47 @@
 
         <div class="col-md-4">
             <div class="card shadow-sm mb-4">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0">Đơn hàng của bạn</h5>
+                </div>
                 <div class="card-body">
                     <div class="table-responsive">
                         <table class="table table-sm">
+                            <thead>
+                                <tr>
+                                    <th>Sản phẩm</th>
+                                    <th class="text-end">Thành tiền</th>
+                                </tr>
+                            </thead>
                             <tbody>
-                                @foreach (var item in Model.Cart.Items)
+                                @if (Model.CartItems != null && Model.CartItems.Any())
                                 {
-                                    <!-- Render each cart item -->
+                                    foreach (var item in Model.CartItems)
+                                    {
+                                        <tr>
+                                            <td>
+                                                <div>@(item.Laptop?.Name ?? "Sản phẩm")</div>
+                                                <small class="text-muted">@item.Quantity x @(item.Laptop?.Price.ToString("N0") ?? "0") VNĐ</small>
+                                            </td>
+                                            <td class="text-end">@((item.Laptop != null ? item.Quantity * item.Laptop.Price : 0).ToString("N0")) VNĐ</td>
+                                        </tr>
+                                    }
+                                }
+                                else
+                                {
+                                    <tr>
+                                        <td colspan="2" class="text-center">Không có sản phẩm trong giỏ hàng</td>
+                                    </tr>
                                 }
                             </tbody>
+                            <tfoot>
+                                <tr>
+                                    <th>Tổng cộng:</th>
+                                    <th class="text-end">
+                                        @Model.TotalAmount.ToString("N0") VNĐ
+                                    </th>
+                                </tr>
+                            </tfoot>
                         </table>
                     </div>
                 </div>
@@ -86,5 +118,7 @@
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

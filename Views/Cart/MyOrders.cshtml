@@ -1,0 +1,152 @@
+﻿@model IEnumerable<LaptopManagement.Models.Order>
+
+@{
+    ViewData["Title"] = "Đơn hàng của tôi";
+}
+
+<div class="container py-4">
+    <h1 class="mb-4">Đơn hàng của tôi</h1>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            @TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            @TempData["ErrorMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info">
+            <i class="bi bi-info-circle me-2"></i>Bạn chưa có đơn hàng nào.
+        </div>
+        <a asp-controller="Home" asp-action="Index" class="btn btn-primary">
+            <i class="bi bi-laptop me-2"></i>Tiếp tục mua sắm
+        </a>
+    }
+    else
+    {
+        <div class="row">
+            @foreach (var order in Model)
+            {
+                <div class="col-lg-12 mb-4">
+                    <div class="card shadow-sm">
+                        <div class="card-header bg-light">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="fw-bold">Đơn hàng #@order.Id</span> -
+                                    <span>@order.OrderDate.ToString("dd/MM/yyyy HH:mm")</span>
+                                </div>
+                                <div>
+                                    @switch (order.Status)
+                                    {
+                                        case "Pending":
+                                            <span class="badge bg-warning text-dark">Đang chờ xử lý</span>
+                                            break;
+                                        case "Confirmed":
+                                            <span class="badge bg-primary">Đã xác nhận</span>
+                                            break;
+                                        case "Shipping":
+                                        case "Shipper":
+                                            <span class="badge bg-info">Đang giao hàng</span>
+                                            break;
+                                        case "Completed":
+                                            <span class="badge bg-success">Đã hoàn thành</span>
+                                            break;
+                                        case "Cancelled":
+                                            <span class="badge bg-danger">Đã hủy</span>
+                                            break;
+                                        default:
+                                            <span class="badge bg-secondary">@order.Status</span>
+                                            break;
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <p class="mb-1"><strong>Người nhận:</strong> @order.CustomerName</p>
+                                    <p class="mb-1"><strong>Email:</strong> @order.CustomerEmail</p>
+                                    <p class="mb-1"><strong>SĐT:</strong> @order.CustomerPhone</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <p class="mb-1"><strong>Địa chỉ:</strong> @order.ShippingAddress</p>
+                                    @if (!string.IsNullOrEmpty(order.Notes))
+                                    {
+                                        <p class="mb-1"><strong>Ghi chú:</strong> @order.Notes</p>
+                                    }
+                                </div>
+                            </div>
+
+                            <h6 class="mb-3">Chi tiết đơn hàng</h6>
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-sm">
+                                    <thead class="table-light">
+                                        <tr>
+                                            <th>Sản phẩm</th>
+                                            <th class="text-center">Số lượng</th>
+                                            <th class="text-end">Đơn giá</th>
+                                            <th class="text-end">Thành tiền</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @if (order.OrderDetails != null && order.OrderDetails.Any())
+                                        {
+                                            foreach (var item in order.OrderDetails)
+                                            {
+                                                <tr>
+                                                    <td>
+                                                        @(item.Laptop != null ? item.Laptop.Name : "Sản phẩm #" + item.LaptopId)
+                                                    </td>
+                                                    <td class="text-center">@item.Quantity</td>
+                                                    <td class="text-end">@item.UnitPrice.ToString("N0") VNĐ</td>
+                                                    <td class="text-end">@((item.UnitPrice * item.Quantity).ToString("N0")) VNĐ</td>
+                                                </tr>
+                                            }
+                                        }
+                                        else
+                                        {
+                                            <tr>
+                                                <td colspan="4" class="text-center">Không có thông tin chi tiết</td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <td colspan="3" class="text-end fw-bold">Tổng cộng:</td>
+                                            <td class="text-end fw-bold">@order.TotalAmount.ToString("N0") VNĐ</td>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white">
+                            @if (order.Status == "Pending" || order.Status == "Confirmed")
+                            {
+                                <form asp-action="CancelOrder" asp-controller="Cart" method="post" class="d-inline" onsubmit="return confirm('Bạn có chắc muốn hủy đơn hàng này?');">
+                                    @Html.AntiForgeryToken()
+                                    <input type="hidden" name="orderId" value="@order.Id" />
+                                    <button type="submit" class="btn btn-sm btn-danger">
+                                        <i class="bi bi-x-circle me-2"></i>Hủy đơn hàng
+                                    </button>
+                                </form>
+                            }
+                            <a href="#" class="btn btn-sm btn-outline-secondary" onclick="window.print()">
+                                <i class="bi bi-printer me-2"></i>In đơn hàng
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>

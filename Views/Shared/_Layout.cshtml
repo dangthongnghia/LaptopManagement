@@ -2,7 +2,7 @@
 <html lang="vi">
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>@ViewData["Title"] - Laptop Premium Store</title>
 
 <!-- Google Fonts -->
@@ -23,7 +23,7 @@
 <!-- Custom CSS -->
 <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 <link rel="stylesheet" href="~/css/chat.css" asp-append-version="true"/>
-    
+<link rel="stylesheet" href="~/css/mobile.css" asp-append-version="true" />
 
 
 @await RenderSectionAsync("Styles", required: false)
@@ -46,6 +46,11 @@
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">Chính sách</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Cart" asp-action="MyOrders">
+                                <i class="bi bi-box-seam me-1"></i>Đơn hàng của tôi
+                            </a>
+                        </li>
                     </ul>
                     <div class="d-flex">
                         <div class="input-group">
@@ -54,9 +59,10 @@
                                 <i class="fas fa-search"></i>
                             </button>
                         </div>
-                        <a asp-controller="Cart" asp-action="Index" class="btn btn-outline-primary me-2">
-                            <i class="fas fa-shopping-cart"></i>
-                        </a>
+                    <a asp-controller="Cart" asp-action="Index" class="cart-button me-2">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </a>
                         @if (User.Identity.IsAuthenticated)
                         {
                             <div class="dropdown">
