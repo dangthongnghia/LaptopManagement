@@ -6,22 +6,22 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using LaptopManagement.Data;
 using LaptopManagement.Hubs;
 
-
 // Add services to the container.
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-// Remove duplicate AddControllersWithViews call
-// builder.Services.AddControllersWithViews(); // Remove this line
-
 // Configure database first
 builder.Services.AddDbContext<LaptopManagementContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("LaptopManagementContext")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("LaptopManagementContext"),
+        sqlServerOptions => sqlServerOptions.EnableRetryOnFailure(
+            maxRetryCount: 5,
+            maxRetryDelay: TimeSpan.FromSeconds(30),
+            errorNumbersToAdd: null)));
 
 // Configure Session before other services that might depend on it
-builder.Services.AddDistributedMemoryCache(); // Add this line
+builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(30);

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LaptopManagement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+541b3c892d1a2a51fc64014a64617c6dc896b89b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5b0435874eff258038199050b10550a58d42a12")]
 [assembly: System.Reflection.AssemblyProductAttribute("LaptopManagement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LaptopManagement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

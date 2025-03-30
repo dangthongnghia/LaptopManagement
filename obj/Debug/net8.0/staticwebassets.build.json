@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "X2fjXq+LKC29Yq+f2EOVJJWNcZZc0fSacSSNU5R2/GM=",
+  "Hash": "JoMpW7m5yNya+mZNS2H85dROWZaJ6W8DaHUnaD41f0o=",
   "Source": "LaptopManagement",
   "BasePath": "_content/LaptopManagement",
   "Mode": "Default",
@@ -1921,8 +1921,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ehvoptd6d4",
-      "Integrity": "nq2SR22+rgLFWQsbiRNzUbK/08Lx48fX899DCm1nOuk=",
+      "Fingerprint": "b2295qa895",
+      "Integrity": "TSAPfSdUsGDnU3mq2GGhyBCRZbyVFLbAVwFF8JqwBzU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\web.config"
@@ -9310,6 +9310,51 @@
       ]
     },
     {
+      "Route": "web.b2295qa895.config",
+      "AssetFile": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\web.config",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "533"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TSAPfSdUsGDnU3mq2GGhyBCRZbyVFLbAVwFF8JqwBzU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 18:03:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b2295qa895"
+        },
+        {
+          "Name": "label",
+          "Value": "web.config"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TSAPfSdUsGDnU3mq2GGhyBCRZbyVFLbAVwFF8JqwBzU="
+        }
+      ]
+    },
+    {
       "Route": "web.config",
       "AssetFile": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\web.config",
       "Selectors": [],
@@ -9320,7 +9365,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "414"
+          "Value": "533"
         },
         {
           "Name": "Content-Type",
@@ -9328,11 +9373,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nq2SR22+rgLFWQsbiRNzUbK/08Lx48fX899DCm1nOuk=\""
+          "Value": "\"TSAPfSdUsGDnU3mq2GGhyBCRZbyVFLbAVwFF8JqwBzU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 15:30:14 GMT"
+          "Value": "Sun, 30 Mar 2025 18:03:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9342,52 +9387,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-nq2SR22+rgLFWQsbiRNzUbK/08Lx48fX899DCm1nOuk="
-        }
-      ]
-    },
-    {
-      "Route": "web.ehvoptd6d4.config",
-      "AssetFile": "E:\\.DotNet\\ASP\\LaptopManagement\\wwwroot\\web.config",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "414"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"nq2SR22+rgLFWQsbiRNzUbK/08Lx48fX899DCm1nOuk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 15:30:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ehvoptd6d4"
-        },
-        {
-          "Name": "label",
-          "Value": "web.config"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-nq2SR22+rgLFWQsbiRNzUbK/08Lx48fX899DCm1nOuk="
+          "Value": "sha256-TSAPfSdUsGDnU3mq2GGhyBCRZbyVFLbAVwFF8JqwBzU="
         }
       ]
     }
